@@ -1,0 +1,42 @@
+[colors]
+
+# special
+foreground      = #c5c8c6
+foreground_bold = #93a1a1
+cursor          = #657b83
+#background      = #2f2b30
+
+# black
+color0  = #002b36
+color8  = #657b83
+
+# red
+color1  = #cf0f38
+color9  = #cb4b16
+
+# green
+color2  = #859900
+color10 = #00853e
+
+# yellow
+color3  = #ffd204
+color11 = #b58900
+
+# blue
+color4  = #268bd2
+color12 = #009ddc
+
+# magenta
+color5  = #98005d
+color13 = #6c71c4
+
+# cyan
+color6  = #2aa198
+color14 = #85cebc
+
+# white
+color7  = #eee8d5
+color15 = #fdf6e3
+
+# 20% background transparency (requires a compositor)
+background = rgba(47, 43, 48, 0.9)

@@ -1,0 +1,83 @@
+[options]
+scroll_on_output    = false
+scroll_on_keystroke = true
+audible_bell        = false
+mouse_autohide      = false
+allow_bold          = false
+dynamic_title       = true
+urgent_on_bell      = true
+clickable_url       = true
+font                = Fantasque Sans Mono 10
+font                = Office Code Pro D Regular 10
+font                = Iosevka Slab Regular 10
+font                = Operator Mono Book 10
+font                = Inconsolata LGC Regular 10
+font                = Iosevka Term Slab Regular 10
+font                = Roboto Mono Regular 10
+font                = Fira Mono Regular 10
+font                = Hack Regular 9
+font                =IBM Plex Mono Regular 10
+font                =Input Mono Condensed 10
+font                =Dina Regular 9
+font                = Monaco for Powerline Regular 10
+font                = InconsolataLGC Nerd Font Mono Medium 10
+font                =Meslo LG M DZ for Powerline Regular 9
+font                =mplus Nerd Font Mono Regular 10
+scrollback_lines    = 10000
+search_wrap         = true
+icon_name           = utilities-terminal
+geometry            = 1920x1080
+clickable_url       = true
+cursor_blink        = system
+cursor_shape        = block
+browser             = exo-open
+filter_unmatched_urls = true
+
+[colors]
+# Base16 Atelier Plateau
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+foreground      = #8a8585
+foreground_bold = #e7dfdf
+cursor          = #e7dfdf
+background      = #1b1818
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #1b1818
+color8  = #655d5d
+color7  = #8a8585
+color15 = #f4ecec
+
+# Red
+color1  = #ca4949
+color9  = #ca4949
+
+# Green
+color2  = #4b8b8b
+color10 = #4b8b8b
+
+# Yellow
+color3  = #a06e3b
+color11 = #a06e3b
+
+# Blue
+color4  = #7272ca
+color12 = #7272ca
+
+# Purple
+color5  = #8464c4
+color13 = #8464c4
+
+# Teal
+color6  = #5485b6
+color14 = #5485b6
+
+# Extra colors
+color16 = #b45a3c
+color17 = #bd5187
+color18 = #292424
+color19 = #585050
+color20 = #7e7777
+color21 = #e7dfdf

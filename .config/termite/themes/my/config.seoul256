@@ -1,0 +1,106 @@
+[options]
+    resize_grip = false
+    scroll_on_output = false
+    scroll_on_keystroke = true
+    audible_bell = true
+    visible_bell = false
+    mouse_autohide = true
+    allow_bold = false
+    dynamic_title = true
+    urgent_on_bell = true
+    clickable_url = true
+    #font=Meslo LG M DZ for Powerline 11
+    #font=Terminus Re33 14
+    font = Dejavu Sans Mono 14
+    font = Inconsolatazi4 14
+    #font=GohuFont 18
+    #font=snap 12
+    font=Dejavu Sans Mono 14
+    #font=smoothansi 12
+    font=Fira Mono Regular 14
+    #font=oxygen Mono Regular 13
+    font=monofur 16
+    font=luculent 14
+    font=Terminus re33 14
+    font=ohsnap 12
+    font = Hurmit 14
+    font=iosevka 13
+    font = PragmataPro 14
+    font=Hermit Medium 13
+    font=PT Mono Regular 13
+    font=Input Mono 12
+    font = M+1mn 13
+    font = Oxygen Mono Regular 13
+    font = Consolas for Powerline Regular 13
+    font = PT Mono Regular 12
+    font = M+1mn Regular 13
+    font=CPMono_v07 Plain 12
+    font=Inconsolata Regular 14
+    font=Roboto Mono Regular 13
+    font=Ubuntu Mono Regular 14
+    font=Monaco Regular 12
+    font=Hack 13
+    font=Fantasque Sans Mono 14
+    font = Iosevka 13
+    font=Fira Mono Medium 12
+    font=ttyp0 14
+    font=dina 14
+    font=Terminus2 Regular 14
+    font=Source Code Pro Medium 13
+    #font=Envy Code R VS 14
+    #font=Menlo\ for\ Powerline\ 14
+    #font = CPMono_v07 12*/
+    scrollback_lines = 1000
+    search_wrap = true
+    fullscreen = true
+    #icon_name = terminal
+    geometry = 2560x1440
+
+    # "system", "on" or "off"
+    cursor_blink = off
+
+    # "block", "underline" or "ibeam"
+    cursor_shape = block
+
+    # $BROWSER is used by default
+    browser = palemoon
+[colors]
+# hard contrast: background = #3a3a3a
+# soft contrast: background = #3a3a3a
+background = #3a3a3a
+cursor          = #d0d0d0
+foreground = #d0d0d0
+foreground_bold = #d0d0d0
+
+# Black + DarkGrey
+color0 = #3a3a3a
+color8 = #626262
+
+# DarkRed + Red
+color1 = #d68787
+color9 = #d75f87
+
+# DarkGreen + Green
+color2 = #5f865f
+color10 = #87af87
+
+# DarkYellow + Yellow
+color3 = #d8af5f
+color11 = #ffd787
+
+# DarkBlue + Blue
+color4 = #85add4
+color12 = #add4fb
+
+# DarkMagenta + Magenta
+color5 = #d7afaf
+color13 = #ffafaf
+# DarkCyan + Cyan
+color6 = #87afaf
+color14 = #87d7d7
+
+# LightGrey + White
+color7 = #d0d0d0
+color15 = #e4e4e4
+
+

@@ -1,0 +1,81 @@
+[options]
+scroll_on_output    = false
+scroll_on_keystroke = true
+audible_bell        = false
+mouse_autohide      = false
+allow_bold          = false
+dynamic_title       = true
+urgent_on_bell      = true
+clickable_url       = true
+font                = Fantasque Sans Mono 10
+font                = Office Code Pro D Regular 10
+font                = Iosevka Slab Regular 10
+font                = Operator Mono Book 10
+font                = Inconsolata LGC Regular 10
+font                = InconsolataLGC Nerd Font Mono Medium 10
+font                = Iosevka Term Slab Regular 10
+font                = Roboto Mono Regular 10
+font                = Monaco for Powerline Regular 10
+font                = Fira Mono Regular 10
+font                = Hack Regular 9
+font                =IBM Plex Mono Regular 10
+font                =Input Mono Condensed 10
+font                =Meslo LG M DZ Regular 9
+scrollback_lines    = 10000
+search_wrap         = true
+icon_name           = utilities-terminal
+geometry            = 1920x1080
+clickable_url       = true
+cursor_blink        = system
+cursor_shape        = block
+browser             = exo-open
+filter_unmatched_urls = true
+
+[colors]
+# Base16 Atelier Plateau
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+foreground      = #eee8d5
+foreground_bold = #eee8d5
+cursor          = #eee8d5
+background      = #1b1818
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #073642
+color8  = #002b36
+color7  = #8a8585
+color15 = #eee8d5
+
+# Red
+color1  = #dc322f
+color9  = #cb4b16
+
+# Green
+color2  = #859900
+color10 = #586e75
+
+# Yellow
+color3  = #b58900
+color11 = #657b83
+
+# Blue
+color4  = #268bd2
+color12 = #839496
+
+# Purple
+color5  = #d33682
+color13 = #6c71c4
+
+# Teal
+color6  = #2aa198
+color14 = #93a1a1
+
+# Extra colors
+color16 = #b45a3c
+color17 = #bd5187
+color18 = #292424
+color19 = #585050
+color20 = #7e7777
+color21 = #e7dfdf

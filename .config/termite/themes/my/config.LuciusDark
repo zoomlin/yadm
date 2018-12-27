@@ -1,0 +1,69 @@
+[options]
+    resize_grip = false
+    scroll_on_output = false
+    scroll_on_keystroke = true
+    audible_bell = true
+    visible_bell = false
+    mouse_autohide = true
+    allow_bold = true
+    dynamic_title = true
+    urgent_on_bell = true
+    clickable_url = true
+    #font=Meslo LG M DZ for Powerline 11
+    #font = PragmataPro 13
+    #font=Source Code Pro Medium 12*/
+    #font = CPMono_v07 12*/
+    #font = M+ 1mn regular for Powerline 12
+    #font = M+1mn 12
+    font = Terminus Re33 Bold 14
+    scrollback_lines = 1000
+    search_wrap = true
+    #icon_name = terminal
+    #geometry = 640x480
+
+    # "system", "on" or "off"
+    cursor_blink = off
+
+    # "block", "underline" or "ibeam"
+    cursor_shape = underline
+
+    # $BROWSER is used by default
+    browser = firefox
+[colors]
+# hard contrast: background = #1d2021
+# soft contrast: background = #32302f
+background = #303030
+foreground = #d7d7d7
+foreground_bold = #d7d7d7
+
+# Black + DarkGrey
+color0 = #303030
+color8 = #303030
+
+# DarkRed + Red
+color1 = #ff5f5f
+color9 = #ff5f5f
+
+# DarkGreen + Green
+color2 = #afd787
+color10 = #afd787
+
+# DarkYellow + Yellow
+color3 = #d7d7af
+color11 = #d7d7af
+
+# DarkBlue + Blue
+color4 = #87d7ff
+color12 = #87d7ff
+
+# DarkMagenta + Magenta
+color5 = #d7afd7
+color13 = #d7afd7
+
+# DarkCyan + Cyan
+color6 = #87d7af
+color14 = #87d7af
+
+# LightGrey + White
+color7 = #d7d7d7
+color15 = #d7d7d7

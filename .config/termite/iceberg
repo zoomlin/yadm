@@ -1,0 +1,107 @@
+[options]
+    resize_grip = false
+    scroll_on_output = false
+    scroll_on_keystroke = true
+    audible_bell = true
+    visible_bell = false
+    mouse_autohide = true
+    allow_bold = false
+    dynamic_title = true
+    urgent_on_bell = true
+    clickable_url = true
+    #font=Meslo LG M DZ for Powerline 11
+    #font=Terminus Re33 14
+    font = Dejavu Sans Mono 14
+    font = Inconsolatazi4 14
+    #font=GohuFont 18
+    #font=snap 12
+    font=Dejavu Sans Mono 14
+    #font=smoothansi 12
+    font=Fira Mono Regular 14
+    #font=oxygen Mono Regular 13
+    font=monofur 16
+    font=luculent 14
+    font=Terminus re33 14
+    font=ohsnap 12
+    font = Hurmit 14
+    font=iosevka 13
+    font = PragmataPro 14
+    font=Hermit Medium 13
+    font=PT Mono Regular 13
+    font=Input Mono 12
+    font = M+1mn 13
+    font = Oxygen Mono Regular 13
+    font = Consolas for Powerline Regular 13
+    font = PT Mono Regular 12
+    font = M+1mn Regular 13
+    font=CPMono_v07 Plain 12
+    font=Inconsolata Regular 14
+    font=Roboto Mono Regular 13
+    font=Ubuntu Mono Regular 14
+    font=Monaco Regular 12
+    font=Hack 13
+    font=Fantasque Sans Mono 14
+    font = Iosevka 13
+    font=Fira Mono Medium 12
+    font=dina 14
+    font=ttyp0 14
+    font=Terminus2 Regular 14
+    font=Source Code Pro Medium 13
+    #font=Envy Code R VS 14
+    #font=Menlo\ for\ Powerline\ 14
+    #font = CPMono_v07 12*/
+    font = Meslo LG M DZ Regular 9
+    scrollback_lines = 1000
+    search_wrap = true
+    fullscreen = true
+    #icon_name = terminal
+    geometry = 2560x1440
+
+    # "system", "on" or "off"
+    cursor_blink = off
+
+    # "block", "underline" or "ibeam"
+    cursor_shape = block
+
+    # $BROWSER is used by default
+    browser = palemoon
+[colors]
+# hard contrast: background = #1e2132
+# soft contrast: background = #1e2132
+background = #1E2633
+#background = #1E2132
+cursor          = #c6c8d1
+foreground = #c6c8d1
+foreground_bold = #c6c8d1
+
+# Black + DarkGrey
+color0 = #1E2633
+#color0 = #1E2132
+color8 = #444b71
+
+# DarkRed + Red
+color1 = #e27878
+color9 = #e2a478
+
+# DarkGreen + Green
+color2 = #89b8c2
+color10 = #b4be82
+
+# DarkYellow + Yellow
+color3 = #e4aa80
+color11 = #d8e599
+
+# DarkBlue + Blue
+color4 = #7495B6
+color12 = #3e445e
+
+# DarkMagenta + Magenta
+color5 = #395573
+color13 = #673e43
+# DarkCyan + Cyan
+color6 = #adc1cb
+color14 = #686f9a
+
+# LightGrey + White
+color7 = #4a5466
+color15 = #5e6b81

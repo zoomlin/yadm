@@ -1,0 +1,46 @@
+[options]
+font=Libertinus Mono Regular 13
+font=Terminus Re33 Nerd Bold 13
+font=Fira Mono Medium 13
+font=Hack 12
+
+[colors]
+
+# special
+foreground      = #cfd6e4
+foreground_bold = #cfd6e4
+cursor          = #cfd6e4
+background      = #232731
+
+# black
+color0  = #232731
+color8  = #3b4457
+
+# red
+color1  = #b04b57
+color9  = #b04b57
+
+# green
+color2  = #93b379
+color10 = #93b379
+
+# yellow
+color3  = #e5c179
+color11 = #e5c179
+
+# blue
+color4  = #6f8fb4
+color12 = #6f8fb4
+
+# magenta
+color5  = #a4799d
+color13 = #a4799d
+
+# cyan
+color6  = #77b3c5
+color14 = #7eafad
+
+# white
+color7  = #dfe3ec
+color15 = #e7ebf1
+

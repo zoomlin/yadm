@@ -1,0 +1,10 @@
+# OB_Autostart config
+LAUNCH_LIST = [
+	 # ("Enable window snapping","opensnap --daemon -c /etc/opensnap","0","*"),
+	 ("AutoMount","devmon","0",""),
+	 ("","clipmenud","2","*"),
+	 ("","xset r rate 200 50","1","*"),
+	 # ("","feh --bg-fill /home/den/Walls/openbox.jpg","1","*"),
+	 ("Map","setxkbmap -model pc104 -layout \"us,ru(phonetic_winkeys)\" -option grp:alt_shift_toggle -option \"terminate:ctrl_alt_bksp\"","2","*"),
+	 # ("Enable skippy-xd window switcher","skippy-xd --config $HOME/.config/skippy-xd/skippy-xd.rc --start-daemon","1","*"),
+	]

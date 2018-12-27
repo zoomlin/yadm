@@ -1,0 +1,88 @@
+[options]
+    resize_grip = false
+    scroll_on_output = false
+    scroll_on_keystroke = true
+    audible_bell = true
+    visible_bell = false
+    mouse_autohide = true
+    allow_bold = false
+    dynamic_title = true
+    urgent_on_bell = true
+    clickable_url = true
+    #font=Meslo LG M DZ for Powerline 11
+    #font=Envy Code R VS 14
+    #font=Terminus Re33 14
+    font = Dejavu Sans Mono 14
+    font = PragmataPro 14
+    font = PT Mono 15
+    font = Inconsolatazi4 14
+    font = Hurmit 14
+    #font=Source Code Pro Regular 14
+    #font=GohuFont 18
+    #font=ohsnap 19
+    #font=snap 12
+    #font=Hack 14
+    #font=Dejavu Sans Mono 14
+    #font=smoothansi 12
+    #font=Input Mono Regular 13
+    #font=Inconsolata-14
+    #font=oxygen Mono Regular 13
+    #font=terminus 16
+    #font=Menlo\ for\ Powerline\ 14
+    #font=Fira Mono Regular 14
+    #font = CPMono_v07 12*/
+    #font = M+1mn 14
+    scrollback_lines = 1000
+    search_wrap = true
+    fullscreen = true
+    #icon_name = terminal
+    #geometry = 640x480
+
+    # "system", "on" or "off"
+    cursor_blink = off
+
+    # "block", "underline" or "ibeam"
+    cursor_shape = block
+
+    # $BROWSER is used by default
+    browser = palemoon
+
+[colors]
+
+# special
+foreground      = #CCCCCC
+foreground_bold = #CCCCCC
+cursor          = #CCCCCC
+background      = #1B1D1E
+
+# black
+color0  = #1B1D1E
+color8  = #808080
+
+# red
+color1  = #FF0044
+color9  = #F92672
+
+# green
+color2  = #82B414
+color10 = #A6E22E
+
+# yellow
+color3  = #FD971F
+color11 = #E6DB74
+
+# blue
+color4  = #266C98
+color12 = #7070F0
+
+# magenta
+color5  = #AC0CB1
+color13 = #D63AE1
+
+# cyan
+color6  = #AE81FF
+color14 = #66D9EF
+
+# white
+color7  = #CCCCCC
+color15 = #F8F8F2
