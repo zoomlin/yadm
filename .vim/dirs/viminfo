@@ -195,7 +195,7 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1545927136,,"\\s\\+$"
+|2,1,1545927251,,"\\s\\+$"
 ?/dotf
 |2,1,1545923302,47,"dotf"
 ?/git
@@ -1024,37 +1024,45 @@ $
 |3,0,9,1,1,0,1545751666,"POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=\"%K{white}%F{black} uname -n %K{black}%F{white}\\UE0BC : \""
 ""-	CHAR	0
 	dotfiles
-|3,1,36,0,1,0,1545927110,"dotfiles"
+|3,1,36,0,1,0,1545927195,"dotfiles"
 
 # File marks:
 'A  20  0  /boot/grub/grub.cfg
 |4,65,20,0,1519305780,"/boot/grub/grub.cfg"
-'0  42  40  ~/.zsh/aliases.sh
-|4,48,42,40,1545927136,"~/.zsh/aliases.sh"
-'1  679  23  ~/.zshrc
-|4,49,679,23,1545925933,"~/.zshrc"
-'2  679  23  ~/.zshrc
-|4,50,679,23,1545925933,"~/.zshrc"
-'3  103  0  ~/.config/compton.conf
-|4,51,103,0,1545924395,"~/.config/compton.conf"
-'4  103  0  ~/.config/compton.conf
-|4,52,103,0,1545924395,"~/.config/compton.conf"
-'5  103  0  ~/.config/compton.conf
-|4,53,103,0,1545924395,"~/.config/compton.conf"
-'6  103  0  ~/.config/compton.conf
-|4,54,103,0,1545924395,"~/.config/compton.conf"
-'7  14  0  ~/.config/obmenu-generator/schema.pl
-|4,55,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
-'8  102  0  ~/.config/obmenu-generator/config.pl
-|4,56,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
-'9  13  0  ~/.config/jgmenu/jgmenurc
-|4,57,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
+'0  63  3  ~/.zsh/aliases.sh
+|4,48,63,3,1545927252,"~/.zsh/aliases.sh"
+'1  42  40  ~/.zsh/aliases.sh
+|4,49,42,40,1545927136,"~/.zsh/aliases.sh"
+'2  42  40  ~/.zsh/aliases.sh
+|4,50,42,40,1545927136,"~/.zsh/aliases.sh"
+'3  679  23  ~/.zshrc
+|4,51,679,23,1545925933,"~/.zshrc"
+'4  679  23  ~/.zshrc
+|4,52,679,23,1545925933,"~/.zshrc"
+'5  679  23  ~/.zshrc
+|4,53,679,23,1545925933,"~/.zshrc"
+'6  679  23  ~/.zshrc
+|4,54,679,23,1545925933,"~/.zshrc"
+'7  103  0  ~/.config/compton.conf
+|4,55,103,0,1545924395,"~/.config/compton.conf"
+'8  103  0  ~/.config/compton.conf
+|4,56,103,0,1545924395,"~/.config/compton.conf"
+'9  103  0  ~/.config/compton.conf
+|4,57,103,0,1545924395,"~/.config/compton.conf"
 
 # Jumplist (newest first):
+-'  63  3  ~/.zsh/aliases.sh
+|4,39,63,3,1545927252,"~/.zsh/aliases.sh"
+-'  42  40  ~/.zsh/aliases.sh
+|4,39,42,40,1545927136,"~/.zsh/aliases.sh"
 -'  42  40  ~/.zsh/aliases.sh
 |4,39,42,40,1545927136,"~/.zsh/aliases.sh"
 -'  481  30  ~/.zsh/aliases.sh
 |4,39,481,30,1545927028,"~/.zsh/aliases.sh"
+-'  481  30  ~/.zsh/aliases.sh
+|4,39,481,30,1545927028,"~/.zsh/aliases.sh"
+-'  679  23  ~/.zshrc
+|4,39,679,23,1545927026,"~/.zshrc"
 -'  679  23  ~/.zshrc
 |4,39,679,23,1545927026,"~/.zshrc"
 -'  679  23  ~/.zshrc
@@ -1063,10 +1071,16 @@ $
 |4,39,597,28,1545925921,"~/.zshrc"
 -'  597  28  ~/.zshrc
 |4,39,597,28,1545925921,"~/.zshrc"
+-'  597  28  ~/.zshrc
+|4,39,597,28,1545925921,"~/.zshrc"
 -'  93  0  ~/.config/compton.conf
 |4,39,93,0,1545925919,"~/.config/compton.conf"
 -'  93  0  ~/.config/compton.conf
 |4,39,93,0,1545925919,"~/.config/compton.conf"
+-'  93  0  ~/.config/compton.conf
+|4,39,93,0,1545925919,"~/.config/compton.conf"
+-'  103  0  ~/.config/compton.conf
+|4,39,103,0,1545924395,"~/.config/compton.conf"
 -'  103  0  ~/.config/compton.conf
 |4,39,103,0,1545924395,"~/.config/compton.conf"
 -'  103  0  ~/.config/compton.conf
@@ -1079,6 +1093,8 @@ $
 |4,39,1,0,1545924392,"~/.config/compton.conf"
 -'  1  0  ~/.config/compton.conf
 |4,39,1,0,1545924392,"~/.config/compton.conf"
+-'  1  0  ~/.config/compton.conf
+|4,39,1,0,1545924392,"~/.config/compton.conf"
 -'  14  0  ~/.config/obmenu-generator/schema.pl
 |4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
 -'  14  0  ~/.config/obmenu-generator/schema.pl
@@ -1095,6 +1111,38 @@ $
 |4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
 -'  14  0  ~/.config/obmenu-generator/schema.pl
 |4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  14  0  ~/.config/obmenu-generator/schema.pl
+|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
+-'  1  0  ~/.config/obmenu-generator/schema.pl
+|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
 -'  1  0  ~/.config/obmenu-generator/schema.pl
 |4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
 -'  1  0  ~/.config/obmenu-generator/schema.pl
@@ -1143,6 +1191,38 @@ $
 |4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
 -'  102  0  ~/.config/obmenu-generator/config.pl
 |4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
+-'  102  0  ~/.config/obmenu-generator/config.pl
+|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
 -'  1  0  ~/.config/obmenu-generator/config.pl
 |4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
 -'  1  0  ~/.config/obmenu-generator/config.pl
@@ -1169,98 +1249,19 @@ $
 |4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
 -'  1  0  ~/.config/obmenu-generator/config.pl
 |4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  13  0  ~/.config/jgmenu/jgmenurc
-|4,39,13,0,1545924364,"~/.config/jgmenu/jgmenurc"
--'  1  0  ~/.config/jgmenu/jgmenurc
-|4,39,1,0,1545924360,"~/.config/jgmenu/jgmenurc"
--'  1  0  ~/.config/jgmenu/jgmenurc
-|4,39,1,0,1545924360,"~/.config/jgmenu/jgmenurc"
--'  1  0  ~/.config/jgmenu/jgmenurc
-|4,39,1,0,1545924360,"~/.config/jgmenu/jgmenurc"
--'  1  0  ~/.config/jgmenu/jgmenurc
-|4,39,1,0,1545924360,"~/.config/jgmenu/jgmenurc"
--'  1  0  ~/.config/jgmenu/jgmenurc
-|4,39,1,0,1545924360,"~/.config/jgmenu/jgmenurc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zsh/aliases.sh
-	*	1545927129	0
-	"	42	40
-	^	42	41
-	.	42	40
+	*	1545927250	0
+	"	63	3
+	^	44	29
+	.	44	28
 	+	44	36
 	+	474	58
 	+	480	0
 	+	42	40
+	+	44	28
 
 > ~/.zshrc
 	*	1545927025	0

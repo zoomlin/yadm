@@ -1,0 +1,116 @@
+# …………… Beginning of menu ……………
+
+# MenuPosition = 1 1015 # Optional
+
+item=Waterfox
+cmd=waterfox
+icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
+iconsize = 16
+iconsize = 16
+
+item=GTK Theme Switch
+cmd=gtk-theme-switch2
+icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
+iconsize = 16
+iconsize = 16
+
+
+item=Kodi
+cmd=kodi
+icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
+iconsize = 16
+iconsize = 16
+
+
+item=Tixati
+cmd=tixati
+icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
+iconsize = 16
+iconsize = 16
+
+item=DoubleCmd
+cmd=doublecmd
+icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
+iconsize = 16
+iconsize = 16
+
+item=ObKey
+cmd=obkey
+icon= /home/den/bmpicons/accessories-text-editor.png
+iconsize = 16
+iconsize = 16
+
+
+item=Lxappearance
+cmd=lxappearance
+icon= /home/den/bmpicons/accessories-text-editor.png
+iconsize = 16
+iconsize = 16
+
+
+item=Fb2-Reader
+cmd=simple-fb2-reader
+icon= /home/den/bmpicons/accessories-text-editor.png
+iconsize = 16
+iconsize = 16
+
+SEPARATOR
+
+iconsize = 16
+item=ReBoot
+cmd=sudo systemctl reboot
+icon=file:///home/den/icons/nouveGnomeGray/16x16/actions/system-reboot.png
+iconsize = 16
+
+iconsize = 16
+item=ShutDown
+cmd=sudo systemctl poweroff
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+iconsize = 16
+item=Restart Rygel
+cmd=rygel -r
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+
+
+iconsize = 16
+item=UnMount Flash
+cmd=termite -e "udevil umount /dev/sdb1"
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+iconsize = 16
+item=Display OFF
+cmd=termite -e "xset dpms force off"
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+iconsize = 16
+item=Test Internet
+cmd=termite -e "ping -c 3 ya.ru"
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+
+iconsize = 16
+item=AutoMount
+cmd=termite -e "devmon"
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+iconsize = 16
+item=Edit this Menu
+cmd=gvim /home/den/mygtkmenu
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+iconsize = 16
+item=Restart NetworkManager
+cmd=sudo systemctl restart NetworkManager
+icon=/home/den/bmpicons/artifact-wrench.png
+iconsize = 16
+
+

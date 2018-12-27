@@ -339,15 +339,6 @@ d/home/den/.config/termite
 d
 
 # Right window history (oldest to newest):
-D/home/den/.duply
-	den
-1
-D/home/den
-	.zkbd
-15
-D/home/den/.zkbd
-	..
-0
 D/home/den
 	.conky
 5
@@ -639,6 +630,15 @@ D/mnt/512/Video/XXX
 D/mnt/512/Video/XXX/Best
 	[ebalka.cc]_ojidaya-v-priemnoy-uspel-ottrahat-sekretarshu-v-popku.mp4
 10
+D/home/den
+	.yadm
+3
+D/home/den/.yadm
+	..
+0
+D/home/den
+	.yadm
+3
 D
 
 # Command line history (oldest to newest):

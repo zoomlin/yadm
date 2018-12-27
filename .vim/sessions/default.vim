@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 December 2018 at 19:12:16.
+" Created by session.vim 2.13.1 on 27 December 2018 at 19:14:12.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=ie
@@ -27,7 +27,7 @@ endif
 set shortmess=aoO
 badd +93 compton.conf
 badd +679 ~/.zshrc
-badd +0 ~/.zsh/aliases.sh
+badd +1 ~/.zsh/aliases.sh
 argglobal
 silent! argdel *
 $argadd compton.conf
@@ -49,12 +49,12 @@ setlocal fdl=10
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 42 - ((25 * winheight(0) + 17) / 34)
+let s:l = 63 - ((23 * winheight(0) + 17) / 34)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-42
-normal! 041|
+63
+normal! 04|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
 "   silent exe 'bwipe ' . s:wipebuf
