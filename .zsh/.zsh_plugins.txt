@@ -1,0 +1,7 @@
+psprint/history-search-multi-word
+zsh-users/zsh-history-substring-search
+zdharma/fast-syntax-highlighting
+ytet5uy4/fzf-widgets
+zsh-users/zsh-autosuggestions
+aperezdc/zsh-fzy
+denysdovhan/spaceship-prompt

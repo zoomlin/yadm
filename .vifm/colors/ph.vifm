@@ -1,0 +1,26 @@
+" ph
+
+highlight clear
+highlight Win cterm=none ctermfg=248 ctermbg=234
+highlight Directory cterm=none ctermfg=033 ctermbg=234
+highlight Link cterm=none ctermfg=yellow ctermbg=234
+highlight BrokenLink cterm=reverse ctermfg=red ctermbg=default
+highlight Socket cterm=none ctermfg=125 ctermbg=default
+highlight Device cterm=none ctermfg=red ctermbg=default
+highlight Fifo cterm=none ctermfg=cyan ctermbg=default
+highlight Executable cterm=none ctermfg=166 ctermbg=default
+highlight Selected cterm=none ctermfg=255 ctermbg=237
+highlight CurrLine cterm=none ctermfg=default ctermbg=237
+highlight TopLine cterm=none ctermfg=black ctermbg=235
+highlight TopLineSel cterm=black ctermfg=black ctermbg=default
+highlight StatusLine cterm=black ctermfg=black ctermbg=black
+highlight WildMenu cterm=underline,reverse ctermfg=black ctermbg=black
+highlight CmdLine cterm=none ctermfg=black ctermbg=black
+highlight ErrorMsg cterm=none ctermfg=red ctermbg=black
+highlight Border cterm=none ctermfg=black ctermbg=234
+highlight JobLine cterm=none,reverse ctermfg=black ctermbg=black
+highlight SuggestBox cterm=none ctermfg=default ctermbg=default
+
+if $USER == 'root'
+    highlight Border ctermbg=red
+endif

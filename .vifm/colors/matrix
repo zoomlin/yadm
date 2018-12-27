@@ -1,0 +1,25 @@
+" Matrix
+" by Michael jubalh Vetter
+" https://github.com/jubalh/vifm-colors
+
+highlight Win             cterm=blue ctermfg=black    ctermbg=black
+
+highlight TopLine         cterm=blue ctermfg=black       ctermbg=none
+highlight TopLineSel      cterm=blue ctermfg=black       ctermbg=none
+highlight StatusLine      cterm=blue ctermfg=black       ctermbg=none
+highlight Border          cterm=blue ctermfg=black       ctermbg=none
+
+highlight Selected        cterm=blue ctermfg=red    ctermbg=default
+highlight CurrLine        cterm=blue ctermfg=black    ctermbg=black
+
+highlight WildMenu        cterm=underline,reverse ctermfg=white ctermbg=black
+highlight CmdLine         cterm=blue ctermfg=white ctermbg=black
+highlight ErrorMsg        cterm=blue ctermfg=red ctermbg=black
+
+highlight Directory       cterm=blue ctermfg=black ctermbg=default
+highlight Link            cterm=blue ctermfg=yellow ctermbg=default
+highlight BrokenLink      cterm=blue ctermfg=red ctermbg=default
+highlight Socket          cterm=blue ctermfg=yellow ctermbg=default
+highlight Device          cterm=blue ctermfg=yellow ctermbg=default
+highlight Fifo            cterm=blue ctermfg=yellow ctermbg=default
+highlight Executable      cterm=blue ctermfg=black ctermbg=default

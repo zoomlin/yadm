@@ -1,0 +1,29 @@
+#compdef df
+
+# zsh completions for 'df'
+# automatically generated with http://github.com/RobSis/zsh-completion-generator
+local arguments
+
+arguments=(
+    {-a,--all}'[include pseudo, duplicate, inaccessible file systems]'
+    {-B,--block-size}'[scale sizes by SIZE before printing them; e.g.]'
+    {-h,--human-readable}'[print sizes in powers of 1024 (e.g., 1023M)]'
+    {-H,--si}'[print sizes in powers of 1000 (e.g., 1.1G)]'
+    {-i,--inodes}'[вывести информацию об индексных дескрипторах, а не]'
+    '-k[аналог --block-size=1K]'
+    {-l,--local}'[перечислить только локальные файловые системы]'
+    '--no-sync[не вызывать sync перед получением информации об]'
+    '--output[use the output format defined by FIELD_LIST]'
+    {-P,--portability}'[use the POSIX output format]'
+    '--sync[invoke sync before getting usage info]'
+    '--total[elide all entries insignificant to available space]'
+    {-t,--type}'[limit listing to file systems of type TYPE]'
+    {-T,--print-type}'[print file system type]'
+    {-x,--exclude-type}'[limit listing to file systems not of type TYPE]'
+    '-v[(ignored)]'
+    '--help[показать эту справку и выйти]'
+    '--version[показать информацию о версии и выйти]'
+    '*:filename:_files'
+)
+
+_arguments -s $arguments

@@ -1,0 +1,269 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'0
+	/home/den/Desktop
+	..
+1437104121
+'1
+	/home/den/01
+	..
+1437310283
+'2
+	/home/den/02
+	..
+1437310287
+'3
+	/home/den/01/2.Video
+	..
+1437414323
+'4
+	/home/den/01/1.Audio
+	..
+1437414327
+'5
+	/media
+	..
+1437310387
+'7
+	/home/den/01/Linux/Backup/7z
+	..
+1437414274
+'a
+	/home/den/.config/awesome
+	rc.lua
+1441783475
+'b
+	/media/Videonew/Images/dar
+	abpFull.1.dar
+1439119603
+'d
+	/media/HD/Downloads/11
+	..
+1437050192
+'f
+	/home/den/Downloads
+	Downloads(Videonew)
+1440070776
+'g
+	/home/den
+	..
+1458029330
+'i
+	/media/Win7/iso
+	systemrescuecd-x86-4.7.0.iso
+1453102655
+'k
+	/home/den/01/02.Kino
+	Посылка.2009.BD.Rip.1080p.h264.Rus.Eng.mkv
+1447946326
+'n
+	/media/NAS3/Now
+	New
+1447331371
+'p
+	/home/den/.mpd/playlists
+	ASOT.m3u
+1453538542
+'q
+	/home/den
+	..
+1437657465
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l-11,2
+r-11,2
+
+# Left window history (oldest to newest):
+d/home/den/Desktop/1
+	aria2.conf
+22
+d/media
+	Videonew
+3
+d/media/Videonew
+	Downloads
+1
+d/media/Videonew/Downloads
+	Анджей Сапковский-Сезон гроз.(книга серии Ведьмак)2013
+2
+d/media/Videonew
+	Downloads
+1
+d/media
+	1.5TB
+2
+d/media/1.5TB
+	Downloads
+1
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	..
+0
+d/media/1.5TB
+	Downloads
+1
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	Spartacus.S01.LEONARDO_[scarabey.org]
+1
+d/media/1.5TB/Downloads/Spartacus.S01.LEONARDO_[scarabey.org]
+	..
+0
+d/media/1.5TB/Downloads
+	Smash Disco. The Best Possible Inctrument For A Successful Party!
+12
+d/media
+	NAS3
+7
+d/media/NAS3
+	1
+2
+d/media/NAS3/1
+	..
+0
+d/media/NAS3
+	Downloads
+1
+d/media/NAS3/Downloads
+	..
+0
+d/media/NAS3
+	Downloads
+1
+d/media/NAS3/Downloads
+	..
+0
+d/media/NAS3
+	Downloads
+1
+d/media/NAS3/Downloads
+	..
+0
+d/media/NAS3
+	..
+0
+d/media
+	NAS3
+1
+d/media/NAS3
+	..
+0
+d/home/den/Downloads
+	Downloads(1.5TB)
+1
+d/home/den/Downloads/Downloads(1.5TB)
+	VA - John Digweed - Live In Montreal (Stereo) (2016) [CD - FLAC]
+19
+d/home/den/01/2watch/0_0
+	Kostjanoj.tomagavk.2015.P.WEB-DL.720p.mkv
+12
+d/home/den/Downloads
+	Downloads(1.5TB)
+1
+d/home/den/Downloads/Downloads(1.5TB)
+	Last.Resort.s01e03.1080p.WEB-DL.ABD-HD.LostFilm.mkv
+31
+d/media/NAS3/NAS2 - Video/Сериалы
+	..
+0
+d/media/NAS3/NAS2 - Video/Сериалы/Спартак
+	..
+0
+d/media/NAS3/NAS2 - Video/Сериалы
+	Спартак
+1
+d/media/NAS3/NAS2 - Video
+	Mult
+4
+d/media/NAS3
+	Downloads
+1
+d/media/NAS3/Downloads
+	Spartacus.Blood.and.Sand.S01E07.1080p.BluRay.x264.mkv
+2
+d/media/NAS3
+	Downloads
+1
+d/media/NAS3/Downloads
+	..
+0
+d/media/NAS3
+	Downloads
+1
+d/media/NAS3/Downloads
+	..
+0
+d/media/NAS3
+	NAS2 - Video
+2
+d/media/NAS3/NAS2 - Video
+	Сериалы
+1
+d/media/NAS3/NAS2 - Video/Сериалы
+	Спартак
+1
+d/media/NAS3/NAS2 - Video/Сериалы/Спартак
+	Боги_Арены
+1
+d/media/NAS3/NAS2 - Video/Сериалы/Спартак/Боги_Арены
+	..
+0
+d/media/NAS3/NAS2 - Video/Сериалы/Спартак
+	..
+0
+d/media/NAS3/NAS2 - Video/Сериалы
+	Крассавцы
+5
+d/media/NAS3/NAS2 - Video/Сериалы/Крассавцы
+	Entourage.s01.WEB-DLRip.XviD.AC3
+4
+d/media/NAS3/NAS2 - Video/Сериалы
+	Настоящий Детектив.(s01).720p
+6
+d/media/NAS3/NAS2 - Video/Сериалы/Настоящий Детектив.(s01).720p
+	..
+0
+d/media/NAS3/NAS2 - Video/Сериалы
+	V.(2009)
+7
+d/media/NAS3/NAS

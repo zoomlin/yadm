@@ -1,0 +1,13 @@
+daysUntilStale: 7
+daysUntilClose: 14
+exemptMilestones: true
+staleLabel: stale
+
+markComment: >
+  This issue has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs. Thank you
+  for your contributions.
+
+closeComment: >
+  Hi there! This has been closed due to lack of activity. Please comment
+  if you would like it re-opened.

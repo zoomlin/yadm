@@ -1,0 +1,24 @@
+#compdef nl
+
+# zsh completions for 'nl'
+# automatically generated with http://github.com/RobSis/zsh-completion-generator
+local arguments
+
+arguments=(
+    {-b,--body-numbering}'[ТИЛЬ      использовать СТИЛЬ нумерования строк тела]'
+    {-d,--section-delimiter}'[С      использовать СС для разделения логических]'
+    {-f,--footer-numbering}'[ТИЛЬ    использовать СТИЛЬ нумерования строк нижнего]'
+    {-h,--header-numbering}'[ТИЛЬ    использовать СТИЛЬ нумерования строк верхнего]'
+    {-i,--line-increment}'[ИСЛО      шаг увеличения номеров строк]'
+    {-l,--join-blank-lines}'[ИСЛО    заданное ЧИСЛО пустых строк считать одной]'
+    {-n,--number-format}'[ОРМАТ      использовать ФОРМАТ для номеров строк]'
+    {-p,--no-renumber}'[не начинать нумерацию заново после каждой]'
+    {-s,--number-separator}'[ТРОКА   добавлять СТРОКУ после номера]'
+    {-v,--starting-line-number}'[ИСЛО первый номер строки для каждой логической]'
+    {-w,--number-width}'[ИСЛО        использовать заданное ЧИСЛО столбцов для]'
+    '--help[показать эту справку и выйти]'
+    '--version[показать информацию о версии и выйти]'
+    '*:filename:_files'
+)
+
+_arguments -s $arguments

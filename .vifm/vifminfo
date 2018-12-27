@@ -1,0 +1,968 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'0
+	/home/den/Desktop
+	..
+1437104121
+'a
+	/home/den/.config/awesome
+	rc.lua
+1441783475
+'f
+	/home/den/Downloads
+	Downloads(Videonew)
+1440070776
+'g
+	/
+	tmp
+1543601937
+'m
+	/home/den/.vifm
+	..
+1523165535
+'q
+	/home/den
+	..
+1437657465
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l-11,2
+r-11,2
+
+# Left window history (oldest to newest):
+d/mnt/512/2watch
+	Black Mirror - The Complete Series - whip93
+3
+d/mnt
+	..
+0
+d/
+	mnt
+20
+d/mnt
+	Now
+1
+d/mnt/Now
+	Soft
+3
+d/mnt/Now/Soft
+	Audio
+5
+d/home/den/.vim
+	colors
+4
+d/home/den/.vim/colors
+	disciple.vim
+4
+d/usr/share/xsessions
+	..
+0
+d/usr/share
+	ratpoison
+3
+d/usr/share/ratpoison
+	bindings
+1
+d/usr/share/ratpoison/bindings
+	..
+0
+d/usr/share/ratpoison
+	bindings
+1
+d/usr/share
+	ratpoison
+3
+d/usr/share/ratpoison
+	bindings
+1
+d/usr/share
+	xsessions
+20
+d/usr/share/xsessions
+	..
+0
+d/usr/share
+	applications
+6
+d/usr/share/applications
+	..
+0
+d/mnt/512/2watch
+	..
+0
+d/mnt/512
+	2watch
+1
+d/mnt/512/2watch
+	..
+0
+d/mnt/512
+	2watch
+1
+d/mnt/512/2watch
+	..
+0
+d/home/den/bin
+	..
+0
+d/
+	boot
+3
+d/boot
+	grub
+1
+d/boot/grub
+	..
+0
+d/boot
+	grub
+1
+d/
+	boot
+8
+d/home/den
+	.fonts
+7
+d/home/den/.fonts
+	..
+0
+d/mnt/Now/2listen
+	..
+0
+d/mnt/Now
+	Audio
+2
+d/mnt/Now/Audio
+	..
+0
+d/mnt/Now
+	Audio
+2
+d/mnt
+	512
+2
+d/mnt/512
+	Audio
+5
+d/mnt/512/Audio
+	2
+1
+d/mnt/512/Audio/2
+	VA - The 300th Clinique [Clinique Recordings] FLAC-2018
+20
+d/mnt/512/Audio
+	Best
+8
+d/mnt/512/Audio/Best
+	Tracks
+1
+d/mnt/512/Audio
+	Best
+8
+d/mnt/512/Audio/Best
+	Tracks
+1
+d/mnt/512/2watch
+	..
+0
+d/mnt/512
+	Video
+6
+d/mnt/512/Video
+	XXX
+1
+d/mnt/512/Video/XXX
+	Best
+1
+d/mnt/512/Video/XXX/Best
+	..
+0
+d/home/den
+	Downloads
+1
+d/home/den/Downloads
+	gruvbox-light
+5
+d/home/den
+	.zplug1
+13
+d/home/den/.zplug1
+	cache
+1
+d/home/den/.zplug1/cache
+	..
+0
+d/home/den/.zplug1
+	cache
+1
+d/home/den/.zplug1/cache
+	theme.zsh
+9
+d/home/den/.zplug1
+	cache
+1
+d/home/den/.zsh
+	plugins
+2
+d/home/den/.zsh/plugins
+	anyframe
+2
+d/home/den/.zsh/plugins/anyframe
+	..
+0
+d/home/den/.zsh/plugins
+	antigen
+1
+d/home/den/.zsh/plugins/antigen
+	..
+0
+d/home/den/.zsh/plugins
+	antigen
+1
+d/home/den/.zsh/plugins/antigen
+	tests
+1
+d/home/den/.zsh/plugins/antigen/tests
+	..
+0
+d/home/den/.zsh/plugins/antigen
+	tests
+1
+d/home/den/.zsh/plugins
+	antigen
+1
+d/mnt/Now/Soft
+	Linux
+1
+d/mnt/Now/Soft/Linux
+	Arco
+3
+d/mnt/Now/Soft/Linux/Arco
+	..
+0
+d/mnt/Now/Soft/Linux
+	Archlabs
+1
+d/mnt/Now/Soft/Linux/Archlabs
+	..
+0
+d/mnt/Now/Soft/Linux
+	Archlabs
+1
+d/mnt/Now/Soft
+	Linux
+1
+d/mnt/Now/Soft/Linux
+	PKGs
+7
+d/mnt/Now/Soft/Linux/PKGs
+	..
+0
+d/mnt/Now/Soft/Linux
+	7z
+8
+d/home/den
+	m-1mn.zip
+15
+d/tmp/vifm_FUSE/001_m-1mn.zip
+	mplus-1mn-regular.ttf
+10
+d/home/den
+	.config
+4
+d/home/den/.zsh
+	plugins
+1
+d/home/den/.zsh/plugins
+	fzy-fd.zsh
+15
+d/home/den/.cache/yay
+	antibody-bin
+1
+d/home/den/.cache/yay/antibody-bin
+	antibody-bin-4.1.0-1-x86_64.pkg.tar.xz
+2
+d/home/den/.cache/yay
+	quickswitch-i3
+1
+d/home/den/.cache/yay/quickswitch-i3
+	..
+0
+d/home/den/.cache/yay
+	quickswitch-i3
+1
+d/home/den/.cache/yay/quickswitch-i3
+	..
+0
+d/home/den/.cache/yay
+	completion.cache
+1
+d/mnt/Now/2listen
+	..
+0
+d/mnt/Now
+	2listen
+3
+d/mnt
+	512
+2
+d/mnt/512
+	Audio
+5
+d/mnt/512/Audio
+	Best
+1
+d/mnt/512/Audio/Best
+	Tracks
+1
+d/mnt/512/Audio
+	2
+2
+d/mnt/512/Audio/2
+	VA - The 300th Clinique [Clinique Recordings] FLAC-2018
+20
+d/mnt/512/Audio
+	Frisky
+1
+d/mnt/512/Audio/Frisky
+	FRISKY Inception - December 2018 - Marcelo Vasami (Part 2) [vk.com feelin_frisky].mp3
+3
+d/home/den/.config/termite
+	config1
+7
+d
+
+# Right window history (oldest to newest):
+D/home/den/.cache
+	yay
+1
+D/home/den/.cache/yay
+	completion.cache
+1
+D/mnt/512/2watch
+	Aranyélet.S02.1080p.WEB-DL.Rus.EniaHD
+2
+D/mnt/512/2watch/Aranyélet.S02.1080p.WEB-DL.Rus.EniaHD
+	..
+0
+D/mnt/512/2watch
+	Космос. Пространство и время
+1
+D/mnt/512/2watch/Космос. Пространство и время
+	..
+0
+D/mnt/512/2watch
+	Космос. Пространство и время
+1
+D/mnt/512/2watch/Космос. Пространство и время
+	..
+0
+D/mnt/512/2watch
+	Космос. Пространство и время
+1
+D/mnt/512/2watch/Космос. Пространство и время
+	..
+0
+D/home/den
+	..
+0
+D/mnt/Now/Soft
+	Linux
+1
+D/mnt/Now/Soft/Linux
+	..
+0
+D/mnt/Now/Soft
+	Linux
+1
+D/mnt/Now/Soft/Linux
+	yadm-master.zip
+19
+D/tmp/vifm_FUSE/001_yadm-master.zip
+	yadm-master
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
+	.config
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
+	..
+0
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
+	.vimrc
+22
+D/tmp/vifm_FUSE/001_yadm-master.zip
+	..
+0
+D/mnt/Now/Soft/Linux
+	yadm-master.zip
+19
+D/tmp/vifm_FUSE/001_yadm-master.zip
+	yadm-master
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
+	.zsh
+14
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.zsh
+	..
+0
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
+	.config
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
+	..
+0
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
+	.config
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
+	awesome
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config/awesome
+	..
+0
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
+	sxhkd
+8
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config/sxhkd
+	..
+0
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
+	sxhkd
+8
+D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
+	.config
+1
+D/tmp/vifm_FUSE/001_yadm-master.zip
+	yadm-master
+1
+D/mnt/Now/Soft/Linux
+	Configs-master.zip
+18
+D/tmp/vifm_FUSE/001_Configs-master.zip
+	..
+0
+D/mnt/Now/Soft/Linux
+	Archlabs
+1
+D/mnt/Now/Soft/Linux/Archlabs
+	..
+0
+D/mnt/Now/Soft/Linux
+	OpenBox
+12
+D/mnt/Now/Soft/Linux/OpenBox
+	..
+0
+D/mnt/Now/Soft/Linux
+	..
+0
+D/mnt/Now/Soft
+	Linux
+1
+D/mnt/Now/Soft/Linux
+	Archlabs
+1
+D/mnt/Now/Soft/Linux/Archlabs
+	..
+0
+D/mnt/Now/Soft/Linux
+	Themes
+10
+D/mnt/Now/Soft/Linux/Themes
+	..
+0
+D/mnt/Now/Soft/Linux
+	Arco
+4
+D/mnt/Now/Soft/Linux/Arco
+	..
+0
+D/mnt/Now/Soft/Linux
+	I3
+3
+D/mnt/Now/Soft/Linux/I3
+	..
+0
+D/mnt/Now/Soft/Linux
+	WMs
+2
+D/mnt/Now/Soft/Linux/WMs
+	..
+0
+D/mnt/Now/Soft/Linux
+	7z
+8
+D/mnt/Now/Soft/Linux/7z
+	config
+1
+D/mnt/Now/Soft/Linux/7z/config
+	.config
+1
+D/mnt/Now/Soft/Linux/7z/config/.config
+	rclone
+1
+D/mnt/Now/Soft/Linux/7z/config/.config/rclone
+	..
+0
+D/mnt/Now/Soft/Linux/7z/config/.config
+	yay
+3
+D/mnt/Now/Soft/Linux/7z/config/.config/yay
+	..
+0
+D/mnt/Now/Soft/Linux/7z/config/.config
+	yay
+3
+D/mnt/Now/Soft/Linux/7z/config/.config/yay
+	config.json
+1
+D/home/den
+	.dotfiles.git
+1
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.dotfiles.git
+1
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.dotfiles.git
+1
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.dotfiles.git
+2
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.config
+7
+D/home/den/.config
+	..
+0
+D/home/den
+	.dotfiles.git
+1
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.dotfiles.git
+5
+D/home/den/.dotfiles.git
+	config
+7
+D/home/den
+	.dotfiles.git
+5
+D/home/den/.dotfiles.git
+	objects
+1
+D/home/den
+	.dotfiles.git
+5
+D/home/den/.dotfiles.git
+	objects
+1
+D/home/den
+	.git
+1
+D/home/den/.git
+	..
+0
+D/home/den
+	.java
+16
+D/home/den/.cache/yay
+	yadm-git
+1
+D/home/den/.cache/yay/yadm-git
+	yadm-git-1.12.0.r0.g09a018e-1-any.pkg.tar.xz
+3
+D
+
+# Command line history (oldest to newest):
+:mkdir !
+:mkdir themes
+:!!rg 
+:mkdir o1
+:mkdir 01
+:mkdir 2watch
+:mkdir 0_0
+:mkdir 1.Audio
+:mkdir 2listen
+:mkdir Downloads
+:touch aw
+:mkdir 3
+:mkdir Pikup
+:mkdir 5
+:mkdir 6
+:mkdir 7
+:mkdir FRISKY
+:mkdir 8
+:mkdir 9
+:mkdir 10
+:mkdir Fonts
+:mkdir ISO
+:mkdir Colors
+:mkdir Icons
+:mkdir undos
+:xdg-open %f
+:!xdg-open %f
+:touch e2i
+:touch wicard.conf
+:touch oscam.conf
+:mkdir Sat
+:mkdir FW
+:mkdir ZZPicon
+:mkdir picon
+:touch 1.csv
+:mkdir Skins
+:mkdir Picons
+:mkdir Cam
+:touch autostart
+:locate 
+:mm
+:mkdir FF
+::pu
+:mkdir NAS
+:touch wr
+:mkdir EOYC
+:mkdir Games
+:pq
+:as
+:mkdir Kino
+:mkdir DOC
+:mkdir Bali
+:mkdir ArchLabs
+:mkdir OpenBox
+:mkdir Images
+:touch rest
+:mkdir .icons
+:touch 9k.zsh
+:mkdir Themes
+:mkdir Nerd
+:mkdir 
+:mkdir Walls
+:touch VolumeNotify.sh
+:mkdir 4
+:mkdir Clips
+:dual
+:double
+:split
+:only
+:vsplit
+:pu
+:touch drive
+:touch save
+:mkdir boosta
+:touch flac2mp3
+:mkdir mp3
+:mkdir !Discogs
+:mkdir Music
+:mkdir Mi
+:touch advancedsettings.xml
+:mkdir PKGs
+:touch playercorefactory.xml
+:mkdir Kodi
+:mkdir CD1
+:mkdir CD2
+:mkdir Audio
+:mkdir 1
+:mkdir 2
+:touch 111
+:mkdir .dwm
+:mkdir Wall
+:mkdir Arco
+:mkdir I3
+:mkdir WMs
+:mkdir DWM
+:mkdir Archlabs
+:mkdir Frisky
+:touch p9k.zsh
+:mp
+:pi
+
+# Search history (oldest to newest):
+/dm
+/pla
+/syste
+/zer
+/gruv
+/gr
+/ba
+/ligh
+/molo
+/color
+/dot
+/ign
+/clip
+//
+///////
+//////
+/efe
+/cred
+/res
+/my
+/pac
+/loca
+/all
+/fb2
+/born
+/key
+/devm
+/iva
+/storage
+/vide
+/pacm
+/libal
+/flash
+/imag
+/soft
+/fst
+/clipm
+/mki
+/modep
+/serv
+/ryg
+/ser
+/mos
+/kodi
+/http
+/ace
+/rutor
+/pyth
+/elem
+/mark
+/xin
+/x86
+/pacma
+/tilix
+/us
+/prof
+/conk/
+/xsess
+/term
+/nota
+/zshnnn
+/zsh
+/i3
+/wall
+/nitro
+/tdf
+/wal
+/bac
+/tdr
+/mine
+/mir
+/mirr
+/dra
+/awe
+/skel
+/rosa
+/ob
+/dwm
+/op
+/tint
+/compt
+/the
+/gtk
+/rofi
+/ice
+/sess
+/app
+/ratpo
+/ope
+/pol
+/menu
+/poly
+/zim
+/vimrc
+/ls_c
+/zplu
+/ru
+/bedr
+/ya
+/git
+
+# Prompt history (oldest to newest):
+psettings1
+psettings3
+pLucidaConsole.ttf
+pLucida_Console.ttf
+pHddState.py
+pNavigation.py
+pvuplus1
+pconfig.conf1
+pArc-Dark1
+pArc-DarkPlane
+ptermite.desktop
+pautostart.sh
+pautostart;;
+pautostart1
+pautostart
+p''
+paa
+pstylish.bin
+pkaru
+ppastel
+p1.fb2
+pIM000019.jpg
+p.zsh
+pui
+pfinder
+parchlabs.png1
+parchlabs.png
+pconfig4
+pconfig5
+pprofiles.ini1
+pad
+pTracks1
+pconfig7
+puser.js1
+p.waterfox1
+p.ignore
+pconfig6
+pconfig8
+pохотники.за.головами.2011.BDRip.1080p.Rus.mkv
+pArmin van Buuren - A State of Trance 173 XXL (4.11.2004) (Matthew Dekay Mix + Armin van Buuren Live).mp4.part
+pMirro
+pgtk.css1
+pgtk.css
+pArchLabs-Dark
+pТрудности в общении.fb2
+p7 интимных тайн. Психология сексуальности. Книга 1.fb2
+p/home/den/Downloads/04343715/7 интимных тайн. Психология сексуальности. Книга 2.fb2
+p7 интимных тайн. Психология сексуальности. Книга 2.fb2
+p11 интимных вопросов. Секс большого города.fb2
+p5 великих тайн мужчины и женщины.fb2
+p7 этажей взаимопонимания. Язык тела и образ мысли.fb2
+p5 спасительных шагов. От депрессии к радости.fb2
+pmacOS-High-Sierra
+peez
+p.kodi1
+p.kodi
+pnvme0n1p4.fsa1
+prestid2
+prestid0
+prestid1
+prestboot
+prestroot
+pconfig9
+pconfig10
+p.conky
+pawesome2
+pawesome
+pzsh-history-substring-search
+p.zshrc
+p.zsh1
+pgeometry
+penhancd
+pzsh-fzy
+pzsh-fzy-master
+pi31
+pwallpaper.png
+pi3
+popenbox.jpg
+pi3.png
+pWalls
+p.vimrci3
+pconfig1
+pawesome1
+pconfig2
+pconfig3
+piceberg
+pconfig
+p.zplug
+p.zplugin
+p.zplug1
+p.zplugin1
+p.vim1
+p.vimrc1
+pCD1.flac
+pCD2.flac
+pconfig.snazzy
+p.dotfiles1.git
+p.gitignore1
+p.gitignore
+p.dotfiles.git
+
+# Local filter history (oldest to newest):
+|====
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

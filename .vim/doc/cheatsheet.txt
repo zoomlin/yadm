@@ -1,0 +1,254 @@
+*cheatsheet.txt*
+
+File structure:
+
+.vim/
+  after/     - files that are loaded at the very end
+    ftplugin/
+    plugin/
+    syntax/
+  autoload/  - automatically loaded scripts
+  colors/    - custom color schemes
+  doc/       - plugin documentation
+  ftdetect/  - filetype detection scripts
+  ftplugin/  - filetype plugins
+  indent/    - indent scripts
+  plugin/    - plugins
+  syntax/    - syntax scripts
+
+==============================================================================
+1. Spell
+
+Insert Mode~
+
+CTRL-X_s       Spelling suggestions
+CTRL-X_CTRL-K  completion avec les dictionnaires définis dans 'dictionary'
+               (/usr/share/dict/words)
+CTRL-X_CTRL-T  same for 'thesaurus'
+
+Normal Mode~
+
+z=             sur un mot souligné affiche une liste de corrections possibles
+zg             rajoute un mot dans le dictionnaire
+zug            pour annuler l'ajout au dictionnaire
+]s             pour aller au prochain mot mal orthographié
+[s             pour le précédent
+
+
+==============================================================================
+2. Mappings
+
+Fn keys~
+
+*<F2>*    :NERDTreeToggle
+*<F3>*    :ErrorsToggle
+*<F4>*    :QFixToggle
+*<F5>*    :GundoToggle
+*<F6>*    :set paste!
+*<F7>*    :call SynStack()
+*<F9>*    :TagbarToggle
+*<F10>*   :call ToggleMenuBar()
+*<F11>*   :YRShow
+*<F12>*    mzggg?G`z  (Panic Button)
+
+Config~
+>
+  let g:ctrlp_map = '<leader>,'
+  let g:pymode_rope_global_prefix = "<localleader>R"
+  let g:pymode_rope_local_prefix = "<localleader>r"
+  let mapleader = ","
+  let maplocalleader = "\\"
+<
+Normal mode~
+
+*<leader>!*       :Shell/Clam
+*<leader>:*       :%s//<left>
+*<leader>,*       :CtrlP
+*<leader>;*       :CtrlPTag
+*<leader>#*       gwap
+*<leader>/*       Ack
+*<leader>?*       :execute 'vimgrep /'.@/.'/g %'<CR>:copen
+*<leader>)*       :tabnext
+*<leader>(*       :tabprev
+<leader>]       :YcmCompleter GoToDefinitionElseDeclaration
+*<leader><tab>*   :ScratchToggle
+*<leader><cr>*    :silent !myctags<cr>:redraw!
+*<leader><space>* :noh<cr>:call clearmatches()
+
+*<leader>1*       :call HiInterestingWord(1)
+*<leader>2*       :call HiInterestingWord(2)
+*<leader>3*       :call HiInterestingWord(3)
+*<leader>4*       :call HiInterestingWord(4)
+*<leader>5*       :call HiInterestingWord(5)
+*<leader>6*       :call HiInterestingWord(6)
+
+*<leader>a*       :Ack!<space>
+*<leader>A*       :set opfunc=<SID>AckMotion<CR>g@
+*<leader>b*       :CtrlPBuffer
+*<leader>c*       <Plug>CommentaryLine
+*<leader>C*       Change cwd
+*<leader>D*       :diffoff!
+*<leader>d*       :Dispatch
+*<leader>ga*      :Gadd
+*<leader>gb*      :Gblame
+*<leader>gci*     :Gcommit
+*<leader>gco*     :Gcheckout
+*<leader>gd*      :Gdiff
+*<leader>gl*      :Shell git gl -18<cr>:wincmd \|
+*<leader>gm*      :Gmove
+*<leader>gr*      :Gremove
+*<leader>gs*      :Gstatus
+*<leader>gw*      :Gwrite
+*<leader>gh*      :Gbrowse
+*<leader>I*       :call IndentGuides()
+*<leader>i*       :set list!
+*<leader>L*       :LinediffReset
+*<leader>n*       :setlocal number!
+*<leader>P*       :set paste<CR>"*P<CR>:set nopaste
+*<leader>p*       :silent! set paste<CR>"*p<CR>:set nopaste
+*<leader>q*       <Plug>Kwbd
+*<leader>se*      :setlocal spell spelllang=en
+*<leader>sf*      :setlocal spell spelllang=fr
+*<leader>sn*      :setlocal spell spelllang=
+*<leader>so*      vip:!sort
+*<leader>sp*      :setlocal spell spelllang=fr,en
+*<leader>S*       ^vg_y:execute @@<cr>:echo 'Sourced line.'
+*<leader>t*       :tabnew
+*<leader>u*       :syntax sync fromstart<cr>:redraw!
+*<leader>v*       <C-w>v
+*<leader>V*       V`]
+*<leader>W*       :call ToggleDiffWhitespace()
+*<leader>w*       mz:%s/\s\+$//<cr>:let @/=''<cr>`z
+*<leader>y*       "*y
+*<leader>z*       Refocus folds
+
+Visual mode~
+
+*<leader>gh*   :Gbrowse
+*<leader>l*   :Linediff
+*<leader>s*   :!sort
+*<leader>S*   y:execute @@<cr>:echo 'Sourced selection.'
+*<leader>y*   "*ygv
+
+Visual, not select~
+
+*<leader>c*   <Plug>Commentary
+*<leader>A*   :<C-U>call <SID>AckMotion(visualmode())
+
+Filetype specific~
+
+* CSS sort properties
+>
+  *.less,*.css nnoremap <buffer> <localleader>S ?{<CR>jV/\v^\s*\}?$<CR>k:sort<CR>:noh
+<
+* MARKDOWN Use <localleader>1/2/3 to add headings
+>
+ markdown nnoremap <buffer> <localleader>1 yypVr=:redraw
+ markdown nnoremap <buffer> <localleader>2 yypVr-:redraw
+ markdown nnoremap <buffer> <localleader>3 mzI###<space>`zllll <ESC>
+ markdown nnoremap <buffer> <localleader>p VV:'<,'>!python -m json.tool
+ markdown vnoremap <buffer> <localleader>p :!python -m json.tool
+<
+* RST
+>
+  rst nnoremap <buffer> <localleader>1 yypVr=:redraw
+  rst nnoremap <buffer> <localleader>2 yypVr-:redraw
+  rst nnoremap <buffer> <localleader>3 yypVr~:redraw
+  rst nnoremap <buffer> <localleader>4 yypVr`:redraw
+<
+* XML
+>
+  xml nnoremap <buffer> <localleader>f Vatzf  -> fold current tag
+  xml nnoremap <buffer> <localleader>= Vat=   -> indent tag
+<
+
+==============================================================================
+3. List of some Vim commands
+
+
+command   action in Normal mode
+------------------------------------------------------------------------------
+zz        Center your screen on the current line
+gi        goes to insert mode at the last place you were in the insert mode
+gf        go to file
+gv        récupère la dernière sélection visuelle
+cc        change whole line
+
+
+command        action in Insert mode
+------------------------------------------------------------------------------
+CTRL-X_CTRL-L  Complete whole line
+CTRL-X_CTRL-F  Complete file names
+
+Macros
+------
+
+Recording with : q<character>
+Replay with    : @<character>
+
+Windows
+-------
+
+Ctrl + w _   Max out the height of the current split
+Ctrl + w |   Max out the width of the current split
+Ctrl + w =   Normalize all split sizes
+Ctrl+W R     Swap top/bottom or left/right split
+Ctrl+W T     Break out current window into a new tabview
+Ctrl+W o     Close every window in the current tabview but the current one
+
+==============================================================================
+4. Copy / paste
+
+"aY     yank current line into register "a"
+"ap     paste from register "a"
+"*Y     yank line into special register "*" which is the system clipboard
+"*p     paste from register "*": the system clipboard
+"_D     delete from cursor until the end of line, but don't copy
+
+Paste in Insert mode~
+
+CTRL-R "       Insert the unnamed register, containing the text of the last delete or yank
+CTRL-R *       the clipboard contents (X11: primary selection)
+CTRL-R +       the clipboard contents
+
+==============================================================================
+5. Search & replace
+
+* remplacer une sélection (Ctrl+R0 permet de coller le contenu du registre 0)
+>
+    :%s/Ctrl+R0/remplacer/g
+<
+* Faire une modification/recherche dans plusieurs fichiers:
+>
+  :argdo %s/test/retest/g | w
+<
+ou le mot test est le mot que vous cherchez et retest le mot à remplacer, on
+repète la commande dans tout le fichier avec g et on valide l'écriture.
+
+==============================================================================
+6. End of line
+
+Convert file format to unix/dos:
+>
+    :set ff=unix
+    :set ff=dos
+<
+Supprimer tous les retours à la ligne
+>
+    :s/\n//
+<
+Insérer un retour à la ligne après un texte précis (eg. "EOL")
+>
+    :s/\(EOL\)/\1\r/g
+<
+Supprimer le dernier caractère de chaque ligne
+>
+    :s/.$//
+<
+Supprimer les blancs en fin de ligne
+>
+    :s/\( \|\t\)*$//
+<
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:fdm=marker:

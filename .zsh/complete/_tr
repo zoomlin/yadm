@@ -1,0 +1,17 @@
+#compdef tr
+
+# zsh completions for 'tr'
+# automatically generated with http://github.com/RobSis/zsh-completion-generator
+local arguments
+
+arguments=(
+    {-c,-C,--complement}'[сначала получить дополнение ТАБЛИЦЫ1]'
+    {-d,--delete}'[удалять символы из ТАБЛИЦЫ1, не преобразовывать]'
+    {-s,--squeeze-repeats}'[замещать последовательности повторяющихся символов]'
+    {-t,--truncate-set1}'[сначала сократить ТАБЛИЦУ1 до размера ТАБЛИЦЫ2]'
+    '--help[показать эту справку и выйти]'
+    '--version[показать информацию о версии и выйти]'
+    '*:filename:_files'
+)
+
+_arguments -s $arguments

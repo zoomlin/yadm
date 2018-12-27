@@ -1,0 +1,901 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'0
+	/home/den/Desktop
+	..
+1437104121
+'1
+	/home/den/01
+	..
+1437310283
+'2
+	/home/den/02
+	..
+1437310287
+'3
+	/home/den/01/2.Video
+	..
+1437414323
+'4
+	/home/den/01/1.Audio
+	..
+1437414327
+'5
+	/media
+	..
+1437310387
+'7
+	/home/den/01/Linux/Backup/7z
+	..
+1437414274
+'b
+	/home/den/bin/
+	..
+1436933506
+'d
+	/media/HD/Downloads/11
+	..
+1437050192
+'q
+	/home/den
+	..
+1437657465
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l-11,2
+r-8,2
+
+# Left window history (oldest to newest):
+d/home/den/02
+	..
+0
+d/home/den
+	02
+3
+d/media/HD/Downloads/11
+	..
+0
+d/media/HD/Downloads
+	11
+1
+d/media/HD/Downloads/11
+	Music1
+6
+d/media/HD/Downloads/11/Music1
+	VA
+9
+d/media/HD/Downloads/11/Music1/VA
+	VA - Francesco Tristano – Get Physical Music Presents, Body Language Vol. 16 [GPMCD108ZEB]-2015
+2
+d/media/HD/Downloads/11/Music1/VA/VA - Francesco Tristano – Get Physical Music Presents, Body Language Vol. 16 [GPMCD108ZEB]-2015
+	..
+0
+d/media/HD/Downloads/11/Music1/VA
+	..
+0
+d/media/HD/Downloads/11/Music1
+	VA
+9
+d/media/HD/Downloads/11/Music1/VA
+	..
+0
+d/media/HD/Downloads/11/Music1
+	..
+0
+d/media/HD/Downloads/11
+	Music1
+6
+d/media/HD/Downloads/11/Music1
+	..
+0
+d/media/HD/Downloads/11
+	Music1
+6
+d/home/den/01
+	2.Video
+1
+d/home/den/01/2.Video
+	..
+0
+d/home/den/01
+	1.Audio
+2
+d/home/den/01/1.Audio
+	..
+0
+d/home/den/01
+	2.Video
+1
+d/home/den/01/2.Video
+	2watch
+1
+d/home/den/01/2.Video/2watch
+	..
+0
+d/home/den/01/2.Video
+	2watch
+1
+d/home/den/01/2.Video/2watch
+	..
+0
+d/home/den/01/2.Video
+	NAS
+2
+d/home/den/01/2.Video/NAS
+	..
+0
+d/home/den/01/2.Video
+	NAS
+2
+d/home/den/01/2.Video/NAS
+	NAS3 - Video
+1
+d/home/den/01/2.Video/NAS/NAS3 - Video
+	..
+0
+d/home/den/01/2.Video/NAS
+	NAS2 - Video
+2
+d/home/den/01/2.Video/NAS/NAS2 - Video
+	..
+0
+d/home/den/01/2.Video/NAS
+	.,
+4
+d/home/den/01/2.Video/NAS/.,
+	..
+0
+d/home/den/01/2.Video/NAS
+	..
+0
+d/home/den/01/2.Video
+	2watch
+2
+d/home/den/01/2.Video/2watch
+	..
+0
+d/home/den/01/2.Video
+	Videonew - Movies
+3
+d/home/den/01/2.Video/Videonew - Movies
+	..
+0
+d/home/den/01/2.Video
+	..
+0
+d/home/den/01
+	..
+0
+d/home/den
+	02
+5
+d/home/den/02
+	2watch
+1
+d/home/den/02/2watch
+	..
+0
+d/home/den/02
+	2learn
+2
+d/home/den/02/2learn
+	..
+0
+d/home/den/02
+	..
+0
+d/home/den
+	02
+5
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	.,
+1
+d/home/den/02/.,
+	..
+0
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	..
+0
+d/home/den
+	.,
+5
+d/home/den/.,
+	..
+0
+d/home/den
+	01
+5
+d/home/den/01
+	2.Video
+1
+d/home/den/01/2.Video
+	..
+0
+d/home/den/01
+	1.Audio
+2
+d/home/den/01/1.Audio
+	..
+0
+d/home/den/01
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	2learn
+2
+d/home/den/02/2learn
+	node-dev-bootstrap-master.zip
+1
+d/tmp/vifm_FUSE/001_node-dev-bootstrap-master.zip
+	..
+0
+d/home/den/02/2learn
+	LearningWebAppDev-master.zip
+2
+d/tmp/vifm_FUSE/001_LearningWebAppDev-master.zip
+	LearningWebAppDev-master
+1
+d/tmp/vifm_FUSE/001_LearningWebAppDev-master.zip/LearningWebAppDev-master
+	..
+0
+d/tmp/vifm_FUSE/001_LearningWebAppDev-master.zip
+	LearningWebAppDev-master
+1
+d/tmp/vifm_FUSE/001_LearningWebAppDev-master.zip/LearningWebAppDev-master
+	..
+0
+d/tmp/vifm_FUSE/001_LearningWebAppDev-master.zip
+	..
+0
+d/home/den/02/2learn
+	..
+0
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	2learn
+1
+d/home/den/02/2learn
+	..
+0
+d/home/den/02
+	..
+0
+d/home/den
+	02
+1
+d/home/den/02
+	..
+0
+d/home/den
+	02
+4
+d/home/den/02
+	..
+0
+d/home/den
+	01
+6
+d/home/den/01
+	NASS
+3
+d/home/den
+	01
+6
+d/home/den/01
+	NASS
+3
+d/home/den
+	01
+6
+d/home/den/01
+	Linux
+5
+d/home/den
+	01
+6
+d/home/den/01
+	Linux
+5
+d/home/den/01/Linux
+	howto.txt
+27
+d/home/den/01
+	Linux
+5
+d
+
+# Right window history (oldest to newest):
+D/home/den/01/2.Video/NAS
+	..
+0
+D/home/den/01/2.Video
+	..
+0
+D/home/den/01
+	HD
+4
+D/home/den/01/HD
+	..
+0
+D/home/den/01
+	HD
+4
+D/home/den/01/HD
+	..
+0
+D/home/den/01
+	NASS
+3
+D/home/den/01/NASS
+	..
+0
+D/home/den/01
+	2.Video
+2
+D/home/den/01/2.Video
+	..
+0
+D/home/den/01
+	1.Audio
+1
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/01
+	2.Video
+2
+D/home/den/01/2.Video
+	..
+0
+D/home/den/01
+	..
+0
+D/home/den
+	1b2_accuweather_conkyweather_font
+2
+D/home/den/1b2_accuweather_conkyweather_font
+	..
+0
+D/home/den
+	Walls
+9
+D/home/den/Walls
+	7680х4320. На просторах Вселенной (47).jpg
+3
+D/media/HD/Downloads/11/Walls/На просторах Вселенной. 100 обоев 8K/1
+	7680х4320. На просторах Вселенной (47).jpg
+3
+D/media/HD/Downloads/11/Walls/На просторах Вселенной. 100 обоев 8K
+	1
+1
+D/media/HD/Downloads/11/Walls
+	50 смешных котэ в габаритах 8К
+3
+D/media/HD/Downloads/11
+	Walls
+12
+D/home/den
+	Walls
+9
+D/home/den/Walls
+	gotham.jpg
+1
+D/home/den/Desktop
+	CPMono_v07.zip
+3
+D/tmp/vifm_FUSE/001_CPMono_v07.zip
+	..
+0
+D/home/den/Desktop
+	dotfiles-master.zip
+1
+D/home/den
+	Desktop
+6
+D/home
+	den
+1
+D/
+	home
+3
+D/home
+	den
+1
+D/home/den
+	..
+0
+D/home
+	den
+1
+D/home/den
+	.ACEStream
+2
+D/home/den/.ACEStream
+	..
+0
+D/home/den
+	.npm
+1
+D/home/den/.npm
+	..
+0
+D/home/den
+	.fonts
+16
+D/home/den/.fonts
+	..
+0
+D/home/den
+	..
+0
+D/home
+	den
+1
+D/home/den
+	..
+0
+D/home
+	den
+1
+D/home/den/01
+	..
+0
+D/home/den/02
+	2watch
+1
+D/home/den/02/2watch
+	Реквием по мечте.2000.BD.Rip.1080p.h264.3xRus.Eng.2xCommentary
+1
+D/home/den/02/2watch/Реквием по мечте.2000.BD.Rip.1080p.h264.3xRus.Eng.2xCommentary
+	..
+0
+D/home/den/02/2watch
+	Форс-мажоры
+21
+D/home/den/02/2watch/Форс-мажоры
+	..
+0
+D/home/den/02/2watch
+	..
+0
+D/home/den/02
+	2learn
+2
+D/home/den/02/2learn
+	LearningWebAppDev-master.zip
+1
+D/tmp/vifm_FUSE/001_LearningWebAppDev-master.zip
+	..
+0
+D/home/den/02/2learn
+	..
+0
+D/home/den/02
+	2learn
+2
+D/home/den/02/2learn
+	zph-master.7z
+2
+D/tmp/vifm_FUSE/001_zph-master.7z
+	..
+0
+D/home/den/02/2learn
+	..
+0
+D/home/den/02
+	2listen
+3
+D/home/den/02/2listen
+	..
+0
+D/home/den/02
+	2listen
+3
+D/home/den
+	.mpd
+35
+D/home/den/.mpd
+	..
+0
+D/home/den
+	.gnome2_private
+23
+D/home/den/01
+	1.Audio
+2
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01
+	1.Audio
+2
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01/1.Audio/2listen
+	..
+0
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/01
+	.,
+1
+D/home/den/01/.,
+	..
+0
+D/home/den/01
+	NASS
+3
+D/home/den/01/NASS
+	..
+0
+D/home/den/01
+	1.Audio
+1
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01/1.Audio/2listen
+	..
+0
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/01
+	1.Audio
+1
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/01
+	1.Audio
+1
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01/1.Audio/2listen
+	..
+0
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/01
+	2.Video
+2
+D/home/den/01/2.Video
+	..
+0
+D/home/den/01
+	1.Audio
+1
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/01
+	2.Video
+2
+D/home/den/01/2.Video
+	2watch
+9
+D/home/den/01/2.Video/2watch
+	..
+0
+D/home/den/01/2.Video
+	2watch
+9
+D/home/den/01/2.Video/2watch
+	..
+0
+D/home/den/01/2.Video
+	2watch
+9
+D/home/den/01/2.Video/2watch
+	..
+0
+D/home/den/01/2.Video
+	..
+0
+D/home/den/01
+	1.Audio
+1
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01/1.Audio/2listen
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:echo %f | xclip -i
+:f
+:di
+:trash
+:lstrash
+:gr
+:grep 123
+:grep colo
+:grep prezto
+:grep 1d1f21
+:grep 100D08
+:gr 100D08
+:lo xinit
+:lo termite
+:find 100D08
+:jobs
+:find termite
+:reg
+:ve
+:volumes
+:volume
+:cm
+:nm
+:cd /home/den/.themes/Silent\ Night\ II\ dark
+:cd d
+:cd /home/den/Desktop
+:cd /home/den/Desktop/zph-master
+:cd %f
+:cd %F
+:trashes
+:find 2015
+:find *2015*
+:find *2014*
+:rm
+:find *strain*
+:find -L *strain*
+:find *strain* -L
+:locate *strain* -L
+:locate fzf
+:fh
+:mkdir Tyrant.S02
+:!rm -fr
+:!rm -fr %f
+:link
+:colo solarized-dark
+:colo mc-like
+:colo zenburn
+:colo zenburn_1
+:clone
+:du
+:mkdir rave_on
+:run
+:mkdir AvB
+:mkdir PvD
+:mkdir Markus Schulz
+:mkdir "markus Schulz"
+:mkdir Tiesto
+:mkdir 1MP3
+:locate xinit
+:locate fstab
+:locate vifm
+:locate mpd
+:locate geany
+:locate sakura
+:touch #!/bin/bash
+:touch pa-vol
+:touch 123
+:mkdir 20150721
+:fzf
+:!fzf
+:mkdir dotfiles
+:ln
+:mkdir dirs
+:locate gitignore
+:mkdir Other
+:colorscheme astrell
+:colorscheme Black
+:colorscheme Day
+:colorscheme Foggy
+:colorscheme sunday256
+:touch 
+:cd /media/HD/Music2/FromSD/LossLess/!Classic/!Club/Deep Dish - Global Underground #025 Toronto (2003) FLAC/
+:cd "/media/HD/Music2/FromSD/LossLess/!Classic/!Club/Deep Dish - Global Underground #025 Toronto (2003) FLAC/"
+:sxiv-rifle
+:!sxiv-rifle
+:!sxiv-rifle %f
+:!sxiv -f -b %f
+:mkdir Walls
+:locate termite
+:colo astrell
+:colo darkdesert
+:colo desert
+:colo g80
+:colo matrix
+:!!mediainfo| grep duration
+:cd /usr/lib/node_modules/npm/node_modules/.bin/
+:cd /etc/modprobe.d/
+:mkdir FF
+:empty
+:mkdir iso
+:mkdir 2listen
+
+# Search history (oldest to newest):
+/nerd
+/bash## Based on script by z3bra -- 2014-01-21 W3MIMGDISPLAY="/usr/libexec/w3m/w3mimgdisplay"FONTH=15 # Size of one terminal rowFONTW=7 # Size of one terminal column X=$1Y=$2COLUMNS=$3LINES=$4FILENAME=$5 read width height <<< `echo "5;$FILENAME" | $W3MIMGDISPLAY`if [ -z "$width" -o -z "$height" ]; then    echo 'Error: Failed to obtain image size.'    exit 1fi x=$((FONTW * X))y=$((FONTH * Y)) max_width=$((FONTW * COLUMNS))max_height=$((FONTH * LINES)) if [ "$width" -gt "$max_width" ]; then    height=$((height * max_width / width))    width=$max_widthfiif [ "$height" -gt "$max_height" ]; then    width=$((width * max_height / height))    height=$max_heightfi w3m_command="0;1;$x;$y;$width;$height;;;;;$FILENAME\n4;\n3;" echo -e "$w3m_command" | $W3MIMGDISPLAY
+/vim
+/xinit
+/des
+/xini
+/desk
+/reco
+/test
+/dark
+/green
+/yellow
+/brown
+/black
+/conk
+/flux
+/yello
+/pastel
+/flu
+/fig
+/vif
+/7z
+/7znn
+/kod
+/ssh
+/giti
+/wall
+/75
+/wal
+/72
+/vimi
+/trop
+/mark
+
+# Prompt history (oldest to newest):
+pnerdcommenter
+p2560x1440-smoky-black-solid-color-background
+p1abp
+p1.HD.Downloads
+p2.Videonew.Serials
+p7.1.5tb.Music.Videos
+p6_1.5tb.Movies
+p6.1.5tb.Movies
+pp
+pPortable whereisit 2010.218
+pmdirs
+p2
+p01
+p02
+p0Music
+p0Video
+pconky
+pfluxbox
+pkodi
+pvim
+pthemes
+pncmpcpp
+pmozilla
+pXresources
+pzshrc
+pxinitrc
+pvimrc
+pdefault
+pMusic
+pVideo
+pAudio
+p01Desktop
+p0Desktop
+p1.5tb - Audio
+pHD.Audio
+pLossless.Music3
+p2abp
+pwall2.png
+pwall3.png
+pwall10.png
+pdaft_punk_1440x900_wallpaper_Wallpaper.jpg
+pwomen_models_monochrome_alexis_ren_2048x1365_wallpaper_Wallpaper.jpg
+ptron_lightcycle_Wallpaper_001.jpg
+ptron_lightcycle_Wallpaper.jpg
+pdaft_punk_spectrum_1680x1050_wallpaper_Wallpaper.jpg
+presolution_2560x1600.png
+pwall1.png
+pOcean
+p[Serbin].Подпольная.Империя.HDTVrip.1-5.Season.720p.h264.AC3.-Jean82
+p.vimrc
+pyadr-master
+p2560x1440-all-solid-color-backgrounds.zip
+p123
+p2560x1440-all-solid-color-backgrounds.
+p2560x1440-all-solid-color-backgrounds
+p0.Desktop
+p01.Audio
+p1.Audio
+ptb1.5
+p2.Video
+pMarkus Schulz
+p1.5tb.Audio
+pBlack.vifm
+pDay.vifm
+pFoggy.vifm
+psunday256.vifm
+pФорсаж.7.Furious.Seven.2015.EXTENDED.RGBM.1080p.BluRay.x264.mkv
+pФорсаж.7.Furious.Seven.2015.EXTENDED.RGBM.1080p.BluRay.x264
+pdaft_punk_Wallpaper.jpg
+pwall
+p72
+pconfig2
+pРождение мафии:Нью-Йорк.S01.720p.WEB.rus.LostFilm
+pУбийство.S01.720.BDRip
+pIndexedSearch
+pvim-visual-star-search
+p1xq08t8w5
+pabp
+pHD.Music1
+pHD.Music2
+pLosslesss.Music3
+pHD - Downloads
+pVideonew - Movies
+
+# Local filter history (oldest to newest):
+|==
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

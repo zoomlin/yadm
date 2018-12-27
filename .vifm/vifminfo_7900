@@ -1,0 +1,295 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'0
+	/home/den/Desktop
+	..
+1437104121
+'1
+	/home/den/01
+	..
+1437310283
+'2
+	/home/den/02
+	..
+1437310287
+'3
+	/home/den/01/2.Video
+	..
+1437414323
+'4
+	/home/den/01/1.Audio
+	..
+1437414327
+'5
+	/media
+	..
+1437310387
+'7
+	/home/den/01/Linux/Backup/7z
+	..
+1437414274
+'a
+	/home/den/.config/awesome
+	rc.lua
+1441783475
+'b
+	/media/Videonew/Images/dar
+	abpFull.1.dar
+1439119603
+'d
+	/media/HD/Downloads/11
+	..
+1437050192
+'f
+	/home/den/Downloads
+	Downloads(Videonew)
+1440070776
+'g
+	/home/den
+	.subversion
+1479123013
+'i
+	/media/Win7/iso
+	systemrescuecd-x86-4.7.0.iso
+1453102655
+'k
+	/home/den/01/02.Kino
+	Посылка.2009.BD.Rip.1080p.h264.Rus.Eng.mkv
+1447946326
+'m
+	/
+	home
+1463540136
+'n
+	/media/NAS3/Now
+	New
+1447331371
+'p
+	/home/den/.mpd/playlists
+	ASOT.m3u
+1453538542
+'q
+	/home/den
+	..
+1437657465
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l-11,2
+r-11,2
+
+# Left window history (oldest to newest):
+d/home/den/.config/termite/themes/Lucius
+	..
+0
+d/home/den/.config/termite/themes
+	Dracula
+10
+d/home/den/.config/termite/themes/Dracula
+	..
+0
+d/home/den/.config/termite/themes
+	Flat
+11
+d/home/den/.config/termite/themes/Flat
+	..
+0
+d/home/den/.config/termite/themes
+	Nord
+13
+d/home/den/.config/termite/themes/Nord
+	..
+0
+d/home/den/.config/termite/themes
+	Wombat
+19
+d/home/den/.config/termite/themes/Wombat
+	..
+0
+d/home/den/.config/termite/themes
+	my
+27
+d/home/den/.config/termite/themes/my
+	top
+1
+d/home/den/.config/termite/themes/my/top
+	..
+0
+d/home/den/.config/termite/themes/my
+	..
+0
+d/home/den/.config/termite/themes
+	Base16
+4
+d/home/den/.config/termite/themes/Base16
+	themes
+1
+d/home/den/.config/termite/themes/Base16/themes
+	ashes.config
+3
+d/home/den/.config/termite/themes/Base16
+	themes
+1
+d/home/den/.config/termite/themes
+	Sidonia
+3
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Anderson
+3
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Anderson
+3
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Iceberg
+6
+d/home/den/.config/termite/themes/Best/Iceberg
+	config
+1
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Ocean
+10
+d/home/den/.config/termite/themes/Best/Ocean
+	config
+1
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Ocean
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den
+	config
+28
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Ocean
+1
+d/home/den/.config/termite/themes/Best/Ocean
+	config
+1
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Iceberg
+9
+d/home/den/.config/termite/themes/Best/Iceberg
+	3
+1
+d/home/den/.config/termite/themes/Best/Iceberg/3
+	..
+0
+d/home/den/.config/termite/themes/Best/Iceberg
+	3
+1
+d/home/den/.config/termite/themes/Best/Iceberg/3
+	..
+0
+d/home/den/.config/termite/themes/Best/Iceberg
+	2
+2
+d/home/den/.config/termite/themes/Best/Iceberg/2
+	..
+0
+d/home/den/.config/termite/themes/Best/Iceberg
+	3
+1
+d/home/den/.config/termite/themes/Best/Iceberg/3
+	..
+0
+d/home/den/.config/termite/themes/Best/Iceberg
+	3
+1
+d/home/den/.vim
+	colors
+3
+d/home/den/.vim/colors
+	..
+0
+d/home/den/.config/termite
+	config
+2
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	Iceberg
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite
+	themes
+1
+d/home/den/.config/termite/themes
+	Best
+1
+d/home/den/.config/termite/themes/Best
+	..
+0
+d/home/den/.config/termite/themes
+	Base16
+2
+d/home/den/.config/termite/themes/Base16
+	Xresources
+3
+d/home/den/.config/termite/themes/Base16/Xresources
+	Brogrammer
+19
+d/home/den/01/1.Audio
+	2listen
+1
+d/home/den/01/1.Audio/2listen
+	!
+4
+d/home/den/01/1.Audio/2listen/!
+	

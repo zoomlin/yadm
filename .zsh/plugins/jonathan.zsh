@@ -1,0 +1,1 @@
+/home/den/.zsh/plugins/themes/jonathan.zsh-theme

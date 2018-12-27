@@ -1,0 +1,768 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'0
+	/home/den/Desktop
+	..
+1437104121
+'1
+	/home/den/01
+	..
+1437310283
+'2
+	/home/den/02
+	..
+1437310287
+'3
+	/home/den/01/2.Video
+	..
+1437414323
+'4
+	/home/den/01/1.Audio
+	..
+1437414327
+'5
+	/media
+	..
+1437310387
+'7
+	/home/den/01/Linux/Backup/7z
+	..
+1437414274
+'a
+	/home/den/.config/awesome
+	rc.lua
+1441783475
+'b
+	/media/Videonew/Images/dar
+	abpFull.1.dar
+1439119603
+'d
+	/media/HD/Downloads/11
+	..
+1437050192
+'f
+	/home/den/Downloads
+	Downloads(Videonew)
+1440070776
+'q
+	/home/den
+	..
+1437657465
+
+# TUI:
+ar
+q0
+v2
+ov
+m-1
+l-11,2
+r-11,2
+
+# Left window history (oldest to newest):
+d/home/den/.config/awesome/layouts
+	..
+0
+d/home/den/.config/awesome
+	scratch
+7
+d/home/den/.config/awesome/scratch
+	..
+0
+d/home/den/.config/awesome
+	scripts
+8
+d/home/den/.config/awesome/scripts
+	..
+0
+d/home/den/.config/awesome
+	vicious
+9
+d/home/den/.config/awesome/vicious
+	widgets
+2
+d/home/den/.config/awesome/vicious/widgets
+	..
+0
+d/home/den/.config/awesome/vicious
+	..
+0
+d/home/den/.config/awesome
+	vicious
+9
+d/home/den/.config/awesome/vicious
+	..
+0
+d/home/den/.config/awesome
+	hand-tiler
+10
+d/home/den/.config/awesome/hand-tiler
+	..
+0
+d/home/den/.config/awesome
+	..
+0
+d/home/den/.config
+	awesome
+7
+d/home/den/.config/awesome
+	..
+0
+d/home/den/Desktop
+	Configs
+6
+d/home/den/Desktop/Configs
+	Awesome
+1
+d/home/den/Desktop/Configs/Awesome
+	rarity-master.zip
+2
+d/tmp/vifm_FUSE/001_rarity-master.zip
+	rarity-master
+1
+d/tmp/vifm_FUSE/001_rarity-master.zip/rarity-master
+	lain
+1
+d/tmp/vifm_FUSE/001_rarity-master.zip/rarity-master/lain
+	..
+0
+d/tmp/vifm_FUSE/001_rarity-master.zip/rarity-master
+	themes
+3
+d/tmp/vifm_FUSE/001_rarity-master.zip/rarity-master/themes
+	..
+0
+d/tmp/vifm_FUSE/001_rarity-master.zip/rarity-master
+	..
+0
+d/tmp/vifm_FUSE/001_rarity-master.zip
+	..
+0
+d/home/den/Desktop/Configs/Awesome
+	DotFiles-master.zip
+3
+d/tmp/vifm_FUSE/001_DotFiles-master.zip
+	DotFiles-master
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master
+	.config
+2
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config
+	awesome
+2
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome
+	vicious
+5
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome/vicious
+	..
+0
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome
+	plugins
+2
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome/plugins
+	..
+0
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome
+	icons
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome/icons
+	..
+0
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config/awesome
+	..
+0
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.config
+	..
+0
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master
+	.config
+2
+d/tmp/vifm_FUSE/001_DotFiles-master.zip
+	DotFiles-master
+1
+d/home/den/Desktop/Configs/Awesome
+	DotFiles-master.zip
+3
+d/tmp/vifm_FUSE/001_DotFiles-master.zip
+	DotFiles-master
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master
+	.sxiv
+6
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.sxiv
+	exec
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.sxiv/exec
+	..
+0
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.sxiv
+	exec
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master
+	.sxiv
+6
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.sxiv
+	exec
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.sxiv/exec
+	image-info
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master/.sxiv
+	exec
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip/DotFiles-master
+	.aria2
+1
+d/tmp/vifm_FUSE/001_DotFiles-master.zip
+	DotFiles-master
+1
+d/home/den/Desktop/Configs/Awesome
+	awesome-master.zip
+6
+d/tmp/vifm_FUSE/001_awesome-master.zip
+	awesome-master
+1
+d/tmp/vifm_FUSE/001_awesome-master.zip/awesome-master
+	themes
+1
+d/tmp/vifm_FUSE/001_awesome-master.zip/awesome-master/themes
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-master.zip/awesome-master
+	themes
+1
+d/tmp/vifm_FUSE/001_awesome-master.zip
+	awesome-master
+1
+d/home/den/Desktop/Configs/Awesome
+	awesome-wm-config-master.zip
+11
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip
+	awesome-wm-config-master
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	bashets
+3
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/bashets
+	date.sh
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	wallpaper
+8
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper
+	nature
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper/nature
+	0912222325c7ab83e0259bba6a.jpg
+2
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper
+	space
+2
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper/space
+	12635_3d_space_scene_earth.jpg
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper
+	tech
+3
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper/tech
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/wallpaper
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	screenshot
+5
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/screenshot
+	pengw-awesome-screenshot-20150215.png
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	bin
+4
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/bin
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	00patch
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/00patch
+	v3.5.4
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/00patch/v3.5.4
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/00patch
+	v3.5.4
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	themes
+6
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/themes
+	zenburn
+1
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/themes/zenburn
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master/themes
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip/awesome-wm-config-master
+	..
+0
+d/tmp/vifm_FUSE/001_awesome-wm-config-master.zip
+	..
+0
+d/home/den/Desktop/Configs/Awesome
+	DotFiles-master.zip
+3
+d/
+	usr
+10
+d/usr
+	share
+4
+d/usr/share
+	applications
+2
+d/usr/share/applications
+	termite.desktop
+2
+d/media
+	HD
+4
+d/media/HD
+	Downloads
+2
+d/media/HD/Downloads
+	11
+1
+d/media/HD/Downloads/11
+	Music1
+31
+d/media/HD/Downloads/11/Music1
+	VA - MOS- Chilled House Ibiza 2015 (2015) FLAC
+25
+d/media/HD/Downloads/11/Music1/VA - MOS- Chilled House Ibiza 2015 (2015) FLAC
+	..
+0
+d/media/HD/Downloads/11/Music1
+	Various Artists-Ibiza Chillhouse Party 2015
+28
+d/media/HD/Downloads/11/Music1/Various Artists-Ibiza Chillhouse Party 2015
+	..
+0
+d/media/HD/Downloads/11/Music1
+	Various Artists-Ibiza Chillhouse Party 2015
+16
+d/home/den/01/1.Audio
+	2listen
+1
+d/home/den/01/1.Audio/2listen
+	..
+0
+d
+
+# Right window history (oldest to newest):
+D/home/den/.config/awesome
+	log
+13
+D/home/den/.config
+	awesome
+3
+D/
+	lib
+16
+D/lib
+	libmenu.so
+14
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01/1.Audio/2listen
+	..
+0
+D/home/den/01/1.Audio
+	Losslesss.Music3
+2
+D/home/den/01/1.Audio/Losslesss.Music3
+	..
+0
+D/home/den/01/1.Audio
+	Losslesss.Music3
+2
+D/home/den/01/1.Audio/Losslesss.Music3
+	..
+0
+D/home/den/01/1.Audio
+	2listen
+1
+D/home/den/01/1.Audio/2listen
+	..
+0
+D/home/den/01/1.Audio
+	..
+0
+D/home/den/Downloads
+	Downloads(Videonew)
+2
+D/home/den/Downloads/Downloads(Videonew)
+	..
+0
+D/home/den/Downloads
+	Downloads(Videonew)
+2
+D/home/den
+	..
+0
+D/home/den/Downloads
+	Downloads(Videonew)
+2
+D/home/den/Downloads/Downloads(Videonew)
+	New Beautiful Full HD 1080p Anime Wallpapers Girls
+2
+D/home/den/Downloads/Downloads(Videonew)/New Beautiful Full HD 1080p Anime Wallpapers Girls
+	(1).jpg
+1
+D/home/den/Downloads/Downloads(Videonew)
+	Beautiful Full HD 1080p Anime Wallpapers Girls
+3
+D/home/den/Downloads/Downloads(Videonew)/Beautiful Full HD 1080p Anime Wallpapers Girls
+	(1).jpg
+1
+D/home/den/Downloads/Downloads(Videonew)
+	Beautiful Full HD 1080p Anime Wallpapers Girls
+3
+D/home/den/Downloads/Downloads(Videonew)/Beautiful Full HD 1080p Anime Wallpapers Girls
+	(1).jpg
+1
+D/home/den/Downloads/Downloads(Videonew)
+	VA - The Tropical Sessions 1 (2015) FLAC
+6
+D/home/den/Downloads/Downloads(Videonew)/VA - The Tropical Sessions 1 (2015) FLAC
+	..
+0
+D/home/den/Downloads/Downloads(Videonew)
+	Oboi-raznoe 10.08
+1
+D/home/den/Downloads/Downloads(Videonew)/Oboi-raznoe 10.08
+	Wallpapers Mix №240
+1
+D/home/den/Downloads/Downloads(Videonew)/Oboi-raznoe 10.08/Wallpapers Mix №240
+	Wallpapers Mix №240_001.jpg
+1
+D/home/den/Downloads/Downloads(Videonew)/Oboi-raznoe 10.08
+	Wallpapers Mix №240
+1
+D/home/den/Downloads/Downloads(Videonew)/Oboi-raznoe 10.08/Wallpapers Mix №240
+	Wallpapers Mix №240_001.jpg
+1
+D/home/den/Downloads/Downloads(Videonew)
+	BBC.The.Secret.Life.of.Chaos.PDTV.x264.mkv
+64
+D/media
+	Win7
+2
+D/media/Win7
+	Бэкап Black Hole Vu + Uno 2.1.7.01.zip
+20
+D/tmp/vifm_FUSE/001_Бэкап Black Hole Vu + Uno 2.1.7.01.zip
+	vuplus
+1
+D/tmp/vifm_FUSE/001_Бэкап Black Hole Vu + Uno 2.1.7.01.zip/vuplus
+	uno
+1
+D/tmp/vifm_FUSE/001_Бэкап Black Hole Vu + Uno 2.1.7.01.zip/vuplus/uno
+	..
+0
+D/tmp/vifm_FUSE/001_Бэкап Black Hole Vu + Uno 2.1.7.01.zip/vuplus
+	..
+0
+D/tmp/vifm_FUSE/001_Бэкап Black Hole Vu + Uno 2.1.7.01.zip
+	..
+0
+D/media/Win7
+	Heroes3.58.rar
+19
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	oscamconfigs
+2
+D/home/den/01/3.Configs/tuxbox/config/oscamconfigs
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	oscam
+1
+D/home/den/01/3.Configs/tuxbox/config/oscam
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	oscamconfigs
+2
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	..
+0
+D/home/den/01/3.Configs
+	..
+0
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	oscamconfigs
+2
+D/home/den/01/3.Configs/tuxbox/config/oscamconfigs
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	..
+0
+D/home/den/01/3.Configs
+	..
+0
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	..
+0
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	..
+0
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	oscamconfigs
+2
+D/home/den/01/3.Configs/tuxbox/config/oscamconfigs
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	oscam
+1
+D/home/den/01/3.Configs/tuxbox/config/oscam
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	oscam
+1
+D/home/den/01/3.Configs/tuxbox/config/oscam
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	scce
+2
+D/home/den/01/3.Configs/tuxbox/scce
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	..
+0
+D/home/den/01/3.Configs
+	..
+0
+D/home/den/01
+	3.Configs
+1
+D/home/den/01/3.Configs
+	tuxbox
+1
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	..
+0
+D/home/den/01/3.Configs/tuxbox
+	config
+1
+D/home/den/01/3.Configs/tuxbox/config
+	oscam
+1
+D/home/den/01/3.Configs/tuxbox/config/oscam
+	..
+0
+D/home/den/01/3.Configs/tuxbox/config
+	oscam.conf
+4
+D
+
+# Command line history (oldest to newest):
+:mkdir vuplus
+:mkdir uno
+:mkdir Configs
+:mkdir Awesome
+:mkdir Lucius
+:mkdir awesome
+:mkdir Desktop
+:mkdir 20150911
+:touch log
+:touch .asoundrc
+:touch err
+:!run
+:touch test
+:touch apprenticexres
+:touch %f
+:touch 
+:mkdir Apprentice
+:mkdir newton
+:mkdir Fonts
+:mkdir pkg
+:run
+
+# Search history (oldest to newest):
+/pkgl
+/list
+/sess
+/how/
+/how
+/aba
+/ico
+/aso
+/asound
+/awes
+/tomorr
+/colo
+/app
+/cach
+/fire
+/deluge
+/ter
+/ncur
+/chill
+
+# Prompt history (oldest to newest):
+puno1
+pvim-session
+prc1
+plain
+prc2
+prc
+pblingbling
+pawesome2
+pawesome
+ptest
+pzenburn23
+p1gtk-2
+p1gtk-3
+ptime
+parchsi
+pconfigLuciusDark
+pconfigGotham
+pconfig
+pawesome1
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/den/.local/share/vifm/Trash/000_vim-hybrid-master
+	/home/den/.vim/bundle/vim-hybrid-master
+t/home/den/.local/share/vifm/Trash/000_wget-log
+	/home/den/wget-log
+t/home/den/.local/share/vifm/Trash/000_AndaleMono.ttf
+	/home/den/Yandex.Disk/AndaleMono.ttf
+t/home/den/.local/share/vifm/Trash/000_.vifm.7z
+	/home/den/.vifm.7z
+t/home/den/.local/share/vifm/Trash/000_.fuse_hidden000000bf00000004
+	/home/den/Desktop/.fuse_hidden000000bf00000004
+t/home/den/.local/share/vifm/Trash/000_.fuse_hidden000000bf00000008
+	/home/den/Desktop/.fuse_hidden000000bf00000008
+t/home/den/.local/share/vifm/Trash/000_.fuse_hidden000000bf00000009
+	/home/den/Desktop/.fuse_hidden000000bf00000009
+t/home/den/.local/share/vifm/Trash/000_.fuse_hidden000000bf0000000a
+	/home/den/Desktop/.fuse_hidden000000bf0000000a
+t/home/den/.local/share/vifm/Trash/000_LuciusDark
+	/home/den/.config/termite/LuciusDark
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
