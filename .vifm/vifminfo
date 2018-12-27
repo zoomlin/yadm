@@ -334,311 +334,311 @@ d/mnt/512/Audio/Frisky
 	FRISKY Inception - December 2018 - Marcelo Vasami (Part 2) [vk.com feelin_frisky].mp3
 3
 d/home/den/.config/termite
-	config1
-7
+	..
+0
 d
 
 # Right window history (oldest to newest):
+D/home/den/.duply
+	den
+1
+D/home/den
+	.zkbd
+15
+D/home/den/.zkbd
+	..
+0
+D/home/den
+	.conky
+5
+D/home/den/.conky
+	..
+0
+D/home/den
+	.config
+8
+D/home/den/.config
+	termite
+1
+D/home/den/.config/termite
+	..
+0
+D/home/den/.config
+	yay
+19
+D/home/den/.config/yay
+	..
+0
+D/home/den/.config
+	rofi-pass
+18
+D/home/den/.config/rofi-pass
+	..
+0
+D/home/den/.config
+	dunst
+5
+D/home/den
+	.config
+8
+D/home/den/.config
+	autostart
+15
+D/home/den/.config/autostart
+	..
+0
+D/home/den/.config
+	alsi
+5
+D/home/den/.config/alsi
+	..
+0
+D/home/den/.config
+	ob-autostart
+20
+D/home/den/.config/ob-autostart
+	..
+0
+D/home/den/.config
+	obmenu-generator
+21
+D/home/den/.config/obmenu-generator
+	..
+0
+D/home/den/.config
+	vim
+6
+D/home/den/.config/vim
+	yankround
+1
+D/home/den/.config/vim/yankround
+	..
+0
+D/home/den/.config/vim
+	yankround
+1
+D/home/den/.config
+	polybar
+12
+D/home/den/.config/polybar
+	..
+0
+D/home/den/.config
+	neofetch
+7
+D/home/den/.config/neofetch
+	..
+0
+D/home/den/.config
+	yay
+4
+D/home/den/.config/yay
+	..
+0
+D/home/den/.config
+	root
+14
+D/home/den/.config/root
+	usr
+1
+D/home/den/.config/root/usr
+	share
+1
+D/home/den/.config/root/usr/share
+	X11
+1
+D/home/den/.config/root/usr/share/X11
+	xkb
+1
+D/home/den/.config/root/usr/share/X11/xkb
+	symbols
+1
+D/home/den/.config/root/usr/share/X11/xkb/symbols
+	..
+0
+D/home/den/.config/root/usr/share/X11/xkb
+	symbols
+1
+D/home/den/.config/root/usr/share/X11
+	xkb
+1
+D/home/den/.config/root/usr/share
+	X11
+1
+D/home/den/.config/root/usr
+	share
+1
+D/home/den/.config/root
+	usr
+1
+D/home/den/.config
+	rclone
+8
+D/home/den/.config/rclone
+	..
+0
+D/home/den/.config
+	..
+0
+D/home/den
+	.vim
+11
+D/home/den/.vim
+	..
+0
+D/home/den
+	.themes
+13
+D/home/den/.themes
+	ArchLabs-Dark
+1
+D/home/den
+	.themes
+13
+D/home/den/.themes
+	Mirro
+2
+D/home/den/.themes/Mirro
+	..
+0
+D/home/den/.themes
+	..
+0
+D/home/den
+	.dotfiles.git
+5
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.dotfiles.git
+1
+D/home/den/.dotfiles.git
+	..
+0
+D/home/den
+	.thumbnails
+6
+D/home/den/.cache/yay
+	completion.cache
+1
+D/home/den/.cache
+	openbox
+2
+D/home/den/.cache/openbox
+	..
+0
 D/home/den/.cache
 	yay
 1
 D/home/den/.cache/yay
 	completion.cache
 1
-D/mnt/512/2watch
-	Aranyélet.S02.1080p.WEB-DL.Rus.EniaHD
-2
-D/mnt/512/2watch/Aranyélet.S02.1080p.WEB-DL.Rus.EniaHD
-	..
-0
-D/mnt/512/2watch
-	Космос. Пространство и время
-1
-D/mnt/512/2watch/Космос. Пространство и время
-	..
-0
-D/mnt/512/2watch
-	Космос. Пространство и время
-1
-D/mnt/512/2watch/Космос. Пространство и время
-	..
-0
-D/mnt/512/2watch
-	Космос. Пространство и время
-1
-D/mnt/512/2watch/Космос. Пространство и время
-	..
-0
-D/home/den
-	..
-0
-D/mnt/Now/Soft
-	Linux
-1
-D/mnt/Now/Soft/Linux
-	..
-0
-D/mnt/Now/Soft
-	Linux
-1
-D/mnt/Now/Soft/Linux
-	yadm-master.zip
-19
-D/tmp/vifm_FUSE/001_yadm-master.zip
-	yadm-master
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
-	.config
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
-	..
-0
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
-	.vimrc
-22
-D/tmp/vifm_FUSE/001_yadm-master.zip
-	..
-0
-D/mnt/Now/Soft/Linux
-	yadm-master.zip
-19
-D/tmp/vifm_FUSE/001_yadm-master.zip
-	yadm-master
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
-	.zsh
-14
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.zsh
-	..
-0
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
-	.config
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
-	..
-0
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
-	.config
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
-	awesome
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config/awesome
-	..
-0
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
-	sxhkd
-8
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config/sxhkd
-	..
-0
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master/.config
-	sxhkd
-8
-D/tmp/vifm_FUSE/001_yadm-master.zip/yadm-master
-	.config
-1
-D/tmp/vifm_FUSE/001_yadm-master.zip
-	yadm-master
-1
-D/mnt/Now/Soft/Linux
-	Configs-master.zip
-18
-D/tmp/vifm_FUSE/001_Configs-master.zip
-	..
-0
-D/mnt/Now/Soft/Linux
-	Archlabs
-1
-D/mnt/Now/Soft/Linux/Archlabs
-	..
-0
-D/mnt/Now/Soft/Linux
-	OpenBox
-12
-D/mnt/Now/Soft/Linux/OpenBox
-	..
-0
-D/mnt/Now/Soft/Linux
-	..
-0
-D/mnt/Now/Soft
-	Linux
-1
-D/mnt/Now/Soft/Linux
-	Archlabs
-1
-D/mnt/Now/Soft/Linux/Archlabs
-	..
-0
-D/mnt/Now/Soft/Linux
-	Themes
-10
-D/mnt/Now/Soft/Linux/Themes
-	..
-0
-D/mnt/Now/Soft/Linux
-	Arco
-4
-D/mnt/Now/Soft/Linux/Arco
-	..
-0
-D/mnt/Now/Soft/Linux
-	I3
-3
-D/mnt/Now/Soft/Linux/I3
-	..
-0
-D/mnt/Now/Soft/Linux
-	WMs
-2
-D/mnt/Now/Soft/Linux/WMs
-	..
-0
-D/mnt/Now/Soft/Linux
-	7z
-8
-D/mnt/Now/Soft/Linux/7z
-	config
-1
-D/mnt/Now/Soft/Linux/7z/config
-	.config
-1
-D/mnt/Now/Soft/Linux/7z/config/.config
-	rclone
-1
-D/mnt/Now/Soft/Linux/7z/config/.config/rclone
-	..
-0
-D/mnt/Now/Soft/Linux/7z/config/.config
+D/home/den/.cache
 	yay
-3
-D/mnt/Now/Soft/Linux/7z/config/.config/yay
-	..
-0
-D/mnt/Now/Soft/Linux/7z/config/.config
-	yay
-3
-D/mnt/Now/Soft/Linux/7z/config/.config/yay
-	config.json
 1
-D/home/den
-	.dotfiles.git
-1
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.dotfiles.git
-1
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.dotfiles.git
-1
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.dotfiles.git
-2
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.config
-7
-D/home/den/.config
-	..
-0
-D/home/den
-	.dotfiles.git
-1
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.dotfiles.git
-5
-D/home/den/.dotfiles.git
-	config
-7
-D/home/den
-	.dotfiles.git
-5
-D/home/den/.dotfiles.git
-	objects
-1
-D/home/den
-	.dotfiles.git
-5
-D/home/den/.dotfiles.git
-	objects
-1
-D/home/den
-	.git
-1
-D/home/den/.git
-	..
-0
-D/home/den
-	.java
-16
 D/home/den/.cache/yay
-	yadm-git
+	vcs.json
+2
+D/home/den/.cache
+	openbox
+2
+D/home/den/.cache/openbox
+	sessions
 1
-D/home/den/.cache/yay/yadm-git
-	yadm-git-1.12.0.r0.g09a018e-1-any.pkg.tar.xz
+D/home/den/.cache/openbox/sessions
+	..
+0
+D/home/den/.cache/openbox
+	sessions
+1
+D/home/den/.cache
+	..
+0
+D/home/den
+	.cache
+5
+D/home/den/.cache
+	openbox
+2
+D/home/den/.cache/openbox
+	openbox.log
+2
+D/home/den/.cache
+	fsh
 3
+D/home/den/.cache/fsh
+	..
+0
+D/home/den/.cache
+	fsh
+3
+D/home/den/.cache/fsh
+	..
+0
+D/home/den/.cache
+	fsh
+3
+D/home/den
+	Downloads
+4
+D/home/den/Downloads
+	..
+0
+D/home/den
+	.dotfiles.git
+1
+D/home/den/.dotfiles.git
+	branches
+1
+D/home/den
+	.zsh
+5
+D/home/den/.zsh
+	..
+0
+D/home/den
+	.ssh
+21
+D/home/den/.ssh
+	..
+0
+D/home/den
+	.gnupg
+9
+D/home/den/.gnupg
+	..
+0
+D/home/den
+	.config
+5
+D/home/den/.config
+	alsi
+5
+D/home/den/.config/alsi
+	alsi.wm
+6
+D/home/den/.config
+	alsi
+5
+D/home/den
+	.config
+2
+D/mnt/512/2watch
+	..
+0
+D/mnt/512
+	Video
+6
+D/mnt/512/Video
+	XXX
+1
+D/mnt/512/Video/XXX
+	Best
+1
+D/mnt/512/Video/XXX/Best
+	[ebalka.cc]_ojidaya-v-priemnoy-uspel-ottrahat-sekretarshu-v-popku.mp4
+10
 D
 
 # Command line history (oldest to newest):
@@ -826,6 +826,7 @@ D
 /tint
 /compt
 /the
+/ya
 /gtk
 /rofi
 /ice
@@ -842,10 +843,11 @@ D
 /zplu
 /ru
 /bedr
-/ya
 /git
 
 # Prompt history (oldest to newest):
+psettings
+psettings2
 psettings1
 psettings3
 pLucidaConsole.ttf
@@ -886,6 +888,8 @@ pconfig6
 pconfig8
 pохотники.за.головами.2011.BDRip.1080p.Rus.mkv
 pArmin van Buuren - A State of Trance 173 XXL (4.11.2004) (Matthew Dekay Mix + Armin van Buuren Live).mp4.part
+p.dotfiles1.git
+p.dotfiles.git
 pMirro
 pgtk.css1
 pgtk.css
@@ -942,10 +946,6 @@ p.vimrc1
 pCD1.flac
 pCD2.flac
 pconfig.snazzy
-p.dotfiles1.git
-p.gitignore1
-p.gitignore
-p.dotfiles.git
 
 # Local filter history (oldest to newest):
 |====

@@ -8,12 +8,12 @@ setlocal fdl=10
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 469 - ((17 * winheight(0) + 17) / 34)
+let s:l = 42 - ((25 * winheight(0) + 17) / 34)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-469
-normal! 045|
+42
+normal! 041|
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :
