@@ -1,0 +1,17 @@
+#!/bin/bash
+rm -rf /home/den/.cache/deadbeef
+rm -rf "/home/den/.cache/moonchild productions"
+rm -rf /home/den/.local/share/vifm/Trash
+rm -f /home/den/.tmux/resurrect/*.txt
+rm -f /home/den/agedu.dat
+rm -rf /home/den/.cache/thumbnails
+sudo rm -rf /var/log/journal/*.*
+rm -rf /home/den/.tixati/incomplete-pieces/*.*
+sudo rm -rf /var/lib/systemd/coredump/*.*
+rm -rf /home/den/.thumbnails/normal
+rm -rf /home/den/.adobe/Flash_Player/AssetCache
+rm -rf /home/den/.cache/pacaur
+rm -rf /home/den/.vim/view
+rm -rf /home/den/.cache/media-art
+rm -rf /home/den/.cache/rygel
+rm -rf /home/den/.cache/tracker

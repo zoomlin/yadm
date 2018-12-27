@@ -1,0 +1,129 @@
+#!/bin/bash
+
+echo "##################################################"
+echo "    join flac songs into single image "
+echo "    and generate cue file"
+echo "    scripts by hitmoon, <zxq_yx_007@163.com>"
+echo "##################################################"
+
+OUT_NAME=""
+IN_FILES=""
+TOTAL=0
+
+if [ $# -lt 2 ];then
+	echo "$0 [-o output]  <file1> <file2> [file3] ..."
+	exit 1;
+fi
+
+while [ $# -gt 0 ]; 
+do
+    case $1 in
+	-o)
+	    if [ -z $2 ]; then
+		echo "-o option need output file name "
+		exit 1
+	    fi
+	    OUT_NAME=$2
+	    shift 2;;
+	*)
+	    IN_FILES="$IN_FILES$1 "
+	    TOTAL=$(($TOTAL + 1))
+	    shift;;
+    esac
+done
+
+IN_FILES=$(ls $IN_FILES 2>/dev/null | tr '\n' ' ')
+echo -e "input files:\n$IN_FILES\n"
+
+HERE=$(pwd)
+if [[ $1 =~ ^/ ]]; then
+    DIR=${1%/*}
+else
+    DIR1="$HERE/$1"
+    DIR=${DIR1%/*}
+fi
+
+CUE=$(basename "$1")
+test_bin()
+{
+    for p in "$@"
+    do
+	type "$p" &>/dev/null
+	if [ $? -ne 0 ]; then
+	    echo "You must install package \"$p\" first!!"
+	    exit 1
+	fi
+    done
+}
+
+
+gen_cue()
+{
+    echo "Generating cue file ..."
+    shncue  flac $IN_FILES > joined.cue
+    [ "X$OUT_NAME" != "X" ] && mv -v joined.cue $OUT_NAME.cue
+    echo 
+}
+
+join()
+{
+  echo "join files ... "
+  shnjoin -o flac $IN_FILES
+
+  [ "X$OUT_NAME" != "X" ] && mv -v joined.flac $OUT_NAME.flac
+
+   echo
+
+}
+
+mod_cue()
+{
+    if [ "X$OUT_NAME" != "X" ]; then
+	CUE_FILE=$OUT_NAME.cue
+	OUT_FILE=$OUT_NAME.flac
+    else
+	CUE_FILE=joined.cue
+	OUT_FILE=joined.flac
+    fi
+
+    TITLE=${CUE_FILE%.cue}
+    echo -e "Add album title ...\n"
+    sed -i '1i \
+TITLE "'"$TITLE"'"' $CUE_FILE
+
+    
+    echo -e "Modifing FILE directive ...\n"
+    sed  -i '/ *FILE/s/joined.wav/'"$OUT_FILE"'/' $CUE_FILE
+
+    echo -e "Add song title ...\n"
+    n=1
+    for s in $IN_FILES
+    do
+	s=$(basename $s)
+	f=${s%.flac}
+	echo "Add title of track $n: $f"
+	sed -i '/TRACK 0*'"$n"' /a \
+    TITLE "'"$f"'"' $CUE_FILE
+
+	n=$(($n + 1))
+    done
+	
+}
+
+cong(){
+
+echo "##################################################"
+echo "Done, Have fun!"
+echo "##################################################"
+
+}
+
+test_bin shntool
+#[ "X$HERE" != "X$DIR" ] && cd "${DIR}"
+gen_cue
+mod_cue
+join
+cong
+
+#[ "X$HERE" != "X$DIR" ] && cd "${HERE}"
+

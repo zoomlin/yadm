@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+rofi -no-config -modi run,drun,window -show drun \
+    -eh 1 -line-padding 4 -padding 50 -sidebar-mode \
+    -show-icons -drun-icon-theme "ArchLabs-Light" \
+    -font "Operator Mono 16" -color-enabled \
+    -color-window "#1b1818, #8a8585, #1b1818" \
+    -color-normal "#1b1818, #8a8585, #1b1818, #8a8585, #1b1818"

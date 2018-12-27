@@ -1,0 +1,43 @@
+
+#!/bin/zsh
+
+function get_file_metadata(){
+	print "Aquiring metadata for $1"
+	PERFORMER=$(metaflac --show-tag=ARTIST "$1"|cut -d"=" -f2)
+	TITLE=$(metaflac --show-tag=TITLE "$1"|cut -d"=" -f2)
+	TRACKNUMBER=$(metaflac --show-tag=TRACKNUMBER "$1"|cut -d"=" -f2)
+}
+
+function get_album_metadata(){
+	print "Aquiring album metadata"
+	ALBUM=$(metaflac --show-tag=ALBUM "$1"|cut -d"=" -f2)
+	DATE=$(metaflac --show-tag=DATE "$1"|cut -d"=" -f2)
+	GENRE=$(metaflac --show-tag=GENRE "$1"|cut -d"=" -f2)
+	PERFORMER=$(metaflac --show-tag=ARTIST "$1"|cut -d"=" -f2)
+}
+
+get_album_metadata 01.*.flac
+
+print "Writing CUE header..."
+echo "REM GENRE \"$GENRE\"" > cue
+echo "REM DATE $DATE" >> cue
+echo "PERFORMER \"$PERFORMER\"" >> cue
+echo "TITLE \"$ALBUM\"" >> cue
+echo "FILE \"$DATE. $ALBUM.flac\" WAVE" >> cue
+
+print "Writing track entries..."
+foreach flac (*.flac) get_file_metadata "$flac";
+	INDEX=$(shncue *.flac|grep -A1 "TRACK $TRACKNUMBER"|tail -1)
+	echo "  TRACK $TRACKNUMBER AUDIO" >> cue
+	echo "    TITLE \"$TITLE\"" >> cue
+	echo "    PERFORMER \"$PERFORMER\"" >> cue
+	echo "$INDEX" >>cue
+end
+
+print "Joining tracks..."
+OUTFILE="$DATE. $ALBUM"
+shnjoin -o flac -a "$OUTFILE" -q *.flac
+
+print "Embedding CUE..."
+metaflac --set-tag-from-file="CUESHEET=cue" --import-cuesheet-from="cue"\
+	"$OUTFILE.flac"

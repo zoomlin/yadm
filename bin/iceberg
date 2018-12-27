@@ -1,0 +1,54 @@
+#! /bin/bash
+
+rm -f /home/den/.config/termite/config
+cp  /home/den/.config/termite/themes/Iceberg/config /home/den/.config/termite/config
+rm -f /home/den/.vifm/colors/default
+ln -s "/home/den/.config/tdf/Iceberg/matrix(Miro).vifm" "/home/den/.vifm/colors/default"
+
+rm -f /home/den/.vim/plug.vim
+ln -s "/home/den/.config/tdf/Iceberg/plugM.vim" "/home/den/.vim/plug.vim"
+
+
+rm -f /home/den/.vimrc
+ln -s "/home/den/.config/tdf/Iceberg/.vimrc" "/home/den/.vimrc"
+
+rm -f /home/den/.config/interrobang/config
+ln -s "/home/den/.config/tdf/Iceberg/config" /home/den/.config/interrobang/config
+
+rm -f /home/den/.stalonetrayrc
+ln -s "/home/den/.config/tdf/Iceberg/stalonetrayrc" "/home/den/.stalonetrayrc"
+
+rm -f /home/den/.xinitrc
+ln -s "/home/den/.config/tdf/Iceberg/.xinitrc" "/home/den/.xinitrc"
+
+rm -f /home/den/.Xdefaults
+ln -s "/home/den/.config/tdf/Iceberg/.Xdefaults.Iceberg" /home/den/.Xdefaults
+
+rm -f /home/den/.config/bspwm/bspwmrc
+ln -s "/home/den/.config/tdf/Iceberg/bspwmrc.iceberg" /home/den/.config/bspwm/bspwmrc
+
+rm -f /home/den/.config/yabar/yabar.conf
+ln -s "/home/den/.config/tdf/Iceberg/yabar.conf" /home/den/.config/yabar/yabar.conf
+
+rm -f /home/den/.config/sxhkd/sxhkdrc
+ln -s "/home/den/.config/tdf/Iceberg/sxhkdrc" /home/den/.config/sxhkd/sxhkdrc
+
+rm -f /home/den/bin/mpdmenu
+ln -s "/home/den/.config/tdf/Iceberg/mpdmenu" /home/den/bin/mpdmenu
+
+rm -f /home/den/bin/powermenu
+ln -s "/home/den/.config/tdf/Iceberg/powermenu" /home/den/bin/powermenu
+
+rm -f /home/den/term.png
+ln -s "/home/den/.config/tdf/Iceberg/term.png" /home/den/term.png
+
+rm -f "/home/den/.gtkrc-2.0"
+ln -s "/home/den/.config/tdf/Iceberg/settings.ini" "/home/den/.gtkrc-2.0"
+
+rm -f /home/den/.config/dunst/dunstrc
+ln -s "/home/den/.config/tdf/Iceberg/dunstrc" /home/den/.config/dunst/dunstrc
+
+rm -f /home/den/.config/dmenu-extended/config/dmenuExtended_preferences.txt
+ln -s "/home/den/.config/tdf/Iceberg/dmenuExtended_preferences" "/home/den/.config/dmenu-extended/config/dmenuExtended_preferences.txt"
+
+cln;sudo systemctl restart lightdm
