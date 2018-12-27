@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 December 2018 at 19:14:12.
+" Created by session.vim 2.13.1 on 28 December 2018 at 00:58:23.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=ie
@@ -20,18 +20,16 @@ let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/.config
+cd ~/
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +93 compton.conf
-badd +679 ~/.zshrc
-badd +1 ~/.zsh/aliases.sh
+badd +0 .xinitrc
 argglobal
 silent! argdel *
-$argadd compton.conf
-edit ~/.zsh/aliases.sh
+$argadd .xinitrc
+edit .xinitrc
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -49,12 +47,12 @@ setlocal fdl=10
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 63 - ((23 * winheight(0) + 17) / 34)
+let s:l = 30 - ((20 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-63
-normal! 04|
+30
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
 "   silent exe 'bwipe ' . s:wipebuf

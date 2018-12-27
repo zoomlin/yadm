@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/dotf
+~MSle0~/fb2
 
 # Last Substitute Search Pattern:
 ~MSle0&\<8fa1b3\>
@@ -195,7 +195,15 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1545927251,,"\\s\\+$"
+|2,1,1545947796,,"\\s\\+$"
+?/fb2
+|2,1,1545947755,47,"fb2"
+?/rygel
+|2,1,1545947727,47,"rygel"
+?/pma
+|2,1,1545945338,47,"pma"
+?/iso
+|2,1,1545944919,47,"iso"
 ?/dotf
 |2,1,1545923302,47,"dotf"
 ?/git
@@ -929,328 +937,362 @@ $
 	color21 = #e7dfdf
 |3,0,0,1,48,0,1545925902,"[colors]","# Base16 Atelier Plateau","# Author: Bram de Haan (http://atelierbramdehaan.nl)","","foreground      = #8a8585","foreground_bold = #e7dfdf","cursor          = #e7dfdf","background      = #1b1818","","# 16 color space","","# Black, Gray, Silver, White","color0  = #1b1818","color8  = #655d5d","color7  = #8a8585","color15 = #f4ecec","","# Red","color1  = #ca4949","color9  = #ca4949","","# Green","color2  = #4b8b8b",>19
 |<"color10 = #4b8b8b","","# Yellow","color3  = #a06e3b","color11 = #a06e3b","","# Blue","color4  = #7272ca","color12 = #7272ca","","# Purple","color5  = #8464c4","color13 = #8464c4","","# Teal","color6  = #5485b6","color14 = #5485b6","","# Extra colors","color16 = #b45a3c","color17 = #bd5187","color18 = #292424","color19 = #585050","color20 = #7e7777","color21 = #e7dfdf"
-"1	LINE	0
-	kutsan/zsh-system-clipboard
-|3,0,1,1,1,0,1545849689,"kutsan/zsh-system-clipboard"
+""1	LINE	0
+	item=GTK Theme Switch
+	cmd=gtk-theme-switch2
+	icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
+	iconsize = 16
+	iconsize = 16
+	
+|3,1,1,1,6,0,1545947794,"item=GTK Theme Switch","cmd=gtk-theme-switch2","icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg","iconsize = 16","iconsize = 16",""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1545849643,""
+	
+	SEPARATOR
+|3,0,2,1,3,0,1545947769,"","","SEPARATOR"
 "3	LINE	0
-	[colors]
-	# Base16 Atelier Plateau
-	# Author: Bram de Haan (http://atelierbramdehaan.nl)
-	
-	foreground      = #8a8585
-	foreground_bold = #e7dfdf
-	cursor          = #e7dfdf
-	background      = #1b1818
-	
-	# 16 color space
-	
-	# Black, Gray, Silver, White
-	color0  = #1b1818
-	color8  = #655d5d
-	color7  = #8a8585
-	color15 = #f4ecec
-	
-	# Red
-	color1  = #ca4949
-	color9  = #ca4949
-	
-	# Green
-	color2  = #4b8b8b
-	color10 = #4b8b8b
-	
-	# Yellow
-	color3  = #a06e3b
-	color11 = #a06e3b
-	
-	# Blue
-	color4  = #7272ca
-	color12 = #7272ca
-	
-	# Purple
-	color5  = #8464c4
-	color13 = #8464c4
-	
-	# Teal
-	color6  = #5485b6
-	color14 = #5485b6
-	
-	# Extra colors
-	color16 = #b45a3c
-	color17 = #bd5187
-	color18 = #292424
-	color19 = #585050
-	color20 = #7e7777
-	color21 = #e7dfdf
-|3,0,3,1,48,0,1545818475,"[colors]","# Base16 Atelier Plateau","# Author: Bram de Haan (http://atelierbramdehaan.nl)","","foreground      = #8a8585","foreground_bold = #e7dfdf","cursor          = #e7dfdf","background      = #1b1818","","# 16 color space","","# Black, Gray, Silver, White","color0  = #1b1818","color8  = #655d5d","color7  = #8a8585","color15 = #f4ecec","","# Red","color1  = #ca4949","color9  = #ca4949","","# Green","color2  = #4b8b8b",>19
-|<"color10 = #4b8b8b","","# Yellow","color3  = #a06e3b","color11 = #a06e3b","","# Blue","color4  = #7272ca","color12 = #7272ca","","# Purple","color5  = #8464c4","color13 = #8464c4","","# Teal","color6  = #5485b6","color14 = #5485b6","","# Extra colors","color16 = #b45a3c","color17 = #bd5187","color18 = #292424","color19 = #585050","color20 = #7e7777","color21 = #e7dfdf"
+	item=Fb2-Reader
+	cmd=simple-fb2-reader
+	icon= /home/den/bmpicons/accessories-text-editor.png
+	iconsize = 16
+	iconsize = 16
+|3,0,3,1,5,0,1545947762,"item=Fb2-Reader","cmd=simple-fb2-reader","icon= /home/den/bmpicons/accessories-text-editor.png","iconsize = 16","iconsize = 16"
 "4	LINE	0
-	SPACESHIP_BATTERY_SHOW=true
-|3,0,4,1,1,0,1545766046,"SPACESHIP_BATTERY_SHOW=true"
+	
+|3,0,4,1,1,0,1545947739,""
 "5	LINE	0
-	SPACESHIP_PROMPT_ORDER=(
-	  user          # Username section
-	  dir           # Current directory section
-	  host          # Hostname section
-	  git           # Git section (git_branch + git_status)
-	  hg            # Mercurial section (hg_branch  + hg_status)
-	  exec_time     # Execution time
-	  line_sep      # Line break
-	  vi_mode       # Vi-mode indicator
-	  jobs          # Background jobs indicator
-	  exit_code     # Exit code section
-	  char          # Prompt character
-	)
 	
-	SPACESHIP_PROMPT_ADD_NEWLINE=false
-	SPACESHIP_CHAR_SYMBOL="❯"
-|3,0,5,1,16,0,1545764846,"SPACESHIP_PROMPT_ORDER=(","  user          # Username section","  dir           # Current directory section","  host          # Hostname section","  git           # Git section (git_branch + git_status)","  hg            # Mercurial section (hg_branch  + hg_status)","  exec_time     # Execution time","  line_sep      # Line break","  vi_mode       # Vi-mode indicator","  jobs          # Background jobs indicator",>37
-|<"  exit_code     # Exit code section","  char          # Prompt character",")","","SPACESHIP_PROMPT_ADD_NEWLINE=false","SPACESHIP_CHAR_SYMBOL=\"❯\""
+|3,0,5,1,1,0,1545947738,""
 "6	LINE	0
-	bhilburn/powerlevel9k
-|3,0,6,1,1,0,1545763353,"bhilburn/powerlevel9k"
-"7	CHAR	0
-	POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='clear'
-	POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='magenta'
 	
-|3,0,7,0,3,0,1545753314,"POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='clear'","POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='magenta'",""
+|3,0,6,1,1,0,1545947738,""
+"7	LINE	0
+	iconsize = 16
+	item=Restart Rygel
+	cmd=rygel -r
+	icon=/home/den/bmpicons/artifact-wrench.png
+	iconsize = 16
+|3,0,7,1,5,0,1545947736,"iconsize = 16","item=Restart Rygel","cmd=rygel -r","icon=/home/den/bmpicons/artifact-wrench.png","iconsize = 16"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1545751891,""
+	  # Source: https://askubuntu.com/a/880484
+|3,0,8,1,1,0,1545945703,"  # Source: https://askubuntu.com/a/880484"
 "9	LINE	0
-	POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%K{white}%F{black} uname -n %K{black}%F{white}\UE0BC : "
-|3,0,9,1,1,0,1545751666,"POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=\"%K{white}%F{black} uname -n %K{black}%F{white}\\UE0BC : \""
-""-	CHAR	0
+	kutsan/zsh-system-clipboard
+|3,0,9,1,1,0,1545849689,"kutsan/zsh-system-clipboard"
+"-	CHAR	0
 	dotfiles
-|3,1,36,0,1,0,1545927195,"dotfiles"
+|3,0,36,0,1,0,1545927195,"dotfiles"
 
 # File marks:
 'A  20  0  /boot/grub/grub.cfg
 |4,65,20,0,1519305780,"/boot/grub/grub.cfg"
-'0  63  3  ~/.zsh/aliases.sh
-|4,48,63,3,1545927252,"~/.zsh/aliases.sh"
-'1  42  40  ~/.zsh/aliases.sh
-|4,49,42,40,1545927136,"~/.zsh/aliases.sh"
-'2  42  40  ~/.zsh/aliases.sh
-|4,50,42,40,1545927136,"~/.zsh/aliases.sh"
-'3  679  23  ~/.zshrc
-|4,51,679,23,1545925933,"~/.zshrc"
-'4  679  23  ~/.zshrc
-|4,52,679,23,1545925933,"~/.zshrc"
-'5  679  23  ~/.zshrc
-|4,53,679,23,1545925933,"~/.zshrc"
-'6  679  23  ~/.zshrc
-|4,54,679,23,1545925933,"~/.zshrc"
-'7  103  0  ~/.config/compton.conf
-|4,55,103,0,1545924395,"~/.config/compton.conf"
-'8  103  0  ~/.config/compton.conf
-|4,56,103,0,1545924395,"~/.config/compton.conf"
-'9  103  0  ~/.config/compton.conf
-|4,57,103,0,1545924395,"~/.config/compton.conf"
+'0  30  0  ~/.xinitrc
+|4,48,30,0,1545947904,"~/.xinitrc"
+'1  11  0  ~/mygtkmenu
+|4,49,11,0,1545947796,"~/mygtkmenu"
+'2  44  0  ~/mygtkmenu
+|4,50,44,0,1545947771,"~/mygtkmenu"
+'3  50  0  ~/mygtkmenu
+|4,51,50,0,1545947771,"~/mygtkmenu"
+'4  57  0  ~/mygtkmenu
+|4,52,57,0,1545947740,"~/mygtkmenu"
+'5  65  0  ~/mygtkmenu
+|4,53,65,0,1545947740,"~/mygtkmenu"
+'6  63  0  ~/mygtkmenu
+|4,54,63,0,1545947740,"~/mygtkmenu"
+'7  71  0  ~/mygtkmenu
+|4,55,71,0,1545947740,"~/mygtkmenu"
+'8  1  0  /boot/grub/grub.cfg
+|4,56,1,0,1545945769,"/boot/grub/grub.cfg"
+'9  404  33  ~/Downloads/grub.cfg
+|4,57,404,33,1545945713,"~/Downloads/grub.cfg"
 
 # Jumplist (newest first):
--'  63  3  ~/.zsh/aliases.sh
-|4,39,63,3,1545927252,"~/.zsh/aliases.sh"
--'  42  40  ~/.zsh/aliases.sh
-|4,39,42,40,1545927136,"~/.zsh/aliases.sh"
--'  42  40  ~/.zsh/aliases.sh
-|4,39,42,40,1545927136,"~/.zsh/aliases.sh"
--'  481  30  ~/.zsh/aliases.sh
-|4,39,481,30,1545927028,"~/.zsh/aliases.sh"
--'  481  30  ~/.zsh/aliases.sh
-|4,39,481,30,1545927028,"~/.zsh/aliases.sh"
--'  679  23  ~/.zshrc
-|4,39,679,23,1545927026,"~/.zshrc"
--'  679  23  ~/.zshrc
-|4,39,679,23,1545927026,"~/.zshrc"
--'  679  23  ~/.zshrc
-|4,39,679,23,1545925933,"~/.zshrc"
--'  597  28  ~/.zshrc
-|4,39,597,28,1545925921,"~/.zshrc"
--'  597  28  ~/.zshrc
-|4,39,597,28,1545925921,"~/.zshrc"
--'  597  28  ~/.zshrc
-|4,39,597,28,1545925921,"~/.zshrc"
--'  93  0  ~/.config/compton.conf
-|4,39,93,0,1545925919,"~/.config/compton.conf"
--'  93  0  ~/.config/compton.conf
-|4,39,93,0,1545925919,"~/.config/compton.conf"
--'  93  0  ~/.config/compton.conf
-|4,39,93,0,1545925919,"~/.config/compton.conf"
--'  103  0  ~/.config/compton.conf
-|4,39,103,0,1545924395,"~/.config/compton.conf"
--'  103  0  ~/.config/compton.conf
-|4,39,103,0,1545924395,"~/.config/compton.conf"
--'  103  0  ~/.config/compton.conf
-|4,39,103,0,1545924395,"~/.config/compton.conf"
--'  103  0  ~/.config/compton.conf
-|4,39,103,0,1545924395,"~/.config/compton.conf"
--'  1  0  ~/.config/compton.conf
-|4,39,1,0,1545924392,"~/.config/compton.conf"
--'  1  0  ~/.config/compton.conf
-|4,39,1,0,1545924392,"~/.config/compton.conf"
--'  1  0  ~/.config/compton.conf
-|4,39,1,0,1545924392,"~/.config/compton.conf"
--'  1  0  ~/.config/compton.conf
-|4,39,1,0,1545924392,"~/.config/compton.conf"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  14  0  ~/.config/obmenu-generator/schema.pl
-|4,39,14,0,1545924379,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  1  0  ~/.config/obmenu-generator/schema.pl
-|4,39,1,0,1545924378,"~/.config/obmenu-generator/schema.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  102  0  ~/.config/obmenu-generator/config.pl
-|4,39,102,0,1545924377,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
--'  1  0  ~/.config/obmenu-generator/config.pl
-|4,39,1,0,1545924374,"~/.config/obmenu-generator/config.pl"
+-'  30  0  ~/.xinitrc
+|4,39,30,0,1545947904,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1545947901,"~/.xinitrc"
+-'  11  0  ~/mygtkmenu
+|4,39,11,0,1545947796,"~/mygtkmenu"
+-'  11  0  ~/mygtkmenu
+|4,39,11,0,1545947796,"~/mygtkmenu"
+-'  44  0  ~/mygtkmenu
+|4,39,44,0,1545947771,"~/mygtkmenu"
+-'  50  0  ~/mygtkmenu
+|4,39,50,0,1545947771,"~/mygtkmenu"
+-'  44  0  ~/mygtkmenu
+|4,39,44,0,1545947771,"~/mygtkmenu"
+-'  50  0  ~/mygtkmenu
+|4,39,50,0,1545947771,"~/mygtkmenu"
+-'  57  0  ~/mygtkmenu
+|4,39,57,0,1545947755,"~/mygtkmenu"
+-'  63  0  ~/mygtkmenu
+|4,39,63,0,1545947755,"~/mygtkmenu"
+-'  57  0  ~/mygtkmenu
+|4,39,57,0,1545947755,"~/mygtkmenu"
+-'  63  0  ~/mygtkmenu
+|4,39,63,0,1545947755,"~/mygtkmenu"
+-'  65  0  ~/mygtkmenu
+|4,39,65,0,1545947740,"~/mygtkmenu"
+-'  71  0  ~/mygtkmenu
+|4,39,71,0,1545947740,"~/mygtkmenu"
+-'  65  0  ~/mygtkmenu
+|4,39,65,0,1545947740,"~/mygtkmenu"
+-'  71  0  ~/mygtkmenu
+|4,39,71,0,1545947740,"~/mygtkmenu"
+-'  1  48  ~/mygtkmenu
+|4,39,1,48,1545947727,"~/mygtkmenu"
+-'  1  48  ~/mygtkmenu
+|4,39,1,48,1545947727,"~/mygtkmenu"
+-'  1  48  ~/mygtkmenu
+|4,39,1,48,1545947727,"~/mygtkmenu"
+-'  1  48  ~/mygtkmenu
+|4,39,1,48,1545947727,"~/mygtkmenu"
+-'  1  48  ~/mygtkmenu
+|4,39,1,48,1545947727,"~/mygtkmenu"
+-'  1  48  ~/mygtkmenu
+|4,39,1,48,1545947727,"~/mygtkmenu"
+-'  59  38  ~/mygtkmenu
+|4,39,59,38,1545947716,"~/mygtkmenu"
+-'  67  38  ~/mygtkmenu
+|4,39,67,38,1545947716,"~/mygtkmenu"
+-'  65  38  ~/mygtkmenu
+|4,39,65,38,1545947716,"~/mygtkmenu"
+-'  73  38  ~/mygtkmenu
+|4,39,73,38,1545947716,"~/mygtkmenu"
+-'  59  38  ~/mygtkmenu
+|4,39,59,38,1545947716,"~/mygtkmenu"
+-'  67  38  ~/mygtkmenu
+|4,39,67,38,1545947716,"~/mygtkmenu"
+-'  65  38  ~/mygtkmenu
+|4,39,65,38,1545947716,"~/mygtkmenu"
+-'  73  38  ~/mygtkmenu
+|4,39,73,38,1545947716,"~/mygtkmenu"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  1  0  /boot/grub/grub.cfg
+|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  404  33  ~/Downloads/grub.cfg
+|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  375  18  ~/Downloads/grub.cfg
+|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
+-'  373  28  ~/Downloads/grub.cfg
+|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
+-'  376  19  ~/Downloads/grub.cfg
+|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
 
 # History of marks within files (newest to oldest):
+
+> ~/.xinitrc
+	*	1545947903	0
+	"	30	0
+
+> ~/mygtkmenu
+	*	1545947794	0
+	"	11	0
+	.	11	0
+	+	57	0
+	+	44	0
+	+	11	0
+
+> ~/Downloads/grub.cfg
+	*	1545945709	0
+	"	404	33
+	.	79	0
+	+	400	0
+	+	79	0
+
+> ~/.vifm/vifmrc
+	*	1545944953	0
+	"	284	2
+
+> ~/config
+	*	1545943242	0
+	"	1	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.Xresources
+	*	1545934347	0
+	"	158	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.zshrc
+	*	1545934337	0
+	"	18	8
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.ncmpcpp/art.sh
+	*	1545934233	0
+	"	41	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3/config
+	*	1545934218	0
+	"	207	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/termite/config
+	*	1545934195	0
+	"	1	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar/config-openbox
+	*	1545934176	0
+	"	1	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/openbox/rc.xml
+	*	1545934166	0
+	"	276	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/openbox/autostart
+	*	1545934151	0
+	"	53	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/neofetch/config
+	*	1545934140	0
+	"	347	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.bin/gitsetup
+	*	1545934118	0
+	"	74	0
+
+> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.bin/gitpush
+	*	1545934112	0
+	"	73	0
+
+> /tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone/openbox-3/themerc
+	*	1545933928	0
+	"	1	0
+
+> ~/HEAD
+	*	1545932436	0
+	"	1	0
+
+> ~/.xsession-errors.old
+	*	1545932425	0
+	"	90	0
 
 > ~/.zsh/aliases.sh
 	*	1545927250	0
@@ -1728,14 +1770,6 @@ $
 	*	1545747999	0
 	"	1	0
 
-> ~/mygtkmenu
-	*	1545747862	0
-	"	81	38
-
-> ~/.xinitrc
-	*	1545729590	0
-	"	1	0
-
 > ~/.vim/mym.vim
 	*	1545729581	0
 	"	118	38
@@ -1832,82 +1866,4 @@ $
 
 > ~/.cache/yay/antibody-bin/PKGBUILD
 	*	1545717346	0
-	"	1	0
-
-> ~/.zsh/plugins/anyframe/anyframe.plugin.zsh
-	*	1545688563	0
-	"	1	0
-
-> ~/.vim/syntax/zsh.vim
-	*	1545687857	0
-	"	1	0
-
-> ~/kodi_crashlog-20181221_230238.log
-	*	1545687465	0
-	"	143	1554
-
-> /usr/bin/Magick++-config
-	*	1545687337	0
-	"	1	0
-
-> /mnt/512/Image/save
-	*	1545684354	0
-	"	1	13
-
-> ~/.zimrc
-	*	1545683126	0
-	"	1	0
-	^	25	1
-	.	25	0
-	+	25	0
-
-> ~/Relaxed
-	*	1545669140	0
-	"	1	7
-
-> ~/undotree_2
-	*	1545667569	0
-	"	24	17
-	.	12	0
-	+	67	0
-	+	76	0
-	+	12	0
-
-> ~/diffpanel_3
-	*	1545667555	0
-	"	1	0
-	.	4	0
-	+	7	0
-	+	4	0
-
-> ~/.tmux.conf
-	*	1545665584	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/home/.tmux.conf
-	*	1545665281	0
-	"	11	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/home/.ssh/config
-	*	1545665273	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/home/.zsh/.zshrc
-	*	1545665265	0
-	"	397	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/home/.zsh/.zlogout
-	*	1545665242	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/home/.zsh/.zlogin
-	*	1545665241	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/home/.zsh/.gitignore
-	*	1545665236	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/install.zsh
-	*	1545665218	0
 	"	1	0

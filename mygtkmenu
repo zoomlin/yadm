@@ -8,12 +8,6 @@ icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
 iconsize = 16
 iconsize = 16
 
-item=GTK Theme Switch
-cmd=gtk-theme-switch2
-icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
-iconsize = 16
-iconsize = 16
-
 
 item=Kodi
 cmd=kodi
@@ -48,14 +42,6 @@ iconsize = 16
 iconsize = 16
 
 
-item=Fb2-Reader
-cmd=simple-fb2-reader
-icon= /home/den/bmpicons/accessories-text-editor.png
-iconsize = 16
-iconsize = 16
-
-SEPARATOR
-
 iconsize = 16
 item=ReBoot
 cmd=sudo systemctl reboot
@@ -67,14 +53,6 @@ item=ShutDown
 cmd=sudo systemctl poweroff
 icon=/home/den/bmpicons/artifact-wrench.png
 iconsize = 16
-
-iconsize = 16
-item=Restart Rygel
-cmd=rygel -r
-icon=/home/den/bmpicons/artifact-wrench.png
-iconsize = 16
-
-
 
 iconsize = 16
 item=UnMount Flash

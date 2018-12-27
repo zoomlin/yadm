@@ -36,120 +36,6 @@ l-11,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/mnt/512/2watch
-	Black Mirror - The Complete Series - whip93
-3
-d/mnt
-	..
-0
-d/
-	mnt
-20
-d/mnt
-	Now
-1
-d/mnt/Now
-	Soft
-3
-d/mnt/Now/Soft
-	Audio
-5
-d/home/den/.vim
-	colors
-4
-d/home/den/.vim/colors
-	disciple.vim
-4
-d/usr/share/xsessions
-	..
-0
-d/usr/share
-	ratpoison
-3
-d/usr/share/ratpoison
-	bindings
-1
-d/usr/share/ratpoison/bindings
-	..
-0
-d/usr/share/ratpoison
-	bindings
-1
-d/usr/share
-	ratpoison
-3
-d/usr/share/ratpoison
-	bindings
-1
-d/usr/share
-	xsessions
-20
-d/usr/share/xsessions
-	..
-0
-d/usr/share
-	applications
-6
-d/usr/share/applications
-	..
-0
-d/mnt/512/2watch
-	..
-0
-d/mnt/512
-	2watch
-1
-d/mnt/512/2watch
-	..
-0
-d/mnt/512
-	2watch
-1
-d/mnt/512/2watch
-	..
-0
-d/home/den/bin
-	..
-0
-d/
-	boot
-3
-d/boot
-	grub
-1
-d/boot/grub
-	..
-0
-d/boot
-	grub
-1
-d/
-	boot
-8
-d/home/den
-	.fonts
-7
-d/home/den/.fonts
-	..
-0
-d/mnt/Now/2listen
-	..
-0
-d/mnt/Now
-	Audio
-2
-d/mnt/Now/Audio
-	..
-0
-d/mnt/Now
-	Audio
-2
-d/mnt
-	512
-2
-d/mnt/512
-	Audio
-5
 d/mnt/512/Audio
 	2
 1
@@ -336,219 +222,123 @@ d/mnt/512/Audio/Frisky
 d/home/den/.config/termite
 	..
 0
+d/home/den/.config
+	..
+0
+d/home/den
+	.vim
+10
+d/home
+	den
+1
+d/home/den
+	.yadm
+3
+d/home/den/.yadm
+	..
+0
+d/home/den
+	..
+0
+d/home
+	den
+1
+d/home/den
+	Downloads
+7
+d/home/den/Downloads
+	archlabs-dARK
+1
+d/mnt/Now/Soft
+	Linux
+1
+d/mnt/Now/Soft/Linux
+	ISO
+5
+d/mnt/Now/Soft/Linux/ISO
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512/Image/2018-12-28-00-img
+	..
+0
+d/mnt/512/Image
+	2018-12-28-00-img
+1
+d/mnt/512
+	Image
+1
+d/mnt/512/Image
+	..
+0
+d/mnt/512
+	Image
+1
+d/home/den
+	.vim
+10
+d/home/den/.vim
+	.vimrc
+14
 d
 
 # Right window history (oldest to newest):
-D/home/den
-	.conky
-5
-D/home/den/.conky
-	..
-0
-D/home/den
-	.config
-8
-D/home/den/.config
-	termite
-1
-D/home/den/.config/termite
-	..
-0
-D/home/den/.config
-	yay
-19
-D/home/den/.config/yay
-	..
-0
-D/home/den/.config
-	rofi-pass
-18
-D/home/den/.config/rofi-pass
-	..
-0
-D/home/den/.config
-	dunst
-5
-D/home/den
-	.config
-8
-D/home/den/.config
-	autostart
-15
-D/home/den/.config/autostart
-	..
-0
-D/home/den/.config
-	alsi
-5
-D/home/den/.config/alsi
-	..
-0
-D/home/den/.config
-	ob-autostart
-20
-D/home/den/.config/ob-autostart
-	..
-0
-D/home/den/.config
-	obmenu-generator
-21
-D/home/den/.config/obmenu-generator
-	..
-0
-D/home/den/.config
-	vim
-6
-D/home/den/.config/vim
-	yankround
-1
-D/home/den/.config/vim/yankround
-	..
-0
-D/home/den/.config/vim
-	yankround
-1
-D/home/den/.config
-	polybar
-12
-D/home/den/.config/polybar
-	..
-0
-D/home/den/.config
-	neofetch
-7
-D/home/den/.config/neofetch
-	..
-0
-D/home/den/.config
-	yay
-4
-D/home/den/.config/yay
-	..
-0
-D/home/den/.config
-	root
-14
-D/home/den/.config/root
-	usr
-1
-D/home/den/.config/root/usr
-	share
-1
-D/home/den/.config/root/usr/share
-	X11
-1
-D/home/den/.config/root/usr/share/X11
-	xkb
-1
-D/home/den/.config/root/usr/share/X11/xkb
-	symbols
-1
-D/home/den/.config/root/usr/share/X11/xkb/symbols
-	..
-0
-D/home/den/.config/root/usr/share/X11/xkb
-	symbols
-1
-D/home/den/.config/root/usr/share/X11
-	xkb
-1
-D/home/den/.config/root/usr/share
-	X11
-1
-D/home/den/.config/root/usr
-	share
-1
-D/home/den/.config/root
-	usr
-1
-D/home/den/.config
-	rclone
-8
-D/home/den/.config/rclone
-	..
-0
-D/home/den/.config
-	..
-0
-D/home/den
-	.vim
-11
-D/home/den/.vim
-	..
-0
-D/home/den
-	.themes
-13
-D/home/den/.themes
-	ArchLabs-Dark
-1
-D/home/den
-	.themes
-13
-D/home/den/.themes
-	Mirro
-2
-D/home/den/.themes/Mirro
-	..
-0
-D/home/den/.themes
-	..
-0
-D/home/den
-	.dotfiles.git
-5
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.dotfiles.git
-1
-D/home/den/.dotfiles.git
-	..
-0
-D/home/den
-	.thumbnails
-6
-D/home/den/.cache/yay
-	completion.cache
-1
-D/home/den/.cache
-	openbox
-2
-D/home/den/.cache/openbox
-	..
-0
-D/home/den/.cache
-	yay
-1
-D/home/den/.cache/yay
-	completion.cache
-1
-D/home/den/.cache
-	yay
-1
-D/home/den/.cache/yay
-	vcs.json
-2
-D/home/den/.cache
-	openbox
-2
-D/home/den/.cache/openbox
-	sessions
-1
-D/home/den/.cache/openbox/sessions
-	..
-0
-D/home/den/.cache/openbox
-	sessions
-1
-D/home/den/.cache
-	..
-0
-D/home/den
-	.cache
-5
 D/home/den/.cache
 	openbox
 2
@@ -637,8 +427,218 @@ D/home/den/.yadm
 	..
 0
 D/home/den
-	.yadm
+	openbox-theme-collections-master.zip
+12
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip
+	..
+0
+D/home/den
+	openbox-theme-collections-master.zip
+12
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip
+	openbox-theme-collections-master
+1
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master
+	Arc-Clone
+1
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone
+	openbox-3
+1
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone/openbox-3
+	max.xbm
+5
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone
+	openbox-3
+1
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone/openbox-3
+	..
+0
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone
+	openbox-3
+1
+D/home/den/.config
+	openbox
+24
+D/home/den/.config/openbox
+	..
+0
+D/home/den/.config
+	openbox
+24
+D/home/den/.config/openbox
+	..
+0
+D/home/den/.config
+	mc
+11
+D/home/den
+	ultimate-dotfiles-master.zip
+13
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip
+	ultimate-dotfiles-master
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master
+	.bin
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.bin
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master
+	.config
+2
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	cava
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/cava
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	neofetch
+7
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/neofetch
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	openbox
+8
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/openbox
+	rc.xml
+7
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	polybar
+9
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar
+	colora
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar/colora
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar
+	smoke
+2
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar/smoke
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar
+	config-openbox
+5
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	termite
+11
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/termite
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	i3
+6
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3
+	lemonbar
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3/lemonbar
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3
+	lemonbar
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3/lemonbar
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3
+	lemonbar
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	geany
+4
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/geany
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	geany
+4
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/geany
+	colorschemes
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/geany/colorschemes
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/geany
+	colorschemes
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config
+	..
+0
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master
+	.ncmpcpp
+6
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.ncmpcpp
+	art.sh
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master
+	.Xresources
+8
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip
+	ultimate-dotfiles-master
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master
+	.bin
+1
+D/tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip
+	ultimate-dotfiles-master
+1
+D/home/den
+	openbox-theme-collections-master.zip
+12
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip
+	openbox-theme-collections-master
+1
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master
+	Arc-Clone
+1
+D/tmp/vifm_FUSE/001_openbox-theme-collections-master.zip
+	openbox-theme-collections-master
+1
+D/home/den
+	.vim
+10
+D/home/den/.vim
+	..
+0
+D/home/den
+	.fonts
+9
+D/home/den/.fonts
+	..
+0
+D/home/den
+	.cache
+8
+D/home/den/.cache
+	fsh
 3
+D/home/den
+	.cache
+8
+D/home/den/.cache
+	fsh
+3
+D/home/den
+	.password-store
+20
+D/home/den/.password-store
+	..
+0
+D/home/den
+	.todo
+11
+D/home
+	den
+1
+D/
+	boot
+9
+D/home/den
+	.xinitrc
+4
 D
 
 # Command line history (oldest to newest):
@@ -744,7 +744,6 @@ D
 :pi
 
 # Search history (oldest to newest):
-/dm
 /pla
 /syste
 /zer
@@ -833,7 +832,6 @@ D
 /sess
 /app
 /ratpo
-/ope
 /pol
 /menu
 /poly
@@ -844,6 +842,8 @@ D
 /ru
 /bedr
 /git
+/mygt
+/ope
 
 # Prompt history (oldest to newest):
 psettings
