@@ -318,7 +318,7 @@
     </keybind>
     <keybind key="C-slash">
       <action name="Execute">
-        <command>tym -e vifm</command>
+        <command>alacritty -e vifm</command>
       </action>
     </keybind>
     <keybind key="W-t">
@@ -333,7 +333,7 @@
     </keybind>
     <keybind key="F12">
       <action name="Execute">
-        <command>tdrop tym</command>
+        <command>tdrop alacritty</command>
       </action>
     </keybind>
     <keybind key="C-A-m">
@@ -343,7 +343,7 @@
     </keybind>
     <keybind key="C-Return">
       <action name="Execute">
-        <command>tym</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="A-d">
@@ -857,7 +857,7 @@
     <application class="*">
       <decor>no</decor>
     </application>
-    <application class="tym">
+    <application class="alacritty">
       <decor>no</decor>
     </application>
     <application class="Waterfox">

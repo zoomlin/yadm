@@ -32,103 +32,10 @@ q0
 v2
 ov
 m-1
-l-11,2
+l-2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/den
-	.zplug1
-13
-d/home/den/.zplug1
-	cache
-1
-d/home/den/.zplug1/cache
-	..
-0
-d/home/den/.zplug1
-	cache
-1
-d/home/den/.zplug1/cache
-	theme.zsh
-9
-d/home/den/.zplug1
-	cache
-1
-d/home/den/.zsh
-	plugins
-2
-d/home/den/.zsh/plugins
-	anyframe
-2
-d/home/den/.zsh/plugins/anyframe
-	..
-0
-d/home/den/.zsh/plugins
-	antigen
-1
-d/home/den/.zsh/plugins/antigen
-	..
-0
-d/home/den/.zsh/plugins
-	antigen
-1
-d/home/den/.zsh/plugins/antigen
-	tests
-1
-d/home/den/.zsh/plugins/antigen/tests
-	..
-0
-d/home/den/.zsh/plugins/antigen
-	tests
-1
-d/home/den/.zsh/plugins
-	antigen
-1
-d/mnt/Now/Soft
-	Linux
-1
-d/mnt/Now/Soft/Linux
-	Arco
-3
-d/mnt/Now/Soft/Linux/Arco
-	..
-0
-d/mnt/Now/Soft/Linux
-	Archlabs
-1
-d/mnt/Now/Soft/Linux/Archlabs
-	..
-0
-d/mnt/Now/Soft/Linux
-	Archlabs
-1
-d/mnt/Now/Soft
-	Linux
-1
-d/mnt/Now/Soft/Linux
-	PKGs
-7
-d/mnt/Now/Soft/Linux/PKGs
-	..
-0
-d/mnt/Now/Soft/Linux
-	7z
-8
-d/home/den
-	m-1mn.zip
-15
-d/tmp/vifm_FUSE/001_m-1mn.zip
-	mplus-1mn-regular.ttf
-10
-d/home/den
-	.config
-4
-d/home/den/.zsh
-	plugins
-1
-d/home/den/.zsh/plugins
-	fzy-fd.zsh
-15
 d/home/den/.cache/yay
 	antibody-bin
 1
@@ -334,163 +241,262 @@ d/home/den/Downloads
 	archlabs-dARK
 1
 d/home/den
-	.zsh_history
-11
+	.fonts
+2
+d/home/den/.fonts
+	..
+0
+d/home/den/.config/termite
+	config
+3
+d/home/den/.config
+	polybar
+24
+d/home/den/.config/polybar
+	..
+0
+d/home/den/.config
+	polybar
+5
+d/home/den/.config/polybar
+	..
+0
+d/home/den/.config
+	polybar1
+4
+d/home/den/.config/polybar1
+	..
+0
+d/home/den/.config
+	polybar
+5
+d/home/den/.config/polybar
+	..
+0
+d/home/den/.config
+	ob-autostart
+5
+d/home/den/.config/ob-autostart
+	config
+1
+d/home/den/.config
+	ob-autostart
+5
+d/home/den/.config/ob-autostart
+	..
+0
+d/home/den/.config
+	autostart
+24
+d/home/den/.config/autostart
+	..
+0
+d/home/den/.config
+	autostart
+24
+d/home/den/.config/autostart
+	..
+0
+d/home/den/.config
+	autostart
+24
+d/home/den/.config/autostart
+	..
+0
+d/home/den/.config
+	openbox
+4
+d/home/den/.config/openbox
+	autostart
+6
+d/home/den/bin
+	..
+0
+d/home/den/.config
+	polybar
+5
+d/home/den/.config/polybar
+	..
+0
+d/home/den/.config
+	sxhkd
+12
+d/home/den
+	.fonts
+29
+d/home/den/.fonts
+	Play-Regular.ttf
+14
+d/mnt/Now/Soft
+	Linux
+5
+d/mnt/Now/Soft/Linux
+	Fonts
+10
+d/mnt/Now/Soft/Linux/Fonts
+	PT_Mono.zip
+8
 d
 
 # Right window history (oldest to newest):
-D/home/den/.config
-	termite
-5
-D/home/den/.config/termite
-	themes
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs/.config/termite
+	config
 1
-D/home/den/.config/termite/themes
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs/.config
 	..
 0
-D/home/den/.config/termite
-	themes
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs
+	.config
 1
-D/home/den/.config
-	obmenu-generator
-10
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
+	fonts
+2
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/fonts
+	..
+0
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
+	fonts
+2
+D/tmp/vifm_FUSE/001_dots-master.zip
+	fonts
+2
 D/home/den
-	rocketawesome-master.zip
-5
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip
-	rocketawesome-master
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	.themes
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes
-	Ultimate-Dark-Red
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes/Ultimate-Dark-Red
+	dots-master.zip
+14
+D/home/den/.config
+	polybar
+14
+D/home/den/.config/polybar
 	..
 0
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes
-	..
-0
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	.themes
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes
-	..
-0
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	themes
-3
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/themes
-	powerarrow-dark
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/themes/powerarrow-dark
-	wall.png
-3
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/themes
-	powerarrow-dark
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	themes
-3
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/themes
-	powerarrow-dark
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	.themes
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes
-	..
-0
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	.themes
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip
-	rc.lua
-4
-D/home/den
-	rocketawesome-master.zip
-5
-D/home/den/.cache/yay
-	awesome-freedesktop-git
-1
-D/home/den/.cache/yay/awesome-freedesktop-git
-	..
-0
-D/home/den/.cache/yay
+D/home/den/.config
 	tym
 2
-D/home/den/.cache/yay/tym
+D/home/den/.config/tym
 	..
 0
-D/home/den/.cache/yay
-	awesome-freedesktop-git
-1
-D/home/den/.cache/yay/awesome-freedesktop-git
-	..
-0
-D/home/den/.cache/yay
-	..
-0
-D/home/den/.cache
-	yay
-2
-D/home/den/.cache/yay
-	completion.cache
-1
-D/home/den/.cache
-	openbox
-2
-D/home/den/.cache/openbox
-	..
-0
-D/home/den/.cache
-	openbox
-2
-D/home/den/.cache/openbox
-	..
-0
-D/home/den/.cache
-	openbox
-2
+D/home/den/.config
+	rofi-pass
+30
 D/home/den
-	.themes
-3
-D/home/den/.themes
-	Ultimate-Dark-Red
-1
-D/home/den/.themes/Ultimate-Dark-Red
+	.swt
+16
+D/mnt/Now/2listen
+	NEA!
+2
+D/mnt/Now/2listen/NEA!
 	..
 0
-D/home/den/.themes
+D/mnt/Now/2listen
+	VA-Cafe_Solaire_Vol_26
+4
+D/mnt/Now/2listen/VA-Cafe_Solaire_Vol_26
+	..
+0
+D/mnt/Now/2listen
+	NEA!
+2
+D/mnt/Now/2listen/NEA!
+	..
+0
+D/mnt/Now/2listen
+	NEA!
+2
+D/mnt/Now/2listen/NEA!
+	..
+0
+D/mnt/Now/2listen
+	VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
+1
+D/mnt/Now/2listen/VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
+	..
+0
+D/mnt/Now/2listen
+	VA - Balance Presents-Uone [Balance Music] FLAC-2018
+19
+D/mnt/Now/2listen/VA - Balance Presents-Uone [Balance Music] FLAC-2018
+	..
+0
+D/mnt/Now/2listen
+	VA - Balance Presents-Uone [Balance Music] FLAC-2018
+19
+D/mnt/Now/2listen/VA - Balance Presents-Uone [Balance Music] FLAC-2018
+	..
+0
+D/mnt/Now/2listen
+	Mode_One_-_Melodies_Of_Freedom-(8436576210215)-WEB-2018-ZzZz
+7
+D/mnt/Now
+	..
+0
+D/mnt
+	Now
+1
+D/home/den
+	Pragmata_Pro.zip
+18
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
+	Pragmata Pro
+1
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip/Pragmata Pro
+	
+1
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
+	Pragmata Pro Mono.ttf
+7
+D/home/den
+	Pragmata_Pro.zip
+14
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
+	Pragmata Pro
+1
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip/Pragmata Pro
+	
+1
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
+	Pragmata Pro.ttf
+8
+D/home/den
+	.vifm
+1
+D/home/den/.vifm
 	..
 0
 D/home/den
+	.vifm
+1
+D/home/den/.vifm
 	..
 0
+D/home/den
+	.password-store
+22
+D/home/den/.password-store
+	..
+0
+D/home/den
+	.password-store
+22
+D/home/den/.password-store
+	.config-backup
+5
+D/home/den/.password-store/.config-backup
+	..
+0
+D/home/den/.password-store
+	.config-backup
+5
+D/home/den
+	.vifm
+1
+D/home/den/.vifm
+	..
+0
+D/home/den
+	.vifm
+1
 D/home
-	..
-0
-D/
-	proc
-1
-D/proc
-	..
-0
-D/
-	proc
-1
-D/proc
-	1
-1
-D/proc/1
-	..
-0
-D/proc
-	1
-1
-D/
-	proc
+	den
 1
 D/home/den
 	.vifm
@@ -499,150 +505,143 @@ D/home/den/.vifm
 	..
 0
 D/home/den
-	rocketawesome-master.zip
-17
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip
-	rocketawesome-master
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	.Xdefaults
-5
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip
-	rocketawesome-master
-1
-D/home/den
-	rocketawesome-master.zip
-17
-D/home
-	den
-1
-D/
-	root
-15
-D/home/den
-	rocketawesome-master.zip
-16
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip
-	rocketawesome-master
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	themes
-3
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/themes
-	powerarrow-dark
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	lain
+	.fonts
 2
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/lain
+D/home/den/.fonts
 	..
 0
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	.themes
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes
-	Ultimate-Dark-Red
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes/Ultimate-Dark-Red
-	..
-0
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.themes
-	Ultimate-Dark-Red
-1
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master
-	rc.lua
-4
-D/tmp/vifm_FUSE/001_rocketawesome-master.zip
-	rocketawesome-master
-1
 D/home/den
-	rocketawesome-master.zip
+	Walls
 14
-D/home/den/.cache/yay
-	lsix-git
+D/home/den/Walls
+	..
+0
+D/home/den
+	.swt
+16
+D/home/den/.swt
+	..
+0
+D/home/den
+	.swt
+16
+D/home/den/.swt
+	..
+0
+D/home/den
+	.swt
+16
+D/home/den/.swt
+	..
+0
+D/home/den
+	.vifm
 1
-D/home/den/.cache/yay/lsix-git
+D/home/den/.vifm
 	..
 0
-D/home/den/.cache/yay
-	..
-0
-D/home/den/.cache
-	yay
-1
-D/mnt/Now/2listen
-	VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
-1
-D/mnt/Now/2listen/VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
-	..
-0
-D/mnt/Now/2listen
-	VA - A Tribe Called Kotori [Stil Vor Talent Germany] FLAC-2018
-2
-D/mnt/Now/2listen/VA - A Tribe Called Kotori [Stil Vor Talent Germany] FLAC-2018
-	..
-0
-D/mnt/Now/2listen
-	VA-Cafe_Solaire_Vol_26
-3
-D/mnt/Now/2listen/VA-Cafe_Solaire_Vol_26
-	..
-0
-D/mnt/Now/2listen
-	2017 VA - Pure Salinas Vol 8 (Lounge & Deep House Mixed)
-4
-D/mnt/Now/2listen/2017 VA - Pure Salinas Vol 8 (Lounge & Deep House Mixed)
-	..
-0
-D/mnt/Now/2listen
-	Free 2 Night - Free Tonight (2013) FLAC
+D/home/den
+	.themes
 5
-D/mnt/Now/2listen/Free 2 Night - Free Tonight (2013) FLAC
-	Covers
-1
-D/mnt/Now/2listen/Free 2 Night - Free Tonight (2013) FLAC/Covers
-	Free 2 Night - Free Tonight (proof).JPG
-2
-D/mnt/Now/2listen/Free 2 Night - Free Tonight (2013) FLAC
-	Covers
-1
-D/mnt/Now/2listen
-	NEA!
-6
-D/mnt/Now/2listen/NEA!
-	Covers
-3
-D/mnt/Now/2listen/NEA!/Covers
+D/home/den/.themes
 	..
 0
-D/mnt/Now/2listen/NEA!
-	Covers
-3
 D/home/den
-	.fonts
-11
-D/home/den/.fonts
-	helvetica.otf
-1
-D/mnt/Now/2listen
-	VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
-2
-D/mnt/Now/2listen/VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
+	bin
+4
+D/home/den/bin
 	..
 0
-D/mnt/Now/2listen
-	VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
+D/home/den
+	bin
+4
+D/home/den/bin
+	..
+0
+D/home/den
+	dots-master.zip
+16
+D/tmp/vifm_FUSE/001_dots-master.zip
+	dots-master
+1
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
+	leafs
+4
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs
+	.config
+1
+D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
+	leafs
+4
+D/tmp/vifm_FUSE/001_dots-master.zip
+	dots-master
 1
 D/home/den
-	.fonts
-2
-D/home/den/.fonts
-	M+ 1mn Nerd Font Complete Mono.ttf
+	.config
 1
+D/home/den/.config
+	alacritty
+1
+D/home/den/.config/alacritty
+	..
+0
+D/home/den/.config
+	jgmenu
+13
+D/home/den/.config/jgmenu
+	..
+0
+D/home/den/.config
+	alacritty
+1
+D/home/den/.config/alacritty
+	..
+0
+D/home/den/.config
+	lxtask.conf
+31
+D/home/den
+	Pragmata_Pro.zip
+17
+D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
+	..
+0
+D/home/den
+	.macromedia
+7
+D/home/den/.config
+	awesome
+9
+D/home/den/.config/awesome
+	eminent
+1
+D/home/den/.config/awesome/eminent
+	..
+0
+D/home/den/.config/awesome
+	..
+0
+D/home/den/.config
+	ob-autostart
+29
+D/home/den/.config/ob-autostart
+	config
+1
+D/home/den/.config
+	awesome
+9
+D/home/den/.config/awesome
+	lain
+3
+D/home/den/.config/awesome/lain
+	util
+4
+D/home/den/.config/awesome/lain/util
+	..
+0
 D
 
 # Command line history (oldest to newest):
-:mkdir themes
 :!!rg 
 :mkdir o1
 :mkdir 01
@@ -742,11 +741,9 @@ D
 :mkdir awesome
 :mp
 :pi
+:touch .ignore
 
 # Search history (oldest to newest):
-/syste
-/zer
-/gruv
 /gr
 /ba
 /ligh
@@ -817,9 +814,7 @@ D
 /dra
 /skel
 /rosa
-/ob
 /dwm
-/op
 /tint
 /compt
 /the
@@ -830,7 +825,6 @@ D
 /sess
 /app
 /ratpo
-/pol
 /menu
 /poly
 /zim
@@ -844,13 +838,14 @@ D
 /igno
 /git
 /awe
+/pol
+/aut
+/op
+/upd
+/font
+/ob
 
 # Prompt history (oldest to newest):
-psettings2
-psettings1
-psettings3
-pLucidaConsole.ttf
-pLucida_Console.ttf
 pHddState.py
 pNavigation.py
 pvuplus1
@@ -874,7 +869,6 @@ pui
 pfinder
 parchlabs.png1
 parchlabs.png
-pconfig4
 pconfig5
 pprofiles.ini1
 pad
@@ -935,7 +929,6 @@ pawesome1
 pconfig2
 pconfig3
 piceberg
-pconfig
 p.zplug
 p.zplugin
 p.zplug1
@@ -946,6 +939,13 @@ pCD1.flac
 pCD2.flac
 pconfig.snazzy
 phelvetica.otf
+pconfig4
+pconfig
+ppolybar1
+ppolybar2
+ppolybar
+pPragmata_Pro0827.zip
+pPragmata_Pro_0827.zip
 
 # Local filter history (oldest to newest):
 |====

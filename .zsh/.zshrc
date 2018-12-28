@@ -682,6 +682,6 @@ SPACESHIP_DIR_TRUNC_REPO=true
 SPACESHIP_VI_MODE_SHOW=true
 SPACESHIP_VI_MODE_COLOR=cyan
 autoload -U promptinit; promptinit
-# prompt spaceship
+prompt spaceship
 # spaceship_vi_mode_enable
-. /home/den/.zsh/themes/agnoster.zsh-theme
+# . /home/den/.zsh/themes/agnoster.zsh-theme

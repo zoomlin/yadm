@@ -1,10 +1,10 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 28 December 2018 at 13:37:50.
+" Created by session.vim 2.13.1 on 28 December 2018 at 20:43:23.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=ie
-silent! set guifont=Meslo\ LG\ M\ DZ\ Regular\ 9
+silent! set guifont=PragmataPro\ Mono\ Liga\ Regular\ 10
 if exists('g:syntax_on') != 1 | syntax on | endif
 if exists('g:did_load_filetypes') != 1 | filetype on | endif
 if exists('g:did_load_ftplugin') != 1 | filetype plugin on | endif
@@ -20,13 +20,17 @@ let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/
+cd ~/.config/ob-autostart
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
+badd +10 config
+badd +1 ~/.config/awesome/rc.lua
 argglobal
 silent! argdel *
+$argadd config
+edit ~/.config/awesome/rc.lua
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -36,7 +40,6 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-enew
 setlocal fdm=syntax
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -44,7 +47,13 @@ setlocal fdi=#
 setlocal fdl=10
 setlocal fml=1
 setlocal fdn=20
-setlocal nofen
+setlocal fen
+let s:l = 671 - ((34 * winheight(0) + 21) / 43)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+671
+normal! 0129|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
 "   silent exe 'bwipe ' . s:wipebuf

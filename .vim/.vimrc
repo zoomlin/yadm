@@ -112,7 +112,9 @@ let g:startify_bookmarks = [
 "
 "
 " set gfn=Input\ Mono\ Condensed\ 10
-set gfn=Meslo\ LG\ M\ DZ\ Regular\ 9
+" set gfn=Meslo\ LG\ M\ DZ\ Regular\ 9
+" set gfn=Iosevka\ Regular\ 10
+set gfn=PragmataPro\ Mono\ Liga\ Regular\ 10
 " set gfn=mplus\ Nerd\ Font\ Mono\ Regular\ 10
 " set gfn=IBM\ Plex\ Mono\ Regular\ 10
 "set gfn=Inconsolata\ LGC\ Regular\ 13
