@@ -30,7 +30,7 @@ nnoremap <S-F9> :!sudo gvim % <CR>
  nmap <silent> ex :edit /home/den/.xinitrc<CR>
  nmap <silent> ek :edit /home/den/.config/awesome/blue/keys-config.lua<CR>
  nmap <silent> es :edit /home/den/.config/sxhkd/sxhkdrc<CR>
- nmap <silent> et :edit /home/den/.config/termite/config<CR>
+ nmap <silent> et :edit /home/den/.config/tym/config.lua<CR>
  nmap <silent> gt :cd /home/den/.config/tdf<CR>
  nmap <silent> gh :cd /home/den<CR>
  nmap <silent> gv :cd /home/den/.vim<CR>

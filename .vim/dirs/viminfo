@@ -11,15 +11,19 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/fb2
+~MSle0~/screen
 
 # Last Substitute Search Pattern:
-~MSle0&\<8fa1b3\>
+~MSle0&\<termite\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:171
+|2,0,1545991223,,"171"
+:%s/\<termite\>/tym
+|2,0,1545989412,,"%s/\\<termite\\>/tym"
 :set gfn=Meslo\ LG\ M\ DZ\ Regular\ 9
 |2,0,1545684915,,"set gfn=Meslo\\ LG\\ M\\ DZ\\ Regular\\ 9"
 :set gfn=M+\1mn\ Regular\ 9
@@ -195,7 +199,17 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1545947796,,"\\s\\+$"
+|2,1,1545993028,,"\\s\\+$"
+?/screen
+|2,1,1545991295,47,"screen"
+?/term
+|2,1,1545990759,47,"term"
+? \<termite\>
+|2,1,1545989412,,"\\<termite\\>"
+?/termite
+|2,1,1545989398,47,"termite"
+?/dotf
+|2,1,1545948898,47,"dotf"
 ?/fb2
 |2,1,1545947755,47,"fb2"
 ?/rygel
@@ -204,8 +218,6 @@ $
 |2,1,1545945338,47,"pma"
 ?/iso
 |2,1,1545944919,47,"iso"
-?/dotf
-|2,1,1545923302,47,"dotf"
 ?/git
 |2,1,1545825743,47,"git"
 ?/alias
@@ -332,8 +344,6 @@ $
 |2,1,1545048259,47,"appli"
 ?/colorsc
 |2,1,1545045520,47,"colorsc"
-?/termite
-|2,1,1545041506,47,"termite"
 ?/conn
 |2,1,1545040612,47,"conn"
 ?/disco
@@ -400,8 +410,6 @@ $
 |2,1,1544813562,47,"kill"
 ?/fm
 |2,1,1544812890,47,"fm"
-?/term
-|2,1,1544812875,47,"term"
 ?/kil
 |2,1,1544812787,47,"kil"
 ?/mod
@@ -886,330 +894,566 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	[colors]
-	# Base16 Atelier Plateau
-	# Author: Bram de Haan (http://atelierbramdehaan.nl)
-	
-	foreground      = #8a8585
-	foreground_bold = #e7dfdf
-	cursor          = #e7dfdf
-	background      = #1b1818
-	
-	# 16 color space
-	
-	# Black, Gray, Silver, White
-	color0  = #1b1818
-	color8  = #655d5d
-	color7  = #8a8585
-	color15 = #f4ecec
-	
-	# Red
-	color1  = #ca4949
-	color9  = #ca4949
-	
-	# Green
-	color2  = #4b8b8b
-	color10 = #4b8b8b
-	
-	# Yellow
-	color3  = #a06e3b
-	color11 = #a06e3b
-	
-	# Blue
-	color4  = #7272ca
-	color12 = #7272ca
-	
-	# Purple
-	color5  = #8464c4
-	color13 = #8464c4
-	
-	# Teal
-	color6  = #5485b6
-	color14 = #5485b6
-	
-	# Extra colors
-	color16 = #b45a3c
-	color17 = #bd5187
-	color18 = #292424
-	color19 = #585050
-	color20 = #7e7777
-	color21 = #e7dfdf
-|3,0,0,1,48,0,1545925902,"[colors]","# Base16 Atelier Plateau","# Author: Bram de Haan (http://atelierbramdehaan.nl)","","foreground      = #8a8585","foreground_bold = #e7dfdf","cursor          = #e7dfdf","background      = #1b1818","","# 16 color space","","# Black, Gray, Silver, White","color0  = #1b1818","color8  = #655d5d","color7  = #8a8585","color15 = #f4ecec","","# Red","color1  = #ca4949","color9  = #ca4949","","# Green","color2  = #4b8b8b",>19
-|<"color10 = #4b8b8b","","# Yellow","color3  = #a06e3b","color11 = #a06e3b","","# Blue","color4  = #7272ca","color12 = #7272ca","","# Purple","color5  = #8464c4","color13 = #8464c4","","# Teal","color6  = #5485b6","color14 = #5485b6","","# Extra colors","color16 = #b45a3c","color17 = #bd5187","color18 = #292424","color19 = #585050","color20 = #7e7777","color21 = #e7dfdf"
-""1	LINE	0
+"0	CHAR	0
+	8a8585
+|3,0,0,0,1,0,1545992960,"8a8585"
+"1	LINE	0
+	-- set by table
+|3,0,1,1,1,0,1545991754,"-- set by table"
+"2	LINE	0
+	  -- SNIP
+|3,0,2,1,1,0,1545989257,"  -- SNIP"
+"3	LINE	0
 	item=GTK Theme Switch
 	cmd=gtk-theme-switch2
 	icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
 	iconsize = 16
 	iconsize = 16
 	
-|3,1,1,1,6,0,1545947794,"item=GTK Theme Switch","cmd=gtk-theme-switch2","icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg","iconsize = 16","iconsize = 16",""
-"2	LINE	0
+|3,0,3,1,6,0,1545947794,"item=GTK Theme Switch","cmd=gtk-theme-switch2","icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg","iconsize = 16","iconsize = 16",""
+"4	LINE	0
 	
 	
 	SEPARATOR
-|3,0,2,1,3,0,1545947769,"","","SEPARATOR"
-"3	LINE	0
+|3,0,4,1,3,0,1545947769,"","","SEPARATOR"
+"5	LINE	0
 	item=Fb2-Reader
 	cmd=simple-fb2-reader
 	icon= /home/den/bmpicons/accessories-text-editor.png
 	iconsize = 16
 	iconsize = 16
-|3,0,3,1,5,0,1545947762,"item=Fb2-Reader","cmd=simple-fb2-reader","icon= /home/den/bmpicons/accessories-text-editor.png","iconsize = 16","iconsize = 16"
-"4	LINE	0
-	
-|3,0,4,1,1,0,1545947739,""
-"5	LINE	0
-	
-|3,0,5,1,1,0,1545947738,""
+|3,0,5,1,5,0,1545947762,"item=Fb2-Reader","cmd=simple-fb2-reader","icon= /home/den/bmpicons/accessories-text-editor.png","iconsize = 16","iconsize = 16"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1545947738,""
+|3,0,6,1,1,0,1545947739,""
 "7	LINE	0
+	
+|3,0,7,1,1,0,1545947738,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1545947738,""
+"9	LINE	0
 	iconsize = 16
 	item=Restart Rygel
 	cmd=rygel -r
 	icon=/home/den/bmpicons/artifact-wrench.png
 	iconsize = 16
-|3,0,7,1,5,0,1545947736,"iconsize = 16","item=Restart Rygel","cmd=rygel -r","icon=/home/den/bmpicons/artifact-wrench.png","iconsize = 16"
-"8	LINE	0
-	  # Source: https://askubuntu.com/a/880484
-|3,0,8,1,1,0,1545945703,"  # Source: https://askubuntu.com/a/880484"
-"9	LINE	0
-	kutsan/zsh-system-clipboard
-|3,0,9,1,1,0,1545849689,"kutsan/zsh-system-clipboard"
-"-	CHAR	0
-	dotfiles
-|3,0,36,0,1,0,1545927195,"dotfiles"
+|3,0,9,1,5,0,1545947736,"iconsize = 16","item=Restart Rygel","cmd=rygel -r","icon=/home/den/bmpicons/artifact-wrench.png","iconsize = 16"
+""-	CHAR	0
+	1b1818
+|3,1,36,0,1,0,1545992980,"1b1818"
 
 # File marks:
 'A  20  0  /boot/grub/grub.cfg
 |4,65,20,0,1519305780,"/boot/grub/grub.cfg"
-'0  30  0  ~/.xinitrc
-|4,48,30,0,1545947904,"~/.xinitrc"
-'1  11  0  ~/mygtkmenu
-|4,49,11,0,1545947796,"~/mygtkmenu"
-'2  44  0  ~/mygtkmenu
-|4,50,44,0,1545947771,"~/mygtkmenu"
-'3  50  0  ~/mygtkmenu
-|4,51,50,0,1545947771,"~/mygtkmenu"
-'4  57  0  ~/mygtkmenu
-|4,52,57,0,1545947740,"~/mygtkmenu"
-'5  65  0  ~/mygtkmenu
-|4,53,65,0,1545947740,"~/mygtkmenu"
-'6  63  0  ~/mygtkmenu
-|4,54,63,0,1545947740,"~/mygtkmenu"
-'7  71  0  ~/mygtkmenu
-|4,55,71,0,1545947740,"~/mygtkmenu"
-'8  1  0  /boot/grub/grub.cfg
-|4,56,1,0,1545945769,"/boot/grub/grub.cfg"
-'9  404  33  ~/Downloads/grub.cfg
-|4,57,404,33,1545945713,"~/Downloads/grub.cfg"
+'0  1  0  ~/9202.otf
+|4,48,1,0,1545993367,"~/9202.otf"
+'1  294  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,49,294,0,1545993069,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+'2  2  13  ~/.config/tym/theme.lua
+|4,50,2,13,1545993029,"~/.config/tym/theme.lua"
+'3  6  20  ~/.config/tym/theme.lua
+|4,51,6,20,1545992987,"~/.config/tym/theme.lua"
+'4  6  20  ~/.config/tym/theme.lua
+|4,52,6,20,1545992987,"~/.config/tym/theme.lua"
+'5  1  18  ~/.config/tym/theme.lua
+|4,53,1,18,1545992915,"~/.config/tym/theme.lua"
+'6  1  18  ~/.config/tym/theme.lua
+|4,54,1,18,1545992915,"~/.config/tym/theme.lua"
+'7  1  18  ~/.config/tym/theme.lua
+|4,55,1,18,1545992915,"~/.config/tym/theme.lua"
+'8  1  18  ~/.config/tym/theme.lua
+|4,56,1,18,1545992915,"~/.config/tym/theme.lua"
+'9  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/sidebar.rasi
+|4,57,1,0,1545992860,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/sidebar.rasi"
 
 # Jumplist (newest first):
--'  30  0  ~/.xinitrc
-|4,39,30,0,1545947904,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1545947901,"~/.xinitrc"
--'  11  0  ~/mygtkmenu
-|4,39,11,0,1545947796,"~/mygtkmenu"
--'  11  0  ~/mygtkmenu
-|4,39,11,0,1545947796,"~/mygtkmenu"
--'  44  0  ~/mygtkmenu
-|4,39,44,0,1545947771,"~/mygtkmenu"
--'  50  0  ~/mygtkmenu
-|4,39,50,0,1545947771,"~/mygtkmenu"
--'  44  0  ~/mygtkmenu
-|4,39,44,0,1545947771,"~/mygtkmenu"
--'  50  0  ~/mygtkmenu
-|4,39,50,0,1545947771,"~/mygtkmenu"
--'  57  0  ~/mygtkmenu
-|4,39,57,0,1545947755,"~/mygtkmenu"
--'  63  0  ~/mygtkmenu
-|4,39,63,0,1545947755,"~/mygtkmenu"
--'  57  0  ~/mygtkmenu
-|4,39,57,0,1545947755,"~/mygtkmenu"
--'  63  0  ~/mygtkmenu
-|4,39,63,0,1545947755,"~/mygtkmenu"
--'  65  0  ~/mygtkmenu
-|4,39,65,0,1545947740,"~/mygtkmenu"
--'  71  0  ~/mygtkmenu
-|4,39,71,0,1545947740,"~/mygtkmenu"
--'  65  0  ~/mygtkmenu
-|4,39,65,0,1545947740,"~/mygtkmenu"
--'  71  0  ~/mygtkmenu
-|4,39,71,0,1545947740,"~/mygtkmenu"
--'  1  48  ~/mygtkmenu
-|4,39,1,48,1545947727,"~/mygtkmenu"
--'  1  48  ~/mygtkmenu
-|4,39,1,48,1545947727,"~/mygtkmenu"
--'  1  48  ~/mygtkmenu
-|4,39,1,48,1545947727,"~/mygtkmenu"
--'  1  48  ~/mygtkmenu
-|4,39,1,48,1545947727,"~/mygtkmenu"
--'  1  48  ~/mygtkmenu
-|4,39,1,48,1545947727,"~/mygtkmenu"
--'  1  48  ~/mygtkmenu
-|4,39,1,48,1545947727,"~/mygtkmenu"
--'  59  38  ~/mygtkmenu
-|4,39,59,38,1545947716,"~/mygtkmenu"
--'  67  38  ~/mygtkmenu
-|4,39,67,38,1545947716,"~/mygtkmenu"
--'  65  38  ~/mygtkmenu
-|4,39,65,38,1545947716,"~/mygtkmenu"
--'  73  38  ~/mygtkmenu
-|4,39,73,38,1545947716,"~/mygtkmenu"
--'  59  38  ~/mygtkmenu
-|4,39,59,38,1545947716,"~/mygtkmenu"
--'  67  38  ~/mygtkmenu
-|4,39,67,38,1545947716,"~/mygtkmenu"
--'  65  38  ~/mygtkmenu
-|4,39,65,38,1545947716,"~/mygtkmenu"
--'  73  38  ~/mygtkmenu
-|4,39,73,38,1545947716,"~/mygtkmenu"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  1  0  /boot/grub/grub.cfg
-|4,39,1,0,1545945769,"/boot/grub/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  404  33  ~/Downloads/grub.cfg
-|4,39,404,33,1545945713,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
--'  375  18  ~/Downloads/grub.cfg
-|4,39,375,18,1545945345,"~/Downloads/grub.cfg"
--'  373  28  ~/Downloads/grub.cfg
-|4,39,373,28,1545945345,"~/Downloads/grub.cfg"
--'  376  19  ~/Downloads/grub.cfg
-|4,39,376,19,1545945345,"~/Downloads/grub.cfg"
+-'  1  0  ~/9202.otf
+|4,39,1,0,1545993367,"~/9202.otf"
+-'  1  0  ~/9202.otf
+|4,39,1,0,1545993367,"~/9202.otf"
+-'  294  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,294,0,1545993069,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  294  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,294,0,1545993069,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  294  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,294,0,1545993069,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  294  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,294,0,1545993069,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,1,0,1545993061,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,1,0,1545993061,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,1,0,1545993061,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+|4,39,1,0,1545993061,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  2  13  ~/.config/tym/theme.lua
+|4,39,2,13,1545993029,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  15  ~/.config/tym/theme.lua
+|4,39,6,15,1545993027,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  6  20  ~/.config/tym/theme.lua
+|4,39,6,20,1545992987,"~/.config/tym/theme.lua"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  126  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,126,0,1545992962,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,1,0,1545992937,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  1  18  ~/.config/tym/theme.lua
+|4,39,1,18,1545992915,"~/.config/tym/theme.lua"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
+-'  127  0  /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+|4,39,127,0,1545992900,"/tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults"
 
 # History of marks within files (newest to oldest):
+
+> /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/rc.lua
+	*	1545993068	0
+	"	294	0
+	^	296	63
+	.	306	0
+	+	74	24
+	+	72	28
+	+	296	62
+	+	306	0
+
+> ~/.config/tym/theme.lua
+	*	1545993027	0
+	"	2	13
+	^	6	21
+	.	2	0
+	+	1	0
+	+	6	20
+	+	14	20
+	+	13	20
+	+	7	0
+	+	8	20
+	+	9	20
+	+	10	20
+	+	11	20
+	+	12	20
+	+	13	0
+	+	15	20
+	+	16	21
+	+	17	21
+	+	18	21
+	+	19	21
+	+	20	20
+	+	21	20
+	+	2	18
+	+	1	18
+	+	20	0
+	+	22	0
+	+	1	18
+	+	2	18
+	+	2	0
+	z	13	20
+
+> /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/ControlP
+	*	1545992962	0
+	"	20	0
+	.	2	0
+	+	2	0
+
+> /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/.Xdefaults
+	*	1545992957	0
+	"	126	0
+
+> /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/sidebar.rasi
+	*	1545992856	0
+	"	1	0
+
+> ~/.config/tym/config.lua
+	*	1545991805	0
+	"	5	19
+	^	11	14
+	.	9	0
+	+	7	0
+	+	11	13
+	+	9	0
+
+> ~/ControlP
+	*	1545991655	0
+	"	19	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.config/termite/config
+	*	1545991648	0
+	"	41	24
+	.	36	0
+	+	35	0
+	+	35	45
+	+	35	0
+	+	35	40
+	+	35	0
+	+	35	46
+	+	35	0
+	+	35	46
+	+	35	0
+	+	35	27
+	+	35	32
+	+	35	42
+	+	35	35
+	+	35	0
+	+	35	25
+	+	35	0
+	+	35	16
+	+	35	0
+	+	35	24
+	+	35	0
+	+	35	15
+	+	35	22
+	+	35	0
+	+	35	35
+	+	35	30
+	+	35	43
+	+	35	24
+	+	35	0
+	+	35	24
+	+	35	19
+	+	35	24
+	+	35	0
+	+	35	16
+	+	35	0
+	+	35	43
+	+	35	0
+	+	35	43
+	+	35	31
+	+	35	43
+	+	1	0
+	+	35	0
+	+	35	10
+	+	35	31
+	+	21	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	24	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	24	0
+	+	22	0
+	+	24	47
+	+	22	0
+	+	23	0
+	+	25	51
+	+	25	0
+	+	35	0
+	+	36	0
+	z	25	51
+
+> ~/rc.lua
+	*	1545991506	0
+	"	1	0
+
+> ~/.config/awesome/rc.lua
+	*	1545991313	0
+	"	253	60
+	.	253	0
+	+	171	0
+	+	253	0
+
+> /tmp/vifm_FUSE/001_rocketawesome-master.zip/rocketawesome-master/README.md
+	*	1545990932	0
+	"	24	0
+
+> ~/.vim/mym.vim
+	*	1545990344	0
+	"	33	55
+	^	33	56
+	.	33	56
+	+	120	12
+	+	33	56
+
+> ~/.vimrc
+	*	1545990303	0
+	"	34	25
+	.	115	0
+	+	25	0
+	+	120	24
+	+	117	0
+	+	120	0
+	+	117	36
+	+	118	40
+	+	117	0
+	+	118	37
+	+	118	36
+	+	113	1
+	+	103	1
+	+	104	1
+	+	105	1
+	+	118	0
+	+	117	0
+	+	118	0
+	+	89	25
+	+	117	0
+	+	106	6
+	+	106	1
+	+	116	0
+	+	115	0
+
+> ~/.config/openbox/rc.xml
+	*	1545990289	0
+	"	860	4
+	.	321	0
+	+	321	0
+
+> ~/.config/tym/ControlP
+	*	1545988650	0
+	"	19	0
+	.	2	0
+	+	2	0
+
+> ~/tym/config.lua
+	*	1545988477	0
+	"	12	20
+	.	11	20
+	+	1	0
+	+	7	34
+	+	11	20
+
+> ~/bin/jf
+	*	1545949158	0
+	"	129	0
+
+> ~/bin/config_ui
+	*	1545949137	0
+	"	1	0
+
+> ~/bin/toggle-termite
+	*	1545949132	0
+	"	1	0
+
+> ~/bin/ad
+	*	1545949120	0
+	"	1	0
+
+> ~/bin/dmenu_run
+	*	1545949112	0
+	"	1	0
+
+> ~/.yadm/repo.git/COMMIT_EDITMSG
+	*	1545949076	0
+	"	1	0
+
+> ~/.yadm/repo.git/config
+	*	1545949068	0
+	"	1	0
+
+> ~/.gitconfig
+	*	1545949054	0
+	"	1	0
+
+> ~/.ssh/id_rsa.pub
+	*	1545949035	0
+	"	1	0
+
+> ~/.ssh/known_hosts
+	*	1545949028	0
+	"	1	325
+
+> ~/.cache/yay/vcs.json
+	*	1545949003	0
+	"	1	0
+
+> ~/.config/setup
+	*	1545948961	0
+	"	1	0
+
+> ~/.config/us
+	*	1545948958	0
+	"	1	0
+
+> ~/.zsh/.zshrc
+	*	1545948937	0
+	"	6	94
+
+> ~/.git-credentials
+	*	1545948750	0
+	"	1	0
+
+> /mnt/Now/Soft/Linux/.gitignore
+	*	1545948744	0
+	"	1	0
+
+> ~/.gitignore
+	*	1545948724	0
+	"	1	0
+
+> ~/.ignore
+	*	1545948710	0
+	"	1	0
 
 > ~/.xinitrc
 	*	1545947903	0
@@ -1437,44 +1681,9 @@ $
 	*	1545923622	0
 	"	1	0
 
-> ~/.ssh/known_hosts
-	*	1545923607	0
-	"	5	392
-
 > ~/.cache/openbox/openbox.log
 	*	1545923492	0
 	"	35	0
-
-> ~/.cache/yay/vcs.json
-	*	1545923473	0
-	"	1	0
-
-> ~/.vimrc
-	*	1545923293	0
-	"	20	33
-	.	115	0
-	+	25	0
-	+	120	24
-	+	117	0
-	+	120	0
-	+	117	36
-	+	118	40
-	+	117	0
-	+	118	37
-	+	118	36
-	+	113	1
-	+	103	1
-	+	104	1
-	+	105	1
-	+	118	0
-	+	117	0
-	+	118	0
-	+	89	25
-	+	117	0
-	+	106	6
-	+	106	1
-	+	116	0
-	+	115	0
 
 > ~/.config/rclone/rclone.conf
 	*	1545923118	0
@@ -1487,14 +1696,6 @@ $
 > ~/.zkbd/xterm-256color
 	*	1545922954	0
 	"	1	0
-
-> ~/.ssh/id_rsa.pub
-	*	1545922814	0
-	"	1	0
-
-> ~/.yadm/repo.git/config
-	*	1545922652	0
-	"	11	0
 
 > ~/.ssh/id_rsa
 	*	1545922628	0
@@ -1525,28 +1726,8 @@ $
 	*	1545919811	0
 	"	1	0
 
-> ~/.gitignore
-	*	1545919433	0
-	"	1	0
-
-> ~/.ignore
-	*	1545919429	0
-	"	1	0
-
-> ~/.git-credentials
-	*	1545919404	0
-	"	1	0
-
-> ~/.gitconfig
-	*	1545919396	0
-	"	1	0
-
 > /mnt/Now/Soft/Linux/7z/config/.config/yay/config.json
 	*	1545919031	0
-	"	1	0
-
-> ~/.zsh/.zshrc
-	*	1545914880	0
 	"	1	0
 
 > ~/.zsh/lscolors.sh
@@ -1602,78 +1783,6 @@ $
 > ~/.dotfiles.git/index
 	*	1545825893	0
 	"	1	0
-
-> ~/.config/termite/config
-	*	1545818729	0
-	"	36	0
-	.	36	0
-	+	35	0
-	+	35	45
-	+	35	0
-	+	35	40
-	+	35	0
-	+	35	46
-	+	35	0
-	+	35	46
-	+	35	0
-	+	35	27
-	+	35	32
-	+	35	42
-	+	35	35
-	+	35	0
-	+	35	25
-	+	35	0
-	+	35	16
-	+	35	0
-	+	35	24
-	+	35	0
-	+	35	15
-	+	35	22
-	+	35	0
-	+	35	35
-	+	35	30
-	+	35	43
-	+	35	24
-	+	35	0
-	+	35	24
-	+	35	19
-	+	35	24
-	+	35	0
-	+	35	16
-	+	35	0
-	+	35	43
-	+	35	0
-	+	35	43
-	+	35	31
-	+	35	43
-	+	1	0
-	+	35	0
-	+	35	10
-	+	35	31
-	+	21	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	24	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	24	0
-	+	22	0
-	+	24	47
-	+	22	0
-	+	23	0
-	+	25	51
-	+	25	0
-	+	35	0
-	+	36	0
-	z	25	51
 
 > ~/.zsh/themes/pure.zsh-theme
 	*	1545818465	0
@@ -1755,29 +1864,12 @@ $
 	+	1	0
 	+	35	0
 
-> ~/ControlP
-	*	1545751874	0
-	"	20	0
-	.	2	0
-	+	1	0
-	+	2	0
-
 > ~/spaceship.zsh
 	*	1545748042	0
 	"	1	0
 
 > ~/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-denysdovhan-SLASH-spaceship-prompt/spaceship.zsh
 	*	1545747999	0
-	"	1	0
-
-> ~/.vim/mym.vim
-	*	1545729581	0
-	"	118	38
-	.	120	12
-	+	120	12
-
-> ~/.config/openbox/rc.xml
-	*	1545729537	0
 	"	1	0
 
 > /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.dwm/.xinitrc
@@ -1787,83 +1879,3 @@ $
 > /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.vimrc
 	*	1545729470	0
 	"	108	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.zshrc
-	*	1545729462	0
-	"	98	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.wallpaper.jpg
-	*	1545729453	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.xsessionrc
-	*	1545729437	0
-	"	32	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.xrdb/rofi/nord
-	*	1545729419	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.xrdb/fonts/tewi
-	*	1545729415	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.Xresources
-	*	1545729406	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.xrdb/dmenu/nord
-	*	1545729388	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.xrdb/color/nord
-	*	1545729382	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.config/compton.conf
-	*	1545729333	0
-	"	122	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.config/termite/config
-	*	1545729321	0
-	"	68	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.fvwm/config
-	*	1545729289	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_almighty-dotfiles-master.zip/almighty-dotfiles-master/.oh-my-zsh/themes/clair.zsh-theme
-	*	1545729249	0
-	"	6	0
-
-> ~/install_font.sh
-	*	1545729202	0
-	"	1	0
-
-> /tmp/vifm_FUSE/001_BlaCk-Void-Zsh-master.zip/BlaCk-Void-Zsh-master/install_font.sh
-	*	1545729189	0
-	"	37	0
-
-> /tmp/vifm_FUSE/001_BlaCk-Void-Zsh-master.zip/BlaCk-Void-Zsh-master/fzf-set.zsh
-	*	1545729178	0
-	"	324	2
-
-> /tmp/vifm_FUSE/001_BlaCk-Void-Zsh-master.zip/BlaCk-Void-Zsh-master/BlaCk-Void-Zsh.sh
-	*	1545729095	0
-	"	39	0
-
-> /tmp/vifm_FUSE/001_BlaCk-Void-Zsh-master.zip/BlaCk-Void-Zsh-master/README.md
-	*	1545729066	0
-	"	53	0
-
-> /tmp/vifm_FUSE/001_BlaCk-Void-Zsh-master.zip/BlaCk-Void-Zsh-master/BlaCk-Void.zshenv
-	*	1545729039	0
-	"	14	0
-
-> /tmp/vifm_FUSE/001_BlaCk-Void-Zsh-master.zip/BlaCk-Void-Zsh-master/BlaCk-Void.zshrc
-	*	1545729017	0
-	"	168	0
-
-> ~/.cache/yay/antibody-bin/PKGBUILD
-	*	1545717346	0
-	"	1	0
