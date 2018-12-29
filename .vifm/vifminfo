@@ -27,7 +27,7 @@
 1437657465
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -36,42 +36,6 @@ l-2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home/den/.cache/yay
-	antibody-bin
-1
-d/home/den/.cache/yay/antibody-bin
-	antibody-bin-4.1.0-1-x86_64.pkg.tar.xz
-2
-d/home/den/.cache/yay
-	quickswitch-i3
-1
-d/home/den/.cache/yay/quickswitch-i3
-	..
-0
-d/home/den/.cache/yay
-	quickswitch-i3
-1
-d/home/den/.cache/yay/quickswitch-i3
-	..
-0
-d/home/den/.cache/yay
-	completion.cache
-1
-d/mnt/Now/2listen
-	..
-0
-d/mnt/Now
-	2listen
-3
-d/mnt
-	512
-2
-d/mnt/512
-	Audio
-5
-d/mnt/512/Audio
-	Best
-1
 d/mnt/512/Audio/Best
 	Tracks
 1
@@ -336,159 +300,45 @@ d/mnt/Now/Soft/Linux
 d/mnt/Now/Soft/Linux/Fonts
 	PT_Mono.zip
 8
+d/home/den/.config
+	awesome1
+30
+d/home/den/.config/awesome1
+	..
+0
+d/home/den/.config
+	awesome1
+24
+d/home/den/.config/awesome1
+	..
+0
+d/home/den/.config
+	awesome
+25
+d/home/den/.config/awesome
+	README.md
+10
+d/home/den/.config
+	awesome
+17
+d/home/den/.config/awesome
+	themes
+1
+d/home/den/.config/awesome/themes
+	..
+0
+d/home/den/.config/awesome
+	..
+0
+d/home/den/.config
+	awesome
+17
+d/home/den/.config/awesome
+	LICENSE
+10
 d
 
 # Right window history (oldest to newest):
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs/.config/termite
-	config
-1
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs/.config
-	..
-0
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs
-	.config
-1
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
-	fonts
-2
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/fonts
-	..
-0
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
-	fonts
-2
-D/tmp/vifm_FUSE/001_dots-master.zip
-	fonts
-2
-D/home/den
-	dots-master.zip
-14
-D/home/den/.config
-	polybar
-14
-D/home/den/.config/polybar
-	..
-0
-D/home/den/.config
-	tym
-2
-D/home/den/.config/tym
-	..
-0
-D/home/den/.config
-	rofi-pass
-30
-D/home/den
-	.swt
-16
-D/mnt/Now/2listen
-	NEA!
-2
-D/mnt/Now/2listen/NEA!
-	..
-0
-D/mnt/Now/2listen
-	VA-Cafe_Solaire_Vol_26
-4
-D/mnt/Now/2listen/VA-Cafe_Solaire_Vol_26
-	..
-0
-D/mnt/Now/2listen
-	NEA!
-2
-D/mnt/Now/2listen/NEA!
-	..
-0
-D/mnt/Now/2listen
-	NEA!
-2
-D/mnt/Now/2listen/NEA!
-	..
-0
-D/mnt/Now/2listen
-	VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
-1
-D/mnt/Now/2listen/VA - A Tribe Called Kotori-Chapter Two [Stil Vor Talent] FLAC-2018
-	..
-0
-D/mnt/Now/2listen
-	VA - Balance Presents-Uone [Balance Music] FLAC-2018
-19
-D/mnt/Now/2listen/VA - Balance Presents-Uone [Balance Music] FLAC-2018
-	..
-0
-D/mnt/Now/2listen
-	VA - Balance Presents-Uone [Balance Music] FLAC-2018
-19
-D/mnt/Now/2listen/VA - Balance Presents-Uone [Balance Music] FLAC-2018
-	..
-0
-D/mnt/Now/2listen
-	Mode_One_-_Melodies_Of_Freedom-(8436576210215)-WEB-2018-ZzZz
-7
-D/mnt/Now
-	..
-0
-D/mnt
-	Now
-1
-D/home/den
-	Pragmata_Pro.zip
-18
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
-	Pragmata Pro
-1
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip/Pragmata Pro
-	
-1
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
-	Pragmata Pro Mono.ttf
-7
-D/home/den
-	Pragmata_Pro.zip
-14
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
-	Pragmata Pro
-1
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip/Pragmata Pro
-	
-1
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
-	Pragmata Pro.ttf
-8
-D/home/den
-	.vifm
-1
-D/home/den/.vifm
-	..
-0
-D/home/den
-	.vifm
-1
-D/home/den/.vifm
-	..
-0
-D/home/den
-	.password-store
-22
-D/home/den/.password-store
-	..
-0
-D/home/den
-	.password-store
-22
-D/home/den/.password-store
-	.config-backup
-5
-D/home/den/.password-store/.config-backup
-	..
-0
-D/home/den/.password-store
-	.config-backup
-5
-D/home/den
-	.vifm
-1
 D/home/den/.vifm
 	..
 0
@@ -639,6 +489,156 @@ D/home/den/.config/awesome/lain
 D/home/den/.config/awesome/lain/util
 	..
 0
+D/home/den/.config/awesome/lain
+	util
+4
+D/home/den/.config/awesome
+	lain
+3
+D/home/den/.config
+	..
+0
+D/home/den
+	awesome-wm-config-awesome-4.x.zip
+12
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	awesome-wm-config-awesome-4.x
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	00patch
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	v3.5.4
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	v3.5.4
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	00patch
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	v3.5.4
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
+	
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	awful-tag.patch
+2
+D/home/den
+	awesome-wm-config-awesome-4.x.zip
+12
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	awesome-wm-config-awesome-4.x
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	00patch
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	v3.5.4
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
+	PKGBUILD
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	autostart
+2
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/autostart
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	wallpaper
+7
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper
+	nature
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper/nature
+	01188_elevation_1920x1080.jpg
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper
+	space
+2
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper/space
+	12635_3d_space_scene_earth.jpg
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper
+	tech
+3
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper/tech
+	
+3
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	..
+0
+D/home/den
+	awesome-wm-config-awesome-4.x.zip
+12
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	awesome-wm-config-awesome-4.x
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	autostart
+2
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/autostart
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	00patch
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	v3.5.4
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
+	awful-tag.patch
+2
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
+	v3.5.4
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	autostart
+2
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/autostart
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	themes
+6
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/themes
+	zenburn
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/themes/zenburn
+	background
+2
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/themes
+	zenburn
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	awesome-wm-config-awesome-4.x
+1
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
+	..
+0
+D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
+	awesome-wm-config-awesome-4.x
+1
+D/home/den
+	awesome-pro
+1
+D/home/den/awesome-pro
+	..
+0
+D/home/den
+	.vifm
+1
 D
 
 # Command line history (oldest to newest):
@@ -837,13 +837,13 @@ D
 /ope
 /igno
 /git
-/awe
 /pol
 /aut
 /op
 /upd
 /font
 /ob
+/awe
 
 # Prompt history (oldest to newest):
 pHddState.py
@@ -908,8 +908,6 @@ prestroot
 pconfig9
 pconfig10
 p.conky
-pawesome2
-pawesome
 pzsh-history-substring-search
 p.zshrc
 p.zsh1
@@ -925,7 +923,6 @@ pi3.png
 pWalls
 p.vimrci3
 pconfig1
-pawesome1
 pconfig2
 pconfig3
 piceberg
@@ -946,6 +943,9 @@ ppolybar2
 ppolybar
 pPragmata_Pro0827.zip
 pPragmata_Pro_0827.zip
+pawesome2
+pawesome1
+pawesome
 
 # Local filter history (oldest to newest):
 |====

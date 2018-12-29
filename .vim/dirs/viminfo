@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/f12
+~MSle0~/termina
 
 # Last Substitute Search Pattern:
 ~MSle0&\<tym\>
@@ -20,6 +20,10 @@
 $
 
 # Command Line History (newest to oldest):
+:290
+|2,0,1546068479,,"290"
+:326
+|2,0,1546024515,,"326"
 :221
 |2,0,1546018829,,"221"
 :465
@@ -96,8 +100,6 @@ $
 |2,0,1544938459,,"640"
 :574
 |2,0,1544900585,,"574"
-:290
-|2,0,1544810813,,"290"
 :107
 |2,0,1544810987,,"107"
 :set gfn=Meslo\ LG\ M\ DZ\ Regular\ 8
@@ -213,9 +215,47 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1546019003,,"\\s\\+$"
+|2,1,1546068702,,"\\s\\+$"
+?/termina
+|2,1,1546068639,47,"termina"
+?/modk
+|2,1,1546068566,47,"modk"
+?/Right
+|2,1,1546028450,47,"Right"
+?/f4
+|2,1,1546028211,47,"f4"
+?/term
+|2,1,1546028023,47,"term"
+?/16
+|2,1,1546027381,47,"16"
+?/"Up
+|2,1,1546026507,47,"\"Up"
+?/posit
+|2,1,1546025720,47,"posit"
+?/top
+|2,1,1546025515,47,"top"
+?/glob
+|2,1,1546026171,47,"glob"
+?/titlebar
+|2,1,1546025852,47,"titlebar"
+?/wibox
+|2,1,1546025786,47,"wibox"
+?/awful.wibox
+|2,1,1546025778,47,"awful.wibox"
+?/titlebars_enabled
+|2,1,1546025373,47,"titlebars_enabled"
+?/space
+|2,1,1546024561,47,"space"
 ?/f12
-|2,1,1546018891,47,"f12"
+|2,1,1546024278,47,"f12"
+?/"k"
+|2,1,1546023722,47,"\"k\""
+?/"l"
+|2,1,1546023592,47,"\"l\""
+?/float
+|2,1,1546021834,47,"float"
+?/spawn
+|2,1,1546021589,47,"spawn"
 ?/clientk
 |2,1,1546018860,47,"clientk"
 ?/client
@@ -228,18 +268,12 @@ $
 |2,1,1546018161,47,"drop"
 ?/full
 |2,1,1546018053,47,"full"
-?/wibox
-|2,1,1546017969,47,"wibox"
 ?/titleb
 |2,1,1546017912,47,"titleb"
-?/top
-|2,1,1546017824,47,"top"
 ?/bar
 |2,1,1546017811,47,"bar"
 ?/font
 |2,1,1546017804,47,"font"
-?/"l"
-|2,1,1546017553,47,"\"l\""
 ?/auto
 |2,1,1546017050,47,"auto"
 ?/Left
@@ -248,8 +282,6 @@ $
 |2,1,1546016600,47,"fileb"
 ?/kil
 |2,1,1546016354,47,"kil"
-?/Right
-|2,1,1546016186,47,"Right"
 ?/End
 |2,1,1546016165,47,"End"
 ?/end
@@ -278,8 +310,6 @@ $
 |2,1,1546004674,47,"monit"
 ?/screen
 |2,1,1545991295,47,"screen"
-?/term
-|2,1,1545990759,47,"term"
 ? \<termite\>
 |2,1,1545989412,,"\\<termite\\>"
 ?/termite
@@ -480,8 +510,6 @@ $
 |2,1,1544812709,47,"mod"
 ?/env.m
 |2,1,1544812623,47,"env.m"
-?/modk
-|2,1,1544812560,47,"modk"
 ?/mode
 |2,1,1544812304,47,"mode"
 ?/ter
@@ -710,8 +738,6 @@ $
 |2,1,1520020224,47,"guie"
 ?/gui_e
 |2,1,1520020081,47,"gui_e"
-?/termina
-|2,1,1520020038,47,"termina"
 ?/rre
 |2,1,1520019694,47,"rre"
 ?/^\
@@ -944,365 +970,408 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	local terminal     = "alacritty"
-|3,0,0,1,1,0,1546018586,"local terminal     = \"alacritty\""
-""1	LINE	0
-	    awful.key({ modkey,           }, "F12", function () awful.spawn(terminal1) end,
-|3,1,1,1,1,0,1546018893,"    awful.key({ modkey,           }, \"F12\", function () awful.spawn(terminal1) end,"
+"0	CHAR	0
+	Tab
+|3,0,0,0,1,0,1546026637,"Tab"
+"1	LINE	0
+	awful.key({ modkey,           }, "Up",
+	    function ()
+	        awful.client.focus.history.previous()
+	        if client.focus then
+	            client.focus:raise()
+	        end
+	    end),
+|3,0,1,1,7,0,1546026524,"awful.key({ modkey,           }, \"Up\",","    function ()","        awful.client.focus.history.previous()","        if client.focus then","            client.focus:raise()","        end","    end),"
 "2	LINE	0
+		 ("","xfsettingsd","3","*"),
+|3,0,2,1,1,0,1546024872,"	 (\"\",\"xfsettingsd\",\"3\",\"*\"),"
+"3	LINE	0
+	   "xfsettings -d",
+|3,0,3,1,1,0,1546024640,"   \"xfsettings -d\","
+"4	LINE	0
+	   "xfsettingsd &",
+|3,0,4,1,1,0,1546024029,"   \"xfsettingsd &\","
+"5	LINE	0
+	   "setxkbmap -model pc104 -layout \"us,ru(phonetic_winkeys)\" -option grp:alt_shift_toggle -option \"terminate:ctrl_alt_bksp\" &",
+|3,0,5,1,1,0,1546024015,"   \"setxkbmap -model pc104 -layout \\\"us,ru(phonetic_winkeys)\\\" -option grp:alt_shift_toggle -option \\\"terminate:ctrl_alt_bksp\\\" &\","
+"6	LINE	0
+	
+|3,0,6,1,1,0,1546021770,""
+"7	LINE	0
+	    awful.key({ modkey,           }, "F12", function () awful.spawn(terminal1) end,
+|3,0,7,1,1,0,1546018893,"    awful.key({ modkey,           }, \"F12\", function () awful.spawn(terminal1) end,"
+"8	LINE	0
 	)
-|3,0,2,1,1,0,1546016763,")"
-"3	BLOCK	7
+|3,0,8,1,1,0,1546016763,")"
+"9	BLOCK	7
 	0xb9ca4a
 	0xe6c547
 	0x7aa6da
 	0xc397d8
 	0x70c0ba
 	0xffffff
-|3,0,3,2,6,7,1546013508,"0xb9ca4a","0xe6c547","0x7aa6da","0xc397d8","0x70c0ba","0xffffff"
-"4	LINE	0
-	modules-center = mpd
-|3,0,4,1,1,0,1546004723,"modules-center = mpd"
-"5	LINE	0
-	-- set by table
-|3,0,5,1,1,0,1545991754,"-- set by table"
-"6	LINE	0
-	  -- SNIP
-|3,0,6,1,1,0,1545989257,"  -- SNIP"
-"7	LINE	0
-	item=GTK Theme Switch
-	cmd=gtk-theme-switch2
-	icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg
-	iconsize = 16
-	iconsize = 16
-	
-|3,0,7,1,6,0,1545947794,"item=GTK Theme Switch","cmd=gtk-theme-switch2","icon= /usr/share/icons/Oranchelo/apps/scalable/firefox.svg","iconsize = 16","iconsize = 16",""
-"8	LINE	0
-	
-	
-	SEPARATOR
-|3,0,8,1,3,0,1545947769,"","","SEPARATOR"
-"9	LINE	0
-	item=Fb2-Reader
-	cmd=simple-fb2-reader
-	icon= /home/den/bmpicons/accessories-text-editor.png
-	iconsize = 16
-	iconsize = 16
-|3,0,9,1,5,0,1545947762,"item=Fb2-Reader","cmd=simple-fb2-reader","icon= /home/den/bmpicons/accessories-text-editor.png","iconsize = 16","iconsize = 16"
-"-	CHAR	0
-	modkey
-|3,0,36,0,1,0,1546017569,"modkey"
+|3,0,9,2,6,7,1546013508,"0xb9ca4a","0xe6c547","0x7aa6da","0xc397d8","0x70c0ba","0xffffff"
+""-	CHAR	0
+	x
+|3,1,36,0,1,0,1546068678,"x"
 
 # File marks:
 'A  20  0  /boot/grub/grub.cfg
 |4,65,20,0,1519305780,"/boot/grub/grub.cfg"
-'0  671  128  ~/.config/awesome/rc.lua
-|4,48,671,128,1546019003,"~/.config/awesome/rc.lua"
-'1  324  38  ~/.config/awesome/rc.lua
-|4,49,324,38,1546018936,"~/.config/awesome/rc.lua"
-'2  324  38  ~/.config/awesome/rc.lua
-|4,50,324,38,1546018936,"~/.config/awesome/rc.lua"
-'3  324  38  ~/.config/awesome/rc.lua
-|4,51,324,38,1546018905,"~/.config/awesome/rc.lua"
-'4  324  38  ~/.config/awesome/rc.lua
-|4,52,324,38,1546018905,"~/.config/awesome/rc.lua"
-'5  324  40  ~/.config/awesome/rc.lua
-|4,53,324,40,1546018758,"~/.config/awesome/rc.lua"
-'6  324  40  ~/.config/awesome/rc.lua
-|4,54,324,40,1546018758,"~/.config/awesome/rc.lua"
-'7  324  40  ~/.config/awesome/rc.lua
-|4,55,324,40,1546018758,"~/.config/awesome/rc.lua"
-'8  324  40  ~/.config/awesome/rc.lua
-|4,56,324,40,1546018758,"~/.config/awesome/rc.lua"
-'9  67  28  ~/.config/awesome/rc.lua
-|4,57,67,28,1546018605,"~/.config/awesome/rc.lua"
+'0  734  42  ~/.config/awesome/rc.lua
+|4,48,734,42,1546068703,"~/.config/awesome/rc.lua"
+'1  2564  28  ~/.config/awesome/rc.lua
+|4,49,2564,28,1546028526,"~/.config/awesome/rc.lua"
+'2  2564  28  ~/.config/awesome/rc.lua
+|4,50,2564,28,1546028526,"~/.config/awesome/rc.lua"
+'3  2575  0  ~/.config/awesome/rc.lua
+|4,51,2575,0,1546028283,"~/.config/awesome/rc.lua"
+'4  2575  0  ~/.config/awesome/rc.lua
+|4,52,2575,0,1546028283,"~/.config/awesome/rc.lua"
+'5  2575  0  ~/.config/awesome/rc.lua
+|4,53,2575,0,1546028283,"~/.config/awesome/rc.lua"
+'6  2575  0  ~/.config/awesome/rc.lua
+|4,54,2575,0,1546028283,"~/.config/awesome/rc.lua"
+'7  326  16  ~/.config/awesome/rc.lua
+|4,55,326,16,1546028104,"~/.config/awesome/rc.lua"
+'8  326  16  ~/.config/awesome/rc.lua
+|4,56,326,16,1546028104,"~/.config/awesome/rc.lua"
+'9  326  16  ~/.config/awesome/rc.lua
+|4,57,326,16,1546028104,"~/.config/awesome/rc.lua"
 
 # Jumplist (newest first):
--'  671  128  ~/.config/awesome/rc.lua
-|4,39,671,128,1546019003,"~/.config/awesome/rc.lua"
--'  324  38  ~/.config/awesome/rc.lua
-|4,39,324,38,1546018944,"~/.config/awesome/rc.lua"
--'  324  38  ~/.config/awesome/rc.lua
-|4,39,324,38,1546018936,"~/.config/awesome/rc.lua"
--'  324  38  ~/.config/awesome/rc.lua
-|4,39,324,38,1546018905,"~/.config/awesome/rc.lua"
--'  497  31  ~/.config/awesome/rc.lua
-|4,39,497,31,1546018891,"~/.config/awesome/rc.lua"
--'  497  31  ~/.config/awesome/rc.lua
-|4,39,497,31,1546018891,"~/.config/awesome/rc.lua"
--'  497  31  ~/.config/awesome/rc.lua
-|4,39,497,31,1546018891,"~/.config/awesome/rc.lua"
--'  464  0  ~/.config/awesome/rc.lua
-|4,39,464,0,1546018860,"~/.config/awesome/rc.lua"
--'  252  18  ~/.config/awesome/rc.lua
-|4,39,252,18,1546018860,"~/.config/awesome/rc.lua"
--'  464  0  ~/.config/awesome/rc.lua
-|4,39,464,0,1546018860,"~/.config/awesome/rc.lua"
--'  252  18  ~/.config/awesome/rc.lua
-|4,39,252,18,1546018860,"~/.config/awesome/rc.lua"
--'  464  0  ~/.config/awesome/rc.lua
-|4,39,464,0,1546018860,"~/.config/awesome/rc.lua"
--'  252  18  ~/.config/awesome/rc.lua
-|4,39,252,18,1546018860,"~/.config/awesome/rc.lua"
--'  248  55  ~/.config/awesome/rc.lua
-|4,39,248,55,1546018855,"~/.config/awesome/rc.lua"
--'  248  55  ~/.config/awesome/rc.lua
-|4,39,248,55,1546018855,"~/.config/awesome/rc.lua"
--'  248  55  ~/.config/awesome/rc.lua
-|4,39,248,55,1546018855,"~/.config/awesome/rc.lua"
--'  246  18  ~/.config/awesome/rc.lua
-|4,39,246,18,1546018854,"~/.config/awesome/rc.lua"
--'  246  18  ~/.config/awesome/rc.lua
-|4,39,246,18,1546018854,"~/.config/awesome/rc.lua"
--'  246  18  ~/.config/awesome/rc.lua
-|4,39,246,18,1546018854,"~/.config/awesome/rc.lua"
--'  243  15  ~/.config/awesome/rc.lua
-|4,39,243,15,1546018852,"~/.config/awesome/rc.lua"
--'  243  15  ~/.config/awesome/rc.lua
-|4,39,243,15,1546018852,"~/.config/awesome/rc.lua"
--'  243  15  ~/.config/awesome/rc.lua
-|4,39,243,15,1546018852,"~/.config/awesome/rc.lua"
--'  233  25  ~/.config/awesome/rc.lua
-|4,39,233,25,1546018851,"~/.config/awesome/rc.lua"
--'  233  25  ~/.config/awesome/rc.lua
-|4,39,233,25,1546018851,"~/.config/awesome/rc.lua"
--'  233  25  ~/.config/awesome/rc.lua
-|4,39,233,25,1546018851,"~/.config/awesome/rc.lua"
--'  324  40  ~/.config/awesome/rc.lua
-|4,39,324,40,1546018758,"~/.config/awesome/rc.lua"
--'  456  20  ~/.config/awesome/rc.lua
-|4,39,456,20,1546018701,"~/.config/awesome/rc.lua"
--'  457  20  ~/.config/awesome/rc.lua
-|4,39,457,20,1546018701,"~/.config/awesome/rc.lua"
--'  456  20  ~/.config/awesome/rc.lua
-|4,39,456,20,1546018701,"~/.config/awesome/rc.lua"
--'  457  20  ~/.config/awesome/rc.lua
-|4,39,457,20,1546018701,"~/.config/awesome/rc.lua"
--'  456  20  ~/.config/awesome/rc.lua
-|4,39,456,20,1546018701,"~/.config/awesome/rc.lua"
--'  457  20  ~/.config/awesome/rc.lua
-|4,39,457,20,1546018701,"~/.config/awesome/rc.lua"
--'  58  0  ~/.config/awesome/rc.lua
-|4,39,58,0,1546018663,"~/.config/awesome/rc.lua"
--'  58  0  ~/.config/awesome/rc.lua
-|4,39,58,0,1546018663,"~/.config/awesome/rc.lua"
--'  58  0  ~/.config/awesome/rc.lua
-|4,39,58,0,1546018663,"~/.config/awesome/rc.lua"
--'  58  0  ~/.config/awesome/rc.lua
-|4,39,58,0,1546018663,"~/.config/awesome/rc.lua"
--'  67  28  ~/.config/awesome/rc.lua
-|4,39,67,28,1546018605,"~/.config/awesome/rc.lua"
--'  67  28  ~/.config/awesome/rc.lua
-|4,39,67,28,1546018605,"~/.config/awesome/rc.lua"
--'  67  28  ~/.config/awesome/rc.lua
-|4,39,67,28,1546018605,"~/.config/awesome/rc.lua"
--'  67  28  ~/.config/awesome/rc.lua
-|4,39,67,28,1546018605,"~/.config/awesome/rc.lua"
--'  67  28  ~/.config/awesome/rc.lua
-|4,39,67,28,1546018605,"~/.config/awesome/rc.lua"
--'  324  55  ~/.config/awesome/rc.lua
-|4,39,324,55,1546018577,"~/.config/awesome/rc.lua"
--'  326  52  ~/.config/awesome/rc.lua
-|4,39,326,52,1546018547,"~/.config/awesome/rc.lua"
--'  327  52  ~/.config/awesome/rc.lua
-|4,39,327,52,1546018547,"~/.config/awesome/rc.lua"
--'  326  52  ~/.config/awesome/rc.lua
-|4,39,326,52,1546018547,"~/.config/awesome/rc.lua"
--'  327  52  ~/.config/awesome/rc.lua
-|4,39,327,52,1546018547,"~/.config/awesome/rc.lua"
--'  326  52  ~/.config/awesome/rc.lua
-|4,39,326,52,1546018547,"~/.config/awesome/rc.lua"
--'  327  52  ~/.config/awesome/rc.lua
-|4,39,327,52,1546018547,"~/.config/awesome/rc.lua"
--'  327  52  ~/.config/awesome/rc.lua
-|4,39,327,52,1546018547,"~/.config/awesome/rc.lua"
--'  323  19  ~/.config/awesome/rc.lua
-|4,39,323,19,1546018488,"~/.config/awesome/rc.lua"
--'  323  19  ~/.config/awesome/rc.lua
-|4,39,323,19,1546018488,"~/.config/awesome/rc.lua"
--'  323  19  ~/.config/awesome/rc.lua
-|4,39,323,19,1546018488,"~/.config/awesome/rc.lua"
--'  323  19  ~/.config/awesome/rc.lua
-|4,39,323,19,1546018488,"~/.config/awesome/rc.lua"
--'  323  19  ~/.config/awesome/rc.lua
-|4,39,323,19,1546018488,"~/.config/awesome/rc.lua"
--'  190  55  ~/.config/awesome/rc.lua
-|4,39,190,55,1546018418,"~/.config/awesome/rc.lua"
--'  322  71  ~/.config/awesome/rc.lua
-|4,39,322,71,1546018418,"~/.config/awesome/rc.lua"
--'  189  55  ~/.config/awesome/rc.lua
-|4,39,189,55,1546018418,"~/.config/awesome/rc.lua"
--'  190  55  ~/.config/awesome/rc.lua
-|4,39,190,55,1546018418,"~/.config/awesome/rc.lua"
--'  322  71  ~/.config/awesome/rc.lua
-|4,39,322,71,1546018418,"~/.config/awesome/rc.lua"
--'  189  55  ~/.config/awesome/rc.lua
-|4,39,189,55,1546018418,"~/.config/awesome/rc.lua"
--'  190  55  ~/.config/awesome/rc.lua
-|4,39,190,55,1546018418,"~/.config/awesome/rc.lua"
--'  322  71  ~/.config/awesome/rc.lua
-|4,39,322,71,1546018418,"~/.config/awesome/rc.lua"
--'  189  55  ~/.config/awesome/rc.lua
-|4,39,189,55,1546018418,"~/.config/awesome/rc.lua"
--'  190  55  ~/.config/awesome/rc.lua
-|4,39,190,55,1546018418,"~/.config/awesome/rc.lua"
--'  322  71  ~/.config/awesome/rc.lua
-|4,39,322,71,1546018418,"~/.config/awesome/rc.lua"
--'  189  55  ~/.config/awesome/rc.lua
-|4,39,189,55,1546018418,"~/.config/awesome/rc.lua"
--'  323  71  ~/.config/awesome/rc.lua
-|4,39,323,71,1546018418,"~/.config/awesome/rc.lua"
--'  190  55  ~/.config/awesome/rc.lua
-|4,39,190,55,1546018418,"~/.config/awesome/rc.lua"
--'  322  71  ~/.config/awesome/rc.lua
-|4,39,322,71,1546018418,"~/.config/awesome/rc.lua"
--'  189  55  ~/.config/awesome/rc.lua
-|4,39,189,55,1546018418,"~/.config/awesome/rc.lua"
--'  186  27  ~/.config/awesome/rc.lua
-|4,39,186,27,1546018417,"~/.config/awesome/rc.lua"
--'  185  27  ~/.config/awesome/rc.lua
-|4,39,185,27,1546018417,"~/.config/awesome/rc.lua"
--'  186  27  ~/.config/awesome/rc.lua
-|4,39,186,27,1546018417,"~/.config/awesome/rc.lua"
--'  185  27  ~/.config/awesome/rc.lua
-|4,39,185,27,1546018417,"~/.config/awesome/rc.lua"
--'  186  27  ~/.config/awesome/rc.lua
-|4,39,186,27,1546018417,"~/.config/awesome/rc.lua"
--'  185  27  ~/.config/awesome/rc.lua
-|4,39,185,27,1546018417,"~/.config/awesome/rc.lua"
--'  186  27  ~/.config/awesome/rc.lua
-|4,39,186,27,1546018417,"~/.config/awesome/rc.lua"
--'  185  27  ~/.config/awesome/rc.lua
-|4,39,185,27,1546018417,"~/.config/awesome/rc.lua"
--'  186  27  ~/.config/awesome/rc.lua
-|4,39,186,27,1546018417,"~/.config/awesome/rc.lua"
--'  185  27  ~/.config/awesome/rc.lua
-|4,39,185,27,1546018417,"~/.config/awesome/rc.lua"
--'  175  50  ~/.config/awesome/rc.lua
-|4,39,175,50,1546018414,"~/.config/awesome/rc.lua"
--'  174  50  ~/.config/awesome/rc.lua
-|4,39,174,50,1546018414,"~/.config/awesome/rc.lua"
--'  175  50  ~/.config/awesome/rc.lua
-|4,39,175,50,1546018414,"~/.config/awesome/rc.lua"
--'  174  50  ~/.config/awesome/rc.lua
-|4,39,174,50,1546018414,"~/.config/awesome/rc.lua"
--'  175  50  ~/.config/awesome/rc.lua
-|4,39,175,50,1546018414,"~/.config/awesome/rc.lua"
--'  174  50  ~/.config/awesome/rc.lua
-|4,39,174,50,1546018414,"~/.config/awesome/rc.lua"
--'  175  50  ~/.config/awesome/rc.lua
-|4,39,175,50,1546018414,"~/.config/awesome/rc.lua"
--'  174  50  ~/.config/awesome/rc.lua
-|4,39,174,50,1546018414,"~/.config/awesome/rc.lua"
--'  175  50  ~/.config/awesome/rc.lua
-|4,39,175,50,1546018414,"~/.config/awesome/rc.lua"
--'  174  50  ~/.config/awesome/rc.lua
-|4,39,174,50,1546018414,"~/.config/awesome/rc.lua"
--'  173  16  ~/.config/awesome/rc.lua
-|4,39,173,16,1546018411,"~/.config/awesome/rc.lua"
--'  173  16  ~/.config/awesome/rc.lua
-|4,39,173,16,1546018411,"~/.config/awesome/rc.lua"
--'  173  16  ~/.config/awesome/rc.lua
-|4,39,173,16,1546018411,"~/.config/awesome/rc.lua"
--'  173  16  ~/.config/awesome/rc.lua
-|4,39,173,16,1546018411,"~/.config/awesome/rc.lua"
--'  174  16  ~/.config/awesome/rc.lua
-|4,39,174,16,1546018411,"~/.config/awesome/rc.lua"
--'  173  16  ~/.config/awesome/rc.lua
-|4,39,173,16,1546018411,"~/.config/awesome/rc.lua"
--'  79  22  ~/.config/awesome/rc.lua
-|4,39,79,22,1546018409,"~/.config/awesome/rc.lua"
--'  78  22  ~/.config/awesome/rc.lua
-|4,39,78,22,1546018409,"~/.config/awesome/rc.lua"
--'  79  22  ~/.config/awesome/rc.lua
-|4,39,79,22,1546018409,"~/.config/awesome/rc.lua"
+-'  734  42  ~/.config/awesome/rc.lua
+|4,39,734,42,1546068703,"~/.config/awesome/rc.lua"
+-'  585  27  ~/.config/awesome/rc.lua
+|4,39,585,27,1546068660,"~/.config/awesome/rc.lua"
+-'  574  50  ~/.config/awesome/rc.lua
+|4,39,574,50,1546068656,"~/.config/awesome/rc.lua"
+-'  573  16  ~/.config/awesome/rc.lua
+|4,39,573,16,1546068654,"~/.config/awesome/rc.lua"
+-'  439  47  ~/.config/awesome/rc.lua
+|4,39,439,47,1546068650,"~/.config/awesome/rc.lua"
+-'  92  22  ~/.config/awesome/rc.lua
+|4,39,92,22,1546068643,"~/.config/awesome/rc.lua"
+-'  80  6  ~/.config/awesome/rc.lua
+|4,39,80,6,1546068641,"~/.config/awesome/rc.lua"
+-'  70  16  ~/.config/awesome/rc.lua
+|4,39,70,16,1546068639,"~/.config/awesome/rc.lua"
+-'  78  6  ~/.config/awesome/rc.lua
+|4,39,78,6,1546068566,"~/.config/awesome/rc.lua"
+-'  1  78  ~/.config/awesome/rc.lua
+|4,39,1,78,1546068566,"~/.config/awesome/rc.lua"
+-'  293  1  ~/.config/awesome/rc.lua
+|4,39,293,1,1546068555,"~/.config/awesome/rc.lua"
+-'  1091  28  ~/.config/awesome/rc.lua
+|4,39,1091,28,1546068475,"~/.config/awesome/rc.lua"
+-'  1115  28  ~/.config/awesome/rc.lua
+|4,39,1115,28,1546068473,"~/.config/awesome/rc.lua"
+-'  2564  28  ~/.config/awesome/rc.lua
+|4,39,2564,28,1546028526,"~/.config/awesome/rc.lua"
+-'  2564  28  ~/.config/awesome/rc.lua
+|4,39,2564,28,1546028526,"~/.config/awesome/rc.lua"
+-'  2529  40  ~/.config/awesome/rc.lua
+|4,39,2529,40,1546028521,"~/.config/awesome/rc.lua"
+-'  2529  40  ~/.config/awesome/rc.lua
+|4,39,2529,40,1546028521,"~/.config/awesome/rc.lua"
+-'  2513  45  ~/.config/awesome/rc.lua
+|4,39,2513,45,1546028518,"~/.config/awesome/rc.lua"
+-'  2507  0  ~/.config/awesome/rc.lua
+|4,39,2507,0,1546028518,"~/.config/awesome/rc.lua"
+-'  2513  45  ~/.config/awesome/rc.lua
+|4,39,2513,45,1546028518,"~/.config/awesome/rc.lua"
+-'  2507  0  ~/.config/awesome/rc.lua
+|4,39,2507,0,1546028518,"~/.config/awesome/rc.lua"
+-'  2150  59  ~/.config/awesome/rc.lua
+|4,39,2150,59,1546028484,"~/.config/awesome/rc.lua"
+-'  2150  59  ~/.config/awesome/rc.lua
+|4,39,2150,59,1546028484,"~/.config/awesome/rc.lua"
+-'  1934  13  ~/.config/awesome/rc.lua
+|4,39,1934,13,1546028473,"~/.config/awesome/rc.lua"
+-'  1934  13  ~/.config/awesome/rc.lua
+|4,39,1934,13,1546028473,"~/.config/awesome/rc.lua"
+-'  51  32  ~/.config/awesome/rc.lua
+|4,39,51,32,1546028472,"~/.config/awesome/rc.lua"
+-'  51  32  ~/.config/awesome/rc.lua
+|4,39,51,32,1546028472,"~/.config/awesome/rc.lua"
+-'  2615  48  ~/.config/awesome/rc.lua
+|4,39,2615,48,1546028468,"~/.config/awesome/rc.lua"
+-'  2615  48  ~/.config/awesome/rc.lua
+|4,39,2615,48,1546028468,"~/.config/awesome/rc.lua"
+-'  2588  42  ~/.config/awesome/rc.lua
+|4,39,2588,42,1546028460,"~/.config/awesome/rc.lua"
+-'  2588  42  ~/.config/awesome/rc.lua
+|4,39,2588,42,1546028460,"~/.config/awesome/rc.lua"
+-'  2574  37  ~/.config/awesome/rc.lua
+|4,39,2574,37,1546028454,"~/.config/awesome/rc.lua"
+-'  2574  37  ~/.config/awesome/rc.lua
+|4,39,2574,37,1546028454,"~/.config/awesome/rc.lua"
+-'  2561  0  ~/.config/awesome/rc.lua
+|4,39,2561,0,1546028450,"~/.config/awesome/rc.lua"
+-'  2561  0  ~/.config/awesome/rc.lua
+|4,39,2561,0,1546028450,"~/.config/awesome/rc.lua"
+-'  2575  0  ~/.config/awesome/rc.lua
+|4,39,2575,0,1546028283,"~/.config/awesome/rc.lua"
+-'  2575  0  ~/.config/awesome/rc.lua
+|4,39,2575,0,1546028283,"~/.config/awesome/rc.lua"
+-'  2575  0  ~/.config/awesome/rc.lua
+|4,39,2575,0,1546028283,"~/.config/awesome/rc.lua"
+-'  2199  21  ~/.config/awesome/rc.lua
+|4,39,2199,21,1546028217,"~/.config/awesome/rc.lua"
+-'  2199  21  ~/.config/awesome/rc.lua
+|4,39,2199,21,1546028217,"~/.config/awesome/rc.lua"
+-'  2564  26  ~/.config/awesome/rc.lua
+|4,39,2564,26,1546028217,"~/.config/awesome/rc.lua"
+-'  2199  21  ~/.config/awesome/rc.lua
+|4,39,2199,21,1546028217,"~/.config/awesome/rc.lua"
+-'  326  16  ~/.config/awesome/rc.lua
+|4,39,326,16,1546028211,"~/.config/awesome/rc.lua"
+-'  326  16  ~/.config/awesome/rc.lua
+|4,39,326,16,1546028211,"~/.config/awesome/rc.lua"
+-'  326  16  ~/.config/awesome/rc.lua
+|4,39,326,16,1546028211,"~/.config/awesome/rc.lua"
+-'  326  16  ~/.config/awesome/rc.lua
+|4,39,326,16,1546028104,"~/.config/awesome/rc.lua"
+-'  321  11  ~/.config/awesome/rc.lua
+|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
+-'  321  11  ~/.config/awesome/rc.lua
+|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
+-'  321  11  ~/.config/awesome/rc.lua
+|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
+-'  321  11  ~/.config/awesome/rc.lua
+|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
+-'  1  23  ~/.config/awesome/rc.lua
+|4,39,1,23,1546028092,"~/.config/awesome/rc.lua"
+-'  1  23  ~/.config/awesome/rc.lua
+|4,39,1,23,1546028092,"~/.config/awesome/rc.lua"
+-'  1  23  ~/.config/awesome/rc.lua
+|4,39,1,23,1546028092,"~/.config/awesome/rc.lua"
+-'  2235  23  ~/.config/awesome/rc.lua
+|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
+-'  2235  23  ~/.config/awesome/rc.lua
+|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
+-'  2235  23  ~/.config/awesome/rc.lua
+|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
+-'  2235  23  ~/.config/awesome/rc.lua
+|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
+-'  2237  26  ~/.config/awesome/rc.lua
+|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
+-'  2237  26  ~/.config/awesome/rc.lua
+|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
+-'  2237  26  ~/.config/awesome/rc.lua
+|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
+-'  2237  26  ~/.config/awesome/rc.lua
+|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
+-'  1566  25  ~/.config/awesome/rc.lua
+|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
+-'  1566  25  ~/.config/awesome/rc.lua
+|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
+-'  1566  25  ~/.config/awesome/rc.lua
+|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
+-'  1566  25  ~/.config/awesome/rc.lua
+|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
+-'  1551  24  ~/.config/awesome/rc.lua
+|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
+-'  1551  24  ~/.config/awesome/rc.lua
+|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
+-'  1551  24  ~/.config/awesome/rc.lua
+|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
+-'  1551  24  ~/.config/awesome/rc.lua
+|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
+-'  1540  24  ~/.config/awesome/rc.lua
+|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
+-'  1540  24  ~/.config/awesome/rc.lua
+|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
+-'  1540  24  ~/.config/awesome/rc.lua
+|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
+-'  1540  24  ~/.config/awesome/rc.lua
+|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
+-'  274  4  ~/.config/awesome/rc.lua
+|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
+-'  274  4  ~/.config/awesome/rc.lua
+|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
+-'  274  4  ~/.config/awesome/rc.lua
+|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
+-'  274  4  ~/.config/awesome/rc.lua
+|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
+-'  270  37  ~/.config/awesome/rc.lua
+|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
+-'  270  37  ~/.config/awesome/rc.lua
+|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
+-'  270  37  ~/.config/awesome/rc.lua
+|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
+-'  270  37  ~/.config/awesome/rc.lua
+|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
+-'  265  8  ~/.config/awesome/rc.lua
+|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
+-'  265  8  ~/.config/awesome/rc.lua
+|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
+-'  265  8  ~/.config/awesome/rc.lua
+|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
+-'  265  8  ~/.config/awesome/rc.lua
+|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
+-'  632  18  ~/.config/awesome/rc.lua
+|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
+-'  632  18  ~/.config/awesome/rc.lua
+|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
+-'  632  18  ~/.config/awesome/rc.lua
+|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
+-'  632  18  ~/.config/awesome/rc.lua
+|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
+-'  645  18  ~/.config/awesome/rc.lua
+|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
+-'  645  18  ~/.config/awesome/rc.lua
+|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
+-'  645  18  ~/.config/awesome/rc.lua
+|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
+-'  645  18  ~/.config/awesome/rc.lua
+|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/awesome/rc.lua
-	*	1546019002	0
-	"	671	128
-	^	671	129
-	.	671	128
-	+	172	0
-	+	254	0
-	+	472	30
-	+	466	44
-	+	232	30
-	+	472	32
-	+	69	25
-	+	70	29
-	+	71	42
-	+	435	27
-	+	434	27
-	+	433	30
-	+	230	0
-	+	463	0
-	+	230	30
-	+	672	4
-	+	87	0
-	+	671	4
-	+	273	29
-	+	673	0
-	+	82	0
-	+	83	0
-	+	84	0
-	+	85	0
-	+	86	0
+	*	1546068699	0
+	"	734	42
+	^	734	43
+	.	734	42
+	+	173	0
+	+	255	0
+	+	478	30
+	+	472	44
+	+	233	30
+	+	478	32
+	+	70	25
+	+	71	29
+	+	72	42
+	+	441	27
+	+	440	27
+	+	439	30
+	+	231	0
+	+	469	0
+	+	231	30
+	+	677	4
+	+	88	0
+	+	677	4
+	+	274	29
+	+	678	0
 	+	83	0
 	+	84	0
 	+	85	0
 	+	86	0
 	+	87	0
-	+	82	0
+	+	84	0
+	+	85	0
+	+	86	0
 	+	87	0
-	+	324	55
-	+	67	28
-	+	324	0
-	+	672	23
-	+	671	128
-	z	82	22
+	+	88	0
+	+	83	0
+	+	88	0
+	+	325	55
+	+	68	28
+	+	325	0
+	+	677	23
+	+	677	128
+	+	331	29
+	+	331	0
+	+	329	0
+	+	331	0
+	+	329	4
+	+	346	29
+	+	264	29
+	+	289	29
+	+	678	0
+	+	677	18
+	+	677	7
+	+	678	0
+	+	678	16
+	+	67	36
+	+	325	0
+	+	328	0
+	+	326	78
+	+	67	14
+	+	326	38
+	+	348	38
+	+	678	0
+	+	581	45
+	+	252	0
+	+	252	24
+	+	245	0
+	+	274	24
+	+	276	39
+	+	2237	0
+	+	326	16
+	+	129	0
+	+	2564	32
+	+	2574	0
+	+	2515	0
+	+	290	90
+	+	78	28
+	+	80	30
+	+	84	25
+	+	81	49
+	+	734	42
 
-> ~/.config/awesome/lain/util/quake.lua
-	*	1546018227	0
-	"	162	24
+> /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
+	*	1546027912	0
+	"	270	0
 
-> ~/.config/ob-autostart/ControlP
-	*	1546017475	0
-	"	20	0
-	.	2	0
-	+	2	0
+> /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4/awful-tag.patch
+	*	1546027894	0
+	"	42	0
 
-> ~/.config/ob-autostart/config
-	*	1546017473	0
-	"	10	1
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/.config/awesome/rc.lua
-	*	1546015676	0
-	"	322	71
-	^	64	29
-	.	3	0
-	+	66	30
-	+	64	28
-	+	3	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/.vimrc
-	*	1546015579	0
-	"	386	0
-
-> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/ControlP
-	*	1546015546	0
+> /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4/PKGBUILD
+	*	1546027786	0
 	"	1	0
+
+> ~/ControlP
+	*	1546026637	0
+	"	20	0
 	.	2	0
 	+	1	0
 	+	2	0
 
+> ~/.config/ob-autostart/config
+	*	1546025363	0
+	"	8	1
+	.	6	28
+	+	7	0
+	+	4	23
+	+	2	0
+	+	6	28
+
+> ~/.config/openbox/rc.xml
+	*	1546024383	0
+	"	383	4
+	^	381	19
+	.	381	18
+	+	321	0
+	+	381	18
+
+> ~/.config/openbox/ControlP
+	*	1546024166	0
+	"	20	0
+	.	2	0
+	+	2	0
+
 > ~/.config/alacritty/alacritty.yml
-	*	1546015230	0
-	"	293	17
+	*	1546021495	0
+	"	112	8
 	^	293	18
-	.	293	17
+	.	112	0
 	+	141	19
 	+	141	23
 	+	143	23
@@ -1336,6 +1405,37 @@ $
 	+	101	12
 	+	134	39
 	+	293	17
+	+	112	0
+
+> ~/.config/ob-autostart/ControlP
+	*	1546021460	0
+	"	15	0
+	.	2	0
+	+	2	0
+
+> ~/.config/awesome/lain/util/quake.lua
+	*	1546018227	0
+	"	162	24
+
+> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/.config/awesome/rc.lua
+	*	1546015676	0
+	"	322	71
+	^	64	29
+	.	3	0
+	+	66	30
+	+	64	28
+	+	3	0
+
+> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/.vimrc
+	*	1546015579	0
+	"	386	0
+
+> /tmp/vifm_FUSE/001_dotfiles-master.zip/dotfiles-master/ControlP
+	*	1546015546	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	2	0
 
 > ~/.config/alacritty/ControlP
 	*	1546014323	0
@@ -1343,12 +1443,6 @@ $
 	.	2	0
 	+	1	0
 	+	2	0
-
-> ~/.config/openbox/rc.xml
-	*	1546014321	0
-	"	860	4
-	.	321	0
-	+	321	0
 
 > ~/.config/tym/theme.lua
 	*	1546013887	0
@@ -1542,13 +1636,6 @@ $
 > ~/bin/updates.sh
 	*	1546009429	0
 	"	1	0
-
-> ~/ControlP
-	*	1546007043	0
-	"	18	0
-	.	2	0
-	+	1	0
-	+	2	0
 
 > ~/Pragmata Pro Mono.ttf
 	*	1546007040	0
@@ -1977,24 +2064,3 @@ $
 > ~/.ssh/id_rsa
 	*	1545922628	0
 	"	1	0
-
-> ~/.ssh/ControlP
-	*	1545922471	0
-	"	20	0
-	.	2	0
-	+	2	0
-
-> ~/.git/config
-	*	1545920795	0
-	"	5	0
-
-> ~/.dotfiles.git/config
-	*	1545920407	0
-	"	4	8
-	^	4	13
-	.	4	0
-	+	4	0
-
-> ~/.git/HEAD
-	*	1545919815	0
-	"	1	15

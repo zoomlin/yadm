@@ -8,11 +8,11 @@ setlocal fdl=10
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 860 - ((20 * winheight(0) + 20) / 41)
+let s:l = 383 - ((39 * winheight(0) + 36) / 72)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-860
+383
 normal! 05|
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
