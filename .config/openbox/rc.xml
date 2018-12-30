@@ -857,9 +857,6 @@
     <application class="*">
       <decor>no</decor>
     </application>
-    <application class="alacritty">
-      <decor>no</decor>
-    </application>
     <application class="Waterfox">
       <fullscreen>yes</fullscreen>
       <desktop>1</desktop>

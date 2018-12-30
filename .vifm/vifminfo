@@ -27,7 +27,7 @@
 1437657465
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -36,30 +36,6 @@ l-2
 r-11,2
 
 # Left window history (oldest to newest):
-d/mnt/512/Audio/Best
-	Tracks
-1
-d/mnt/512/Audio
-	2
-2
-d/mnt/512/Audio/2
-	VA - The 300th Clinique [Clinique Recordings] FLAC-2018
-20
-d/mnt/512/Audio
-	Frisky
-1
-d/mnt/512/Audio/Frisky
-	FRISKY Inception - December 2018 - Marcelo Vasami (Part 2) [vk.com feelin_frisky].mp3
-3
-d/home/den/.config/termite
-	..
-0
-d/home/den/.config
-	..
-0
-d/home/den
-	.vim
-10
 d/home
 	den
 1
@@ -334,149 +310,35 @@ d/home/den/.config
 	awesome
 17
 d/home/den/.config/awesome
-	LICENSE
+	.gitmodules
+12
+d/mnt/Now/2listen
+	..
+0
+d/mnt/Now
+	2listen
 10
+d/mnt
+	512
+2
+d/mnt/512
+	Audio
+6
+d/mnt/512/Audio
+	Mixes
+3
+d/mnt/512/Audio/Mixes
+	Mousse T - Traxsource Live 204 (Artist Of The Year) - 27-DEC-2018.mp3
+11
+d/home/den
+	Downloads
+3
+d/home/den/Downloads
+	..
+0
 d
 
 # Right window history (oldest to newest):
-D/home/den/.vifm
-	..
-0
-D/home/den
-	.vifm
-1
-D/home
-	den
-1
-D/home/den
-	.vifm
-1
-D/home/den/.vifm
-	..
-0
-D/home/den
-	.fonts
-2
-D/home/den/.fonts
-	..
-0
-D/home/den
-	Walls
-14
-D/home/den/Walls
-	..
-0
-D/home/den
-	.swt
-16
-D/home/den/.swt
-	..
-0
-D/home/den
-	.swt
-16
-D/home/den/.swt
-	..
-0
-D/home/den
-	.swt
-16
-D/home/den/.swt
-	..
-0
-D/home/den
-	.vifm
-1
-D/home/den/.vifm
-	..
-0
-D/home/den
-	.themes
-5
-D/home/den/.themes
-	..
-0
-D/home/den
-	bin
-4
-D/home/den/bin
-	..
-0
-D/home/den
-	bin
-4
-D/home/den/bin
-	..
-0
-D/home/den
-	dots-master.zip
-16
-D/tmp/vifm_FUSE/001_dots-master.zip
-	dots-master
-1
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
-	leafs
-4
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master/leafs
-	.config
-1
-D/tmp/vifm_FUSE/001_dots-master.zip/dots-master
-	leafs
-4
-D/tmp/vifm_FUSE/001_dots-master.zip
-	dots-master
-1
-D/home/den
-	.config
-1
-D/home/den/.config
-	alacritty
-1
-D/home/den/.config/alacritty
-	..
-0
-D/home/den/.config
-	jgmenu
-13
-D/home/den/.config/jgmenu
-	..
-0
-D/home/den/.config
-	alacritty
-1
-D/home/den/.config/alacritty
-	..
-0
-D/home/den/.config
-	lxtask.conf
-31
-D/home/den
-	Pragmata_Pro.zip
-17
-D/tmp/vifm_FUSE/001_Pragmata_Pro.zip
-	..
-0
-D/home/den
-	.macromedia
-7
-D/home/den/.config
-	awesome
-9
-D/home/den/.config/awesome
-	eminent
-1
-D/home/den/.config/awesome/eminent
-	..
-0
-D/home/den/.config/awesome
-	..
-0
-D/home/den/.config
-	ob-autostart
-29
-D/home/den/.config/ob-autostart
-	config
-1
 D/home/den/.config
 	awesome
 9
@@ -637,8 +499,146 @@ D/home/den/awesome-pro
 	..
 0
 D/home/den
-	.vifm
+	.themes
+7
+D/home/den/.themes
+	..
+0
+D/home/den
+	.fonts
+5
+D/home/den/.cache/yay
+	dwm-git
 1
+D/home/den/.cache/yay/dwm-git
+	..
+0
+D/home/den/.cache/yay
+	dwm
+2
+D/home/den/.cache/yay/dwm
+	..
+0
+D/home/den/.cache/yay
+	dwm
+2
+D/home/den/.cache/yay/dwm
+	..
+0
+D/home/den/.cache/yay
+	dwm-git
+1
+D/home/den/.cache/yay/dwm-git
+	dwm
+1
+D/home/den/.cache/yay/dwm-git/dwm
+	..
+0
+D/home/den/.cache/yay/dwm-git
+	dwm
+1
+D/home/den/.cache/yay/dwm-git/dwm
+	branches
+1
+D/home/den/.cache/yay/dwm-git/dwm/branches
+	..
+0
+D/home/den/.cache/yay/dwm-git/dwm
+	hooks
+2
+D/home/den/.cache/yay/dwm-git/dwm/hooks
+	..
+0
+D/home/den/.cache/yay/dwm-git/dwm
+	info
+3
+D/home/den/.cache/yay/dwm-git/dwm/info
+	..
+0
+D/home/den/.cache/yay/dwm-git/dwm
+	objects
+4
+D/home/den/.cache/yay/dwm-git/dwm/objects
+	..
+0
+D/home/den/.cache/yay/dwm-git/dwm
+	refs
+5
+D/home/den/.cache/yay/dwm-git/dwm/refs
+	..
+0
+D/home/den/.cache/yay/dwm-git/dwm
+	refs
+5
+D/home/den/.cache/yay/dwm-git
+	.git
+2
+D/home/den/.cache/yay/dwm-git/.git
+	..
+0
+D/home/den/.cache/yay/dwm-git
+	..
+0
+D/home/den/.cache/yay
+	..
+0
+D/home/den/.cache
+	yay
+1
+D/home/den/.cache/yay
+	dwm-git
+1
+D/home/den/.cache/yay/dwm-git
+	dwm
+1
+D/home/den/.cache/yay/dwm-git/dwm
+	branches
+1
+D/home/den/.cache/yay/dwm-git/dwm/branches
+	..
+0
+D/home/den/.cache/yay/dwm-git/dwm
+	branches
+1
+D/home/den/.cache/yay/dwm-git
+	..
+0
+D/home/den/.cache/yay
+	..
+0
+D/home/den/.cache
+	yay
+1
+D/home/den/.cache/yay
+	dwm
+2
+D/home/den/.cache/yay/dwm
+	..
+0
+D/home/den/.cache/yay
+	st
+3
+D/home/den/.cache/yay/st
+	..
+0
+D/home/den/.cache/yay
+	lsix-git
+4
+D/home/den/.cache/yay/lsix-git
+	..
+0
+D/home/den/.cache/yay
+	completion.cache
+1
+D/home/den/.cache
+	yay
+1
+D/home/den/.config
+	zathura
+27
+D/home/den/.config/zathura
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -738,13 +738,12 @@ D
 :mkdir Archlabs
 :mkdir Frisky
 :touch p9k.zsh
-:mkdir awesome
-:mp
 :pi
 :touch .ignore
+:mp
+:mkdir awesome
 
 # Search history (oldest to newest):
-/gr
 /ba
 /ligh
 /molo
@@ -844,10 +843,9 @@ D
 /font
 /ob
 /awe
+/zat
 
 # Prompt history (oldest to newest):
-pHddState.py
-pNavigation.py
 pvuplus1
 pconfig.conf1
 pArc-Dark1
@@ -946,6 +944,8 @@ pPragmata_Pro_0827.zip
 pawesome2
 pawesome1
 pawesome
+pzathurarc1
+pzathurarc
 
 # Local filter history (oldest to newest):
 |====

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/termina
+~MSle0~/alacr
 
 # Last Substitute Search Pattern:
 ~MSle0&\<tym\>
@@ -215,7 +215,9 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1546068702,,"\\s\\+$"
+|2,1,1546202922,,"\\s\\+$"
+?/alacr
+|2,1,1546202847,47,"alacr"
 ?/termina
 |2,1,1546068639,47,"termina"
 ?/modk
@@ -973,7 +975,17 @@ $
 "0	CHAR	0
 	Tab
 |3,0,0,0,1,0,1546026637,"Tab"
-"1	LINE	0
+""1	LINE	0
+	    </application>
+|3,1,1,1,1,0,1546202921,"    </application>"
+"2	LINE	0
+	    <application class="alacritty">
+	      <decor>no</decor>
+|3,0,2,1,2,0,1546202893,"    <application class=\"alacritty\">","      <decor>no</decor>"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1546199865,""
+"4	LINE	0
 	awful.key({ modkey,           }, "Up",
 	    function ()
 	        awful.client.focus.history.previous()
@@ -981,267 +993,322 @@ $
 	            client.focus:raise()
 	        end
 	    end),
-|3,0,1,1,7,0,1546026524,"awful.key({ modkey,           }, \"Up\",","    function ()","        awful.client.focus.history.previous()","        if client.focus then","            client.focus:raise()","        end","    end),"
-"2	LINE	0
-		 ("","xfsettingsd","3","*"),
-|3,0,2,1,1,0,1546024872,"	 (\"\",\"xfsettingsd\",\"3\",\"*\"),"
-"3	LINE	0
-	   "xfsettings -d",
-|3,0,3,1,1,0,1546024640,"   \"xfsettings -d\","
-"4	LINE	0
-	   "xfsettingsd &",
-|3,0,4,1,1,0,1546024029,"   \"xfsettingsd &\","
+|3,0,4,1,7,0,1546026524,"awful.key({ modkey,           }, \"Up\",","    function ()","        awful.client.focus.history.previous()","        if client.focus then","            client.focus:raise()","        end","    end),"
 "5	LINE	0
-	   "setxkbmap -model pc104 -layout \"us,ru(phonetic_winkeys)\" -option grp:alt_shift_toggle -option \"terminate:ctrl_alt_bksp\" &",
-|3,0,5,1,1,0,1546024015,"   \"setxkbmap -model pc104 -layout \\\"us,ru(phonetic_winkeys)\\\" -option grp:alt_shift_toggle -option \\\"terminate:ctrl_alt_bksp\\\" &\","
+		 ("","xfsettingsd","3","*"),
+|3,0,5,1,1,0,1546024872,"	 (\"\",\"xfsettingsd\",\"3\",\"*\"),"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1546021770,""
+	   "xfsettings -d",
+|3,0,6,1,1,0,1546024640,"   \"xfsettings -d\","
 "7	LINE	0
-	    awful.key({ modkey,           }, "F12", function () awful.spawn(terminal1) end,
-|3,0,7,1,1,0,1546018893,"    awful.key({ modkey,           }, \"F12\", function () awful.spawn(terminal1) end,"
+	   "xfsettingsd &",
+|3,0,7,1,1,0,1546024029,"   \"xfsettingsd &\","
 "8	LINE	0
-	)
-|3,0,8,1,1,0,1546016763,")"
-"9	BLOCK	7
-	0xb9ca4a
-	0xe6c547
-	0x7aa6da
-	0xc397d8
-	0x70c0ba
-	0xffffff
-|3,0,9,2,6,7,1546013508,"0xb9ca4a","0xe6c547","0x7aa6da","0xc397d8","0x70c0ba","0xffffff"
-""-	CHAR	0
+	   "setxkbmap -model pc104 -layout \"us,ru(phonetic_winkeys)\" -option grp:alt_shift_toggle -option \"terminate:ctrl_alt_bksp\" &",
+|3,0,8,1,1,0,1546024015,"   \"setxkbmap -model pc104 -layout \\\"us,ru(phonetic_winkeys)\\\" -option grp:alt_shift_toggle -option \\\"terminate:ctrl_alt_bksp\\\" &\","
+"9	LINE	0
+	
+|3,0,9,1,1,0,1546021770,""
+"-	CHAR	0
 	x
-|3,1,36,0,1,0,1546068678,"x"
+|3,0,36,0,1,0,1546068678,"x"
 
 # File marks:
 'A  20  0  /boot/grub/grub.cfg
 |4,65,20,0,1519305780,"/boot/grub/grub.cfg"
-'0  734  42  ~/.config/awesome/rc.lua
-|4,48,734,42,1546068703,"~/.config/awesome/rc.lua"
-'1  2564  28  ~/.config/awesome/rc.lua
-|4,49,2564,28,1546028526,"~/.config/awesome/rc.lua"
-'2  2564  28  ~/.config/awesome/rc.lua
-|4,50,2564,28,1546028526,"~/.config/awesome/rc.lua"
-'3  2575  0  ~/.config/awesome/rc.lua
-|4,51,2575,0,1546028283,"~/.config/awesome/rc.lua"
-'4  2575  0  ~/.config/awesome/rc.lua
-|4,52,2575,0,1546028283,"~/.config/awesome/rc.lua"
-'5  2575  0  ~/.config/awesome/rc.lua
-|4,53,2575,0,1546028283,"~/.config/awesome/rc.lua"
-'6  2575  0  ~/.config/awesome/rc.lua
-|4,54,2575,0,1546028283,"~/.config/awesome/rc.lua"
-'7  326  16  ~/.config/awesome/rc.lua
-|4,55,326,16,1546028104,"~/.config/awesome/rc.lua"
-'8  326  16  ~/.config/awesome/rc.lua
-|4,56,326,16,1546028104,"~/.config/awesome/rc.lua"
-'9  326  16  ~/.config/awesome/rc.lua
-|4,57,326,16,1546028104,"~/.config/awesome/rc.lua"
+'0  857  10  ~/.config/openbox/rc.xml
+|4,48,857,10,1546203343,"~/.config/openbox/rc.xml"
+'1  860  10  ~/.config/openbox/rc.xml
+|4,49,860,10,1546203130,"~/.config/openbox/rc.xml"
+'2  860  10  ~/.config/openbox/rc.xml
+|4,50,860,10,1546203130,"~/.config/openbox/rc.xml"
+'3  860  10  ~/.config/openbox/rc.xml
+|4,51,860,10,1546202923,"~/.config/openbox/rc.xml"
+'4  860  10  ~/.config/openbox/rc.xml
+|4,52,860,10,1546202923,"~/.config/openbox/rc.xml"
+'5  860  10  ~/.config/openbox/rc.xml
+|4,53,860,10,1546202895,"~/.config/openbox/rc.xml"
+'6  860  10  ~/.config/openbox/rc.xml
+|4,54,860,10,1546202895,"~/.config/openbox/rc.xml"
+'7  860  10  ~/.config/openbox/rc.xml
+|4,55,860,10,1546202895,"~/.config/openbox/rc.xml"
+'8  860  10  ~/.config/openbox/rc.xml
+|4,56,860,10,1546202895,"~/.config/openbox/rc.xml"
+'9  22  0  ~/Downloads/zathurarc
+|4,57,22,0,1546202780,"~/Downloads/zathurarc"
 
 # Jumplist (newest first):
--'  734  42  ~/.config/awesome/rc.lua
-|4,39,734,42,1546068703,"~/.config/awesome/rc.lua"
--'  585  27  ~/.config/awesome/rc.lua
-|4,39,585,27,1546068660,"~/.config/awesome/rc.lua"
--'  574  50  ~/.config/awesome/rc.lua
-|4,39,574,50,1546068656,"~/.config/awesome/rc.lua"
--'  573  16  ~/.config/awesome/rc.lua
-|4,39,573,16,1546068654,"~/.config/awesome/rc.lua"
--'  439  47  ~/.config/awesome/rc.lua
-|4,39,439,47,1546068650,"~/.config/awesome/rc.lua"
--'  92  22  ~/.config/awesome/rc.lua
-|4,39,92,22,1546068643,"~/.config/awesome/rc.lua"
--'  80  6  ~/.config/awesome/rc.lua
-|4,39,80,6,1546068641,"~/.config/awesome/rc.lua"
--'  70  16  ~/.config/awesome/rc.lua
-|4,39,70,16,1546068639,"~/.config/awesome/rc.lua"
--'  78  6  ~/.config/awesome/rc.lua
-|4,39,78,6,1546068566,"~/.config/awesome/rc.lua"
--'  1  78  ~/.config/awesome/rc.lua
-|4,39,1,78,1546068566,"~/.config/awesome/rc.lua"
--'  293  1  ~/.config/awesome/rc.lua
-|4,39,293,1,1546068555,"~/.config/awesome/rc.lua"
--'  1091  28  ~/.config/awesome/rc.lua
-|4,39,1091,28,1546068475,"~/.config/awesome/rc.lua"
--'  1115  28  ~/.config/awesome/rc.lua
-|4,39,1115,28,1546068473,"~/.config/awesome/rc.lua"
--'  2564  28  ~/.config/awesome/rc.lua
-|4,39,2564,28,1546028526,"~/.config/awesome/rc.lua"
--'  2564  28  ~/.config/awesome/rc.lua
-|4,39,2564,28,1546028526,"~/.config/awesome/rc.lua"
--'  2529  40  ~/.config/awesome/rc.lua
-|4,39,2529,40,1546028521,"~/.config/awesome/rc.lua"
--'  2529  40  ~/.config/awesome/rc.lua
-|4,39,2529,40,1546028521,"~/.config/awesome/rc.lua"
--'  2513  45  ~/.config/awesome/rc.lua
-|4,39,2513,45,1546028518,"~/.config/awesome/rc.lua"
--'  2507  0  ~/.config/awesome/rc.lua
-|4,39,2507,0,1546028518,"~/.config/awesome/rc.lua"
--'  2513  45  ~/.config/awesome/rc.lua
-|4,39,2513,45,1546028518,"~/.config/awesome/rc.lua"
--'  2507  0  ~/.config/awesome/rc.lua
-|4,39,2507,0,1546028518,"~/.config/awesome/rc.lua"
--'  2150  59  ~/.config/awesome/rc.lua
-|4,39,2150,59,1546028484,"~/.config/awesome/rc.lua"
--'  2150  59  ~/.config/awesome/rc.lua
-|4,39,2150,59,1546028484,"~/.config/awesome/rc.lua"
--'  1934  13  ~/.config/awesome/rc.lua
-|4,39,1934,13,1546028473,"~/.config/awesome/rc.lua"
--'  1934  13  ~/.config/awesome/rc.lua
-|4,39,1934,13,1546028473,"~/.config/awesome/rc.lua"
--'  51  32  ~/.config/awesome/rc.lua
-|4,39,51,32,1546028472,"~/.config/awesome/rc.lua"
--'  51  32  ~/.config/awesome/rc.lua
-|4,39,51,32,1546028472,"~/.config/awesome/rc.lua"
--'  2615  48  ~/.config/awesome/rc.lua
-|4,39,2615,48,1546028468,"~/.config/awesome/rc.lua"
--'  2615  48  ~/.config/awesome/rc.lua
-|4,39,2615,48,1546028468,"~/.config/awesome/rc.lua"
--'  2588  42  ~/.config/awesome/rc.lua
-|4,39,2588,42,1546028460,"~/.config/awesome/rc.lua"
--'  2588  42  ~/.config/awesome/rc.lua
-|4,39,2588,42,1546028460,"~/.config/awesome/rc.lua"
--'  2574  37  ~/.config/awesome/rc.lua
-|4,39,2574,37,1546028454,"~/.config/awesome/rc.lua"
--'  2574  37  ~/.config/awesome/rc.lua
-|4,39,2574,37,1546028454,"~/.config/awesome/rc.lua"
--'  2561  0  ~/.config/awesome/rc.lua
-|4,39,2561,0,1546028450,"~/.config/awesome/rc.lua"
--'  2561  0  ~/.config/awesome/rc.lua
-|4,39,2561,0,1546028450,"~/.config/awesome/rc.lua"
--'  2575  0  ~/.config/awesome/rc.lua
-|4,39,2575,0,1546028283,"~/.config/awesome/rc.lua"
--'  2575  0  ~/.config/awesome/rc.lua
-|4,39,2575,0,1546028283,"~/.config/awesome/rc.lua"
--'  2575  0  ~/.config/awesome/rc.lua
-|4,39,2575,0,1546028283,"~/.config/awesome/rc.lua"
--'  2199  21  ~/.config/awesome/rc.lua
-|4,39,2199,21,1546028217,"~/.config/awesome/rc.lua"
--'  2199  21  ~/.config/awesome/rc.lua
-|4,39,2199,21,1546028217,"~/.config/awesome/rc.lua"
--'  2564  26  ~/.config/awesome/rc.lua
-|4,39,2564,26,1546028217,"~/.config/awesome/rc.lua"
--'  2199  21  ~/.config/awesome/rc.lua
-|4,39,2199,21,1546028217,"~/.config/awesome/rc.lua"
--'  326  16  ~/.config/awesome/rc.lua
-|4,39,326,16,1546028211,"~/.config/awesome/rc.lua"
--'  326  16  ~/.config/awesome/rc.lua
-|4,39,326,16,1546028211,"~/.config/awesome/rc.lua"
--'  326  16  ~/.config/awesome/rc.lua
-|4,39,326,16,1546028211,"~/.config/awesome/rc.lua"
--'  326  16  ~/.config/awesome/rc.lua
-|4,39,326,16,1546028104,"~/.config/awesome/rc.lua"
--'  321  11  ~/.config/awesome/rc.lua
-|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
--'  321  11  ~/.config/awesome/rc.lua
-|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
--'  321  11  ~/.config/awesome/rc.lua
-|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
--'  321  11  ~/.config/awesome/rc.lua
-|4,39,321,11,1546028093,"~/.config/awesome/rc.lua"
--'  1  23  ~/.config/awesome/rc.lua
-|4,39,1,23,1546028092,"~/.config/awesome/rc.lua"
--'  1  23  ~/.config/awesome/rc.lua
-|4,39,1,23,1546028092,"~/.config/awesome/rc.lua"
--'  1  23  ~/.config/awesome/rc.lua
-|4,39,1,23,1546028092,"~/.config/awesome/rc.lua"
--'  2235  23  ~/.config/awesome/rc.lua
-|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
--'  2235  23  ~/.config/awesome/rc.lua
-|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
--'  2235  23  ~/.config/awesome/rc.lua
-|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
--'  2235  23  ~/.config/awesome/rc.lua
-|4,39,2235,23,1546028085,"~/.config/awesome/rc.lua"
--'  2237  26  ~/.config/awesome/rc.lua
-|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
--'  2237  26  ~/.config/awesome/rc.lua
-|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
--'  2237  26  ~/.config/awesome/rc.lua
-|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
--'  2237  26  ~/.config/awesome/rc.lua
-|4,39,2237,26,1546028063,"~/.config/awesome/rc.lua"
--'  1566  25  ~/.config/awesome/rc.lua
-|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
--'  1566  25  ~/.config/awesome/rc.lua
-|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
--'  1566  25  ~/.config/awesome/rc.lua
-|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
--'  1566  25  ~/.config/awesome/rc.lua
-|4,39,1566,25,1546028034,"~/.config/awesome/rc.lua"
--'  1551  24  ~/.config/awesome/rc.lua
-|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
--'  1551  24  ~/.config/awesome/rc.lua
-|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
--'  1551  24  ~/.config/awesome/rc.lua
-|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
--'  1551  24  ~/.config/awesome/rc.lua
-|4,39,1551,24,1546028030,"~/.config/awesome/rc.lua"
--'  1540  24  ~/.config/awesome/rc.lua
-|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
--'  1540  24  ~/.config/awesome/rc.lua
-|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
--'  1540  24  ~/.config/awesome/rc.lua
-|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
--'  1540  24  ~/.config/awesome/rc.lua
-|4,39,1540,24,1546028028,"~/.config/awesome/rc.lua"
--'  274  4  ~/.config/awesome/rc.lua
-|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
--'  274  4  ~/.config/awesome/rc.lua
-|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
--'  274  4  ~/.config/awesome/rc.lua
-|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
--'  274  4  ~/.config/awesome/rc.lua
-|4,39,274,4,1546028026,"~/.config/awesome/rc.lua"
--'  270  37  ~/.config/awesome/rc.lua
-|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
--'  270  37  ~/.config/awesome/rc.lua
-|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
--'  270  37  ~/.config/awesome/rc.lua
-|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
--'  270  37  ~/.config/awesome/rc.lua
-|4,39,270,37,1546028025,"~/.config/awesome/rc.lua"
--'  265  8  ~/.config/awesome/rc.lua
-|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
--'  265  8  ~/.config/awesome/rc.lua
-|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
--'  265  8  ~/.config/awesome/rc.lua
-|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
--'  265  8  ~/.config/awesome/rc.lua
-|4,39,265,8,1546028023,"~/.config/awesome/rc.lua"
--'  632  18  ~/.config/awesome/rc.lua
-|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
--'  632  18  ~/.config/awesome/rc.lua
-|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
--'  632  18  ~/.config/awesome/rc.lua
-|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
--'  632  18  ~/.config/awesome/rc.lua
-|4,39,632,18,1546027972,"~/.config/awesome/rc.lua"
--'  645  18  ~/.config/awesome/rc.lua
-|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
--'  645  18  ~/.config/awesome/rc.lua
-|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
--'  645  18  ~/.config/awesome/rc.lua
-|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
--'  645  18  ~/.config/awesome/rc.lua
-|4,39,645,18,1546027969,"~/.config/awesome/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
--'  270  0  /tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua
-|4,39,270,0,1546027913,"/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/rc.lua"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546203343,"~/.config/openbox/rc.xml"
+-'  860  10  ~/.config/openbox/rc.xml
+|4,39,860,10,1546203130,"~/.config/openbox/rc.xml"
+-'  860  10  ~/.config/openbox/rc.xml
+|4,39,860,10,1546203130,"~/.config/openbox/rc.xml"
+-'  860  10  ~/.config/openbox/rc.xml
+|4,39,860,10,1546202923,"~/.config/openbox/rc.xml"
+-'  860  10  ~/.config/openbox/rc.xml
+|4,39,860,10,1546202895,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
+-'  1  4  ~/.config/openbox/rc.xml
+|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
+-'  1  4  ~/.config/openbox/rc.xml
+|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
+-'  1  4  ~/.config/openbox/rc.xml
+|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
+-'  1  4  ~/.config/openbox/rc.xml
+|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
+-'  383  4  ~/.config/openbox/rc.xml
+|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
+-'  383  4  ~/.config/openbox/rc.xml
+|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
+-'  383  4  ~/.config/openbox/rc.xml
+|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
+-'  383  4  ~/.config/openbox/rc.xml
+|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
+-'  1  0  ~/Downloads/zathurarc
+|4,39,1,0,1546202838,"~/Downloads/zathurarc"
+-'  1  0  ~/Downloads/zathurarc
+|4,39,1,0,1546202838,"~/Downloads/zathurarc"
+-'  1  0  ~/Downloads/zathurarc
+|4,39,1,0,1546202838,"~/Downloads/zathurarc"
+-'  1  0  ~/Downloads/zathurarc
+|4,39,1,0,1546202838,"~/Downloads/zathurarc"
+-'  22  0  ~/Downloads/zathurarc
+|4,39,22,0,1546202780,"~/Downloads/zathurarc"
+-'  22  0  ~/Downloads/zathurarc
+|4,39,22,0,1546202780,"~/Downloads/zathurarc"
+-'  22  0  ~/Downloads/zathurarc
+|4,39,22,0,1546202780,"~/Downloads/zathurarc"
+-'  22  0  ~/Downloads/zathurarc
+|4,39,22,0,1546202780,"~/Downloads/zathurarc"
+-'  22  0  ~/Downloads/zathurarc
+|4,39,22,0,1546202780,"~/Downloads/zathurarc"
+-'  1  0  ~/Downloads/zathurarc
+|4,39,1,0,1546202776,"~/Downloads/zathurarc"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
+|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/openbox/rc.xml
+	*	1546203342	0
+	"	857	10
+	^	381	19
+	.	860	0
+	+	321	0
+	+	381	18
+	+	860	0
+
+> ~/Downloads/zathurarc
+	*	1546202836	0
+	"	1	0
+
+> ~/.cache/yay/dwm-git/PKGBUILD
+	*	1546199966	0
+	"	28	0
+
+> ~/.cache/yay/dwm-git/dwm-git-1:6.1.33.gb69c870-1-x86_64.pkg.tar.xz
+	*	1546199885	0
+	"	1	0
+	.	5	0
+	+	5	0
+
+> ~/.cache/yay/dwm-git/dwm/config
+	*	1546199833	0
+	"	1	0
+
+> ~/arco-awesome/AUR/install-yad-v1.sh
+	*	1546153266	0
+	"	1	0
+
+> ~/arco-awesome/setup-git-v1.sh
+	*	1546153219	0
+	"	1	0
+
+> ~/arco-awesome/git-v1.sh
+	*	1546153217	0
+	"	7	0
+
+> ~/arco-awesome/700-installing-fonts-v2.sh
+	*	1546153203	0
+	"	55	0
+
+> ~/arco-awesome/200-software-arch-linux-repo-v2.sh
+	*	1546153191	0
+	"	99	0
+
+> ~/arco-awesome/800-autologin-v3.sh
+	*	1546153158	0
+	"	13	0
+
+> ~/arco-awesome/Personal/400-zsh-software-themes-v1.sh
+	*	1546153138	0
+	"	1	0
+
+> ~/arco-awesome/Personal/settings/bookmarks/bookmarks
+	*	1546153119	0
+	"	1	0
+
+> ~/arco-awesome/Personal/300-firefox-fix-unreadable-text-for-dark-themes-settings-v2.sh
+	*	1546153113	0
+	"	28	0
+
+> ~/arco-awesome/Personal/200-install-personal-bookmarks-v1.sh
+	*	1546153101	0
+	"	1	0
+
+> ~/arco-awesome/Personal/100-install-personal-folders-v1.sh
+	*	1546153076	0
+	"	12	0
 
 > ~/.config/awesome/rc.lua
 	*	1546068699	0
@@ -1352,14 +1419,6 @@ $
 	+	4	23
 	+	2	0
 	+	6	28
-
-> ~/.config/openbox/rc.xml
-	*	1546024383	0
-	"	383	4
-	^	381	19
-	.	381	18
-	+	321	0
-	+	381	18
 
 > ~/.config/openbox/ControlP
 	*	1546024166	0
@@ -1995,72 +2054,3 @@ $
 > /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.bin/gitpush
 	*	1545934112	0
 	"	73	0
-
-> /tmp/vifm_FUSE/001_openbox-theme-collections-master.zip/openbox-theme-collections-master/Arc-Clone/openbox-3/themerc
-	*	1545933928	0
-	"	1	0
-
-> ~/HEAD
-	*	1545932436	0
-	"	1	0
-
-> ~/.xsession-errors.old
-	*	1545932425	0
-	"	90	0
-
-> ~/.zsh/aliases.sh
-	*	1545927250	0
-	"	63	3
-	^	44	29
-	.	44	28
-	+	44	36
-	+	474	58
-	+	480	0
-	+	42	40
-	+	44	28
-
-> ~/.config/compton.conf
-	*	1545925918	0
-	"	93	0
-
-> ~/.config/ControlP
-	*	1545925917	0
-	"	20	0
-	.	2	0
-	+	2	0
-
-> ~/.config/obmenu-generator/schema.pl
-	*	1545924379	0
-	"	14	0
-
-> ~/.config/obmenu-generator/config.pl
-	*	1545924377	0
-	"	102	0
-
-> ~/.config/jgmenu/jgmenurc
-	*	1545924363	0
-	"	13	0
-
-> ~/.config/alsi/alsi.wm
-	*	1545923622	0
-	"	1	0
-
-> ~/.cache/openbox/openbox.log
-	*	1545923492	0
-	"	35	0
-
-> ~/.config/rclone/rclone.conf
-	*	1545923118	0
-	"	11	0
-
-> ~/.config/rofi-pass/config
-	*	1545922992	0
-	"	1	0
-
-> ~/.zkbd/xterm-256color
-	*	1545922954	0
-	"	1	0
-
-> ~/.ssh/id_rsa
-	*	1545922628	0
-	"	1	0

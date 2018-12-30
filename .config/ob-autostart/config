@@ -1,8 +1,9 @@
 # OB_Autostart config
-LAUNCH_LIST = [
+LAUNCH_LIST = [ 
 	 ("AutoMount","devmon","0",""),
-	 ("","xfsettingsd &","2","*"),
-	 ("","clipmenud","2","*"),
-	 ("","xset r rate 200 50","3","*"),
-	 ("Map","setxkbmap -model pc104 -layout \"us,ru(phonetic_winkeys)\" -option grp:alt_shift_toggle -option \"terminate:ctrl_alt_bksp\"","2","*"),
+	 ("","xfsettingsd &","0","*"),
+	 ("","clipmenud","0","*"),
+	 ("","xset r rate 200 50","0","*"),
+	 ("Map","setxkbmap -model pc104 -layout \"us,ru(phonetic_winkeys)\" -option grp:alt_shift_toggle -option \"terminate:ctrl_alt_bksp\"","0","*"),
+	 ("","setxkbmap us","0",""),
 	]
