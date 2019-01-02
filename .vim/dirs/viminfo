@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/alacr
+~MSle0~/geom
 
 # Last Substitute Search Pattern:
 ~MSle0&\<tym\>
@@ -215,9 +215,11 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1546202922,,"\\s\\+$"
+|2,1,1546421297,,"\\s\\+$"
+?/geom
+|2,1,1546421075,47,"geom"
 ?/alacr
-|2,1,1546202847,47,"alacr"
+|2,1,1546420614,47,"alacr"
 ?/termina
 |2,1,1546068639,47,"termina"
 ?/modk
@@ -490,8 +492,6 @@ $
 |2,1,1544943390,47,"substri"
 ?/zplug
 |2,1,1544941232,47,"zplug"
-?/geom
-|2,1,1544941186,47,"geom"
 ?/opts
 |2,1,1544941150,47,"opts"
 ?/light
@@ -972,12 +972,12 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	Tab
-|3,0,0,0,1,0,1546026637,"Tab"
-""1	LINE	0
+"0	LINE	0
 	    </application>
-|3,1,1,1,1,0,1546202921,"    </application>"
+|3,0,0,1,1,0,1546421083,"    </application>"
+"1	LINE	0
+	    </application>
+|3,0,1,1,1,0,1546202921,"    </application>"
 "2	LINE	0
 	    <application class="alacritty">
 	      <decor>no</decor>
@@ -1009,244 +1009,504 @@ $
 "9	LINE	0
 	
 |3,0,9,1,1,0,1546021770,""
-"-	CHAR	0
-	x
-|3,0,36,0,1,0,1546068678,"x"
+""-	CHAR	0
+	denysdovhan/spaceship-prompt
+|3,1,36,0,1,0,1546421097,"denysdovhan/spaceship-prompt"
 
 # File marks:
 'A  20  0  /boot/grub/grub.cfg
 |4,65,20,0,1519305780,"/boot/grub/grub.cfg"
-'0  857  10  ~/.config/openbox/rc.xml
-|4,48,857,10,1546203343,"~/.config/openbox/rc.xml"
-'1  860  10  ~/.config/openbox/rc.xml
-|4,49,860,10,1546203130,"~/.config/openbox/rc.xml"
-'2  860  10  ~/.config/openbox/rc.xml
-|4,50,860,10,1546203130,"~/.config/openbox/rc.xml"
-'3  860  10  ~/.config/openbox/rc.xml
-|4,51,860,10,1546202923,"~/.config/openbox/rc.xml"
-'4  860  10  ~/.config/openbox/rc.xml
-|4,52,860,10,1546202923,"~/.config/openbox/rc.xml"
-'5  860  10  ~/.config/openbox/rc.xml
-|4,53,860,10,1546202895,"~/.config/openbox/rc.xml"
-'6  860  10  ~/.config/openbox/rc.xml
-|4,54,860,10,1546202895,"~/.config/openbox/rc.xml"
-'7  860  10  ~/.config/openbox/rc.xml
-|4,55,860,10,1546202895,"~/.config/openbox/rc.xml"
-'8  860  10  ~/.config/openbox/rc.xml
-|4,56,860,10,1546202895,"~/.config/openbox/rc.xml"
-'9  22  0  ~/Downloads/zathurarc
-|4,57,22,0,1546202780,"~/Downloads/zathurarc"
+'0  687  8  ~/.zshrc
+|4,48,687,8,1546421298,"~/.zshrc"
+'1  16  0  ~/.xsession-errors
+|4,49,16,0,1546421238,"~/.xsession-errors"
+'2  16  0  ~/.xsession-errors
+|4,50,16,0,1546421238,"~/.xsession-errors"
+'3  8  0  ~/.zsh/.zsh_plugins.txt
+|4,51,8,0,1546421103,"~/.zsh/.zsh_plugins.txt"
+'4  336  23  ~/.config/openbox/rc.xml
+|4,52,336,23,1546420658,"~/.config/openbox/rc.xml"
+'5  336  23  ~/.config/openbox/rc.xml
+|4,53,336,23,1546420658,"~/.config/openbox/rc.xml"
+'6  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,54,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+'7  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,55,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+'8  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,56,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+'9  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,57,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
 
 # Jumplist (newest first):
+-'  687  8  ~/.zshrc
+|4,39,687,8,1546421298,"~/.zshrc"
+-'  31  8  ~/.zshrc
+|4,39,31,8,1546421289,"~/.zshrc"
+-'  1  0  ~/.xsession-errors
+|4,39,1,0,1546421288,"~/.xsession-errors"
+-'  16  0  ~/.xsession-errors
+|4,39,16,0,1546421238,"~/.xsession-errors"
+-'  16  0  ~/.xsession-errors
+|4,39,16,0,1546421238,"~/.xsession-errors"
+-'  1  0  ~/.xsession-errors
+|4,39,1,0,1546421234,"~/.xsession-errors"
+-'  8  0  ~/.zsh/.zsh_plugins.txt
+|4,39,8,0,1546421103,"~/.zsh/.zsh_plugins.txt"
+-'  8  0  ~/.zsh/.zsh_plugins.txt
+|4,39,8,0,1546421103,"~/.zsh/.zsh_plugins.txt"
+-'  8  0  ~/.zsh/.zsh_plugins.txt
+|4,39,8,0,1546421103,"~/.zsh/.zsh_plugins.txt"
+-'  8  0  ~/.zsh/.zsh_plugins.txt
+|4,39,8,0,1546421103,"~/.zsh/.zsh_plugins.txt"
+-'  31  8  ~/.zshrc
+|4,39,31,8,1546421087,"~/.zshrc"
+-'  31  8  ~/.zshrc
+|4,39,31,8,1546421087,"~/.zshrc"
+-'  1  6  ~/.zshrc
+|4,39,1,6,1546421075,"~/.zshrc"
+-'  1  6  ~/.zshrc
+|4,39,1,6,1546421075,"~/.zshrc"
+-'  1  6  ~/.zshrc
+|4,39,1,6,1546421075,"~/.zshrc"
+-'  686  8  ~/.zshrc
+|4,39,686,8,1546421071,"~/.zshrc"
+-'  686  8  ~/.zshrc
+|4,39,686,8,1546421071,"~/.zshrc"
+-'  686  8  ~/.zshrc
+|4,39,686,8,1546421071,"~/.zshrc"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546421069,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546421069,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546421069,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546421069,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546420658,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546420658,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546420658,"~/.config/openbox/rc.xml"
+-'  336  23  ~/.config/openbox/rc.xml
+|4,39,336,23,1546420658,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  321  17  ~/.config/openbox/rc.xml
+|4,39,321,17,1546420654,"~/.config/openbox/rc.xml"
+-'  346  17  ~/.config/openbox/rc.xml
+|4,39,346,17,1546420654,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
+-'  1  10  ~/.config/openbox/rc.xml
+|4,39,1,10,1546420614,"~/.config/openbox/rc.xml"
 -'  857  10  ~/.config/openbox/rc.xml
-|4,39,857,10,1546203343,"~/.config/openbox/rc.xml"
--'  860  10  ~/.config/openbox/rc.xml
-|4,39,860,10,1546203130,"~/.config/openbox/rc.xml"
--'  860  10  ~/.config/openbox/rc.xml
-|4,39,860,10,1546203130,"~/.config/openbox/rc.xml"
--'  860  10  ~/.config/openbox/rc.xml
-|4,39,860,10,1546202923,"~/.config/openbox/rc.xml"
--'  860  10  ~/.config/openbox/rc.xml
-|4,39,860,10,1546202895,"~/.config/openbox/rc.xml"
--'  346  17  ~/.config/openbox/rc.xml
-|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
--'  346  17  ~/.config/openbox/rc.xml
-|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
--'  346  17  ~/.config/openbox/rc.xml
-|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
--'  346  17  ~/.config/openbox/rc.xml
-|4,39,346,17,1546202872,"~/.config/openbox/rc.xml"
--'  336  23  ~/.config/openbox/rc.xml
-|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
--'  336  23  ~/.config/openbox/rc.xml
-|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
--'  336  23  ~/.config/openbox/rc.xml
-|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
--'  336  23  ~/.config/openbox/rc.xml
-|4,39,336,23,1546202871,"~/.config/openbox/rc.xml"
--'  321  17  ~/.config/openbox/rc.xml
-|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
--'  321  17  ~/.config/openbox/rc.xml
-|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
--'  321  17  ~/.config/openbox/rc.xml
-|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
--'  321  17  ~/.config/openbox/rc.xml
-|4,39,321,17,1546202869,"~/.config/openbox/rc.xml"
--'  1  4  ~/.config/openbox/rc.xml
-|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
--'  1  4  ~/.config/openbox/rc.xml
-|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
--'  1  4  ~/.config/openbox/rc.xml
-|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
--'  1  4  ~/.config/openbox/rc.xml
-|4,39,1,4,1546202847,"~/.config/openbox/rc.xml"
--'  383  4  ~/.config/openbox/rc.xml
-|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
--'  383  4  ~/.config/openbox/rc.xml
-|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
--'  383  4  ~/.config/openbox/rc.xml
-|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
--'  383  4  ~/.config/openbox/rc.xml
-|4,39,383,4,1546202840,"~/.config/openbox/rc.xml"
--'  1  0  ~/Downloads/zathurarc
-|4,39,1,0,1546202838,"~/Downloads/zathurarc"
--'  1  0  ~/Downloads/zathurarc
-|4,39,1,0,1546202838,"~/Downloads/zathurarc"
--'  1  0  ~/Downloads/zathurarc
-|4,39,1,0,1546202838,"~/Downloads/zathurarc"
--'  1  0  ~/Downloads/zathurarc
-|4,39,1,0,1546202838,"~/Downloads/zathurarc"
--'  22  0  ~/Downloads/zathurarc
-|4,39,22,0,1546202780,"~/Downloads/zathurarc"
--'  22  0  ~/Downloads/zathurarc
-|4,39,22,0,1546202780,"~/Downloads/zathurarc"
--'  22  0  ~/Downloads/zathurarc
-|4,39,22,0,1546202780,"~/Downloads/zathurarc"
--'  22  0  ~/Downloads/zathurarc
-|4,39,22,0,1546202780,"~/Downloads/zathurarc"
--'  22  0  ~/Downloads/zathurarc
-|4,39,22,0,1546202780,"~/Downloads/zathurarc"
--'  1  0  ~/Downloads/zathurarc
-|4,39,1,0,1546202776,"~/Downloads/zathurarc"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  28  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,28,0,1546199967,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
--'  1  0  ~/.cache/yay/dwm-git/PKGBUILD
-|4,39,1,0,1546199962,"~/.cache/yay/dwm-git/PKGBUILD"
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  857  10  ~/.config/openbox/rc.xml
+|4,39,857,10,1546420606,"~/.config/openbox/rc.xml"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546420604,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  7  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,7,0,1546374219,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  1  0  ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+|4,39,1,0,1546374210,"~/.waterfox/rn7s6cyi.default/chrome/userChrome.css"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
+-'  37  0  /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+|4,39,37,0,1546373789,"/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/.zshrc
+	*	1546421296	0
+	"	687	8
+	.	685	0
+	+	594	0
+	+	595	0
+	+	596	0
+	+	597	0
+	+	598	0
+	+	599	0
+	+	600	0
+	+	601	0
+	+	602	0
+	+	603	0
+	+	604	0
+	+	605	0
+	+	606	0
+	+	607	0
+	+	608	0
+	+	609	0
+	+	610	0
+	+	611	0
+	+	612	0
+	+	613	0
+	+	614	0
+	+	615	0
+	+	616	0
+	+	617	0
+	+	618	0
+	+	619	0
+	+	620	0
+	+	621	0
+	+	622	0
+	+	623	0
+	+	624	0
+	+	625	0
+	+	626	0
+	+	627	0
+	+	628	0
+	+	629	0
+	+	630	0
+	+	631	0
+	+	632	0
+	+	633	0
+	+	634	0
+	+	635	0
+	+	636	0
+	+	637	0
+	+	638	0
+	+	639	0
+	+	640	0
+	+	641	0
+	+	642	0
+	+	643	0
+	+	644	0
+	+	645	0
+	+	646	0
+	+	647	0
+	+	648	0
+	+	649	0
+	+	650	0
+	+	651	0
+	+	652	0
+	+	653	0
+	+	654	0
+	+	655	0
+	+	656	0
+	+	657	0
+	+	658	0
+	+	659	0
+	+	660	0
+	+	661	0
+	+	662	0
+	+	663	0
+	+	664	0
+	+	665	0
+	+	666	0
+	+	667	0
+	+	668	0
+	+	669	0
+	+	670	0
+	+	671	0
+	+	672	0
+	+	673	0
+	+	674	0
+	+	675	0
+	+	676	0
+	+	677	0
+	+	678	0
+	+	679	0
+	+	680	0
+	+	681	0
+	+	682	0
+	+	683	0
+	+	685	0
+	+	686	0
+	+	684	0
+	+	685	0
+	+	686	24
+	+	687	2
+	+	597	0
+	+	686	0
+	+	687	0
+	+	685	0
+	z	684	2
+
+> ~/.xsession-errors
+	*	1546421286	0
+	"	1	0
+
+> ~/.zsh/.zsh_plugins.txt
+	*	1546421102	0
+	"	8	0
+	^	8	0
+	.	7	0
+	+	7	0
+
+> ~/.waterfox/rn7s6cyi.default/chrome/ControlP
+	*	1546421087	0
+	"	20	0
+	.	2	0
+	+	1	0
+	+	2	0
+
 > ~/.config/openbox/rc.xml
-	*	1546203342	0
-	"	857	10
+	*	1546421068	0
+	"	336	23
 	^	381	19
 	.	860	0
 	+	321	0
 	+	381	18
 	+	860	0
+
+> ~/.waterfox/rn7s6cyi.default/chrome/userChrome.css
+	*	1546420601	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl/tridactylrc
+	*	1546373789	0
+	"	37	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/ls++/ls++.conf.v0.348
+	*	1546373766	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/canto/conf.py
+	*	1546373760	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/termite/config
+	*	1546373736	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/twmn/twmn.conf
+	*	1546373725	0
+	"	36	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/xkb/symbols/se
+	*	1546373714	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/fstab
+	*	1546373685	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/feh/themes
+	*	1546373662	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/feh/keys
+	*	1546373660	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/vifm/vifmrc
+	*	1546373641	0
+	"	160	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh/03-functions.zsh
+	*	1546373558	0
+	"	101	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh/03-bindkeys.zsh
+	*	1546373544	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh/zshrc
+	*	1546373541	0
+	"	128	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh/.zshrc
+	*	1546373520	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/asoundrc
+	*	1546373487	0
+	"	19	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/.gitignore
+	*	1546373482	0
+	"	1	0
+
+> /tmp/vifm_FUSE/001_configs-master.zip/configs-master/Compile_Flags/vim.sh
+	*	1546373464	0
+	"	1	0
+
+> ~/zshrc
+	*	1546373083	0
+	"	410	0
+
+> /etc/lightdm/pantheon-greeter.conf
+	*	1546257763	0
+	"	1	0
+
+> /etc/lightdm/lightdm-gtk-greeter.conf
+	*	1546253756	0
+	"	2	0
+
+> /etc/lightdm/keys.conf
+	*	1546253740	0
+	"	1	0
+
+> /etc/lightdm/Xsession
+	*	1546253737	0
+	"	1	0
+
+> /etc/lightdm/lightdm.conf
+	*	1546253722	0
+	"	34	0
+
+> ~/.vimrc
+	*	1546252498	0
+	"	1	16
+	^	77	41
+	.	76	0
+	+	25	0
+	+	121	24
+	+	118	0
+	+	121	0
+	+	118	36
+	+	119	40
+	+	118	0
+	+	119	37
+	+	119	36
+	+	114	1
+	+	104	1
+	+	105	1
+	+	106	1
+	+	119	0
+	+	118	0
+	+	119	0
+	+	90	25
+	+	118	0
+	+	107	6
+	+	107	1
+	+	117	0
+	+	116	0
+	+	77	40
+	+	117	0
+	+	77	0
+	+	75	0
+	+	76	0
+	z	77	23
+
+> ~/Downloads/fino.zsh-theme
+	*	1546203469	0
+	"	18	0
 
 > ~/Downloads/zathurarc
 	*	1546202836	0
@@ -1556,142 +1816,6 @@ $
 	.	2	0
 	+	2	0
 
-> ~/.zshrc
-	*	1546009598	0
-	"	686	8
-	.	685	0
-	+	594	0
-	+	595	0
-	+	596	0
-	+	597	0
-	+	598	0
-	+	599	0
-	+	600	0
-	+	601	0
-	+	602	0
-	+	603	0
-	+	604	0
-	+	605	0
-	+	606	0
-	+	607	0
-	+	608	0
-	+	609	0
-	+	610	0
-	+	611	0
-	+	612	0
-	+	613	0
-	+	614	0
-	+	615	0
-	+	616	0
-	+	617	0
-	+	618	0
-	+	619	0
-	+	620	0
-	+	621	0
-	+	622	0
-	+	623	0
-	+	624	0
-	+	625	0
-	+	626	0
-	+	627	0
-	+	628	0
-	+	629	0
-	+	630	0
-	+	631	0
-	+	632	0
-	+	633	0
-	+	634	0
-	+	635	0
-	+	636	0
-	+	637	0
-	+	638	0
-	+	639	0
-	+	640	0
-	+	641	0
-	+	642	0
-	+	643	0
-	+	644	0
-	+	645	0
-	+	646	0
-	+	647	0
-	+	648	0
-	+	649	0
-	+	650	0
-	+	651	0
-	+	652	0
-	+	653	0
-	+	654	0
-	+	655	0
-	+	656	0
-	+	657	0
-	+	658	0
-	+	659	0
-	+	660	0
-	+	661	0
-	+	662	0
-	+	663	0
-	+	664	0
-	+	665	0
-	+	666	0
-	+	667	0
-	+	668	0
-	+	669	0
-	+	670	0
-	+	671	0
-	+	672	0
-	+	673	0
-	+	674	0
-	+	675	0
-	+	676	0
-	+	677	0
-	+	678	0
-	+	679	0
-	+	680	0
-	+	681	0
-	+	682	0
-	+	683	0
-	+	685	0
-	+	686	0
-	+	684	0
-	+	685	0
-	+	686	24
-	+	687	2
-	+	597	0
-	+	686	0
-	+	687	0
-	+	685	0
-	z	684	2
-
-> ~/.vimrc
-	*	1546009451	0
-	"	33	23
-	^	117	41
-	.	116	0
-	+	25	0
-	+	121	24
-	+	118	0
-	+	121	0
-	+	118	36
-	+	119	40
-	+	118	0
-	+	119	37
-	+	119	36
-	+	113	1
-	+	103	1
-	+	104	1
-	+	105	1
-	+	119	0
-	+	118	0
-	+	119	0
-	+	89	25
-	+	118	0
-	+	106	6
-	+	106	1
-	+	116	0
-	+	115	0
-	+	117	40
-	+	116	0
-
 > ~/bin/updates.sh
 	*	1546009429	0
 	"	1	0
@@ -1935,122 +2059,3 @@ $
 > ~/bin/dmenu_run
 	*	1545949112	0
 	"	1	0
-
-> ~/.yadm/repo.git/COMMIT_EDITMSG
-	*	1545949076	0
-	"	1	0
-
-> ~/.yadm/repo.git/config
-	*	1545949068	0
-	"	1	0
-
-> ~/.gitconfig
-	*	1545949054	0
-	"	1	0
-
-> ~/.ssh/id_rsa.pub
-	*	1545949035	0
-	"	1	0
-
-> ~/.ssh/known_hosts
-	*	1545949028	0
-	"	1	325
-
-> ~/.cache/yay/vcs.json
-	*	1545949003	0
-	"	1	0
-
-> ~/.config/setup
-	*	1545948961	0
-	"	1	0
-
-> ~/.config/us
-	*	1545948958	0
-	"	1	0
-
-> ~/.zsh/.zshrc
-	*	1545948937	0
-	"	6	94
-
-> ~/.git-credentials
-	*	1545948750	0
-	"	1	0
-
-> /mnt/Now/Soft/Linux/.gitignore
-	*	1545948744	0
-	"	1	0
-
-> ~/.gitignore
-	*	1545948724	0
-	"	1	0
-
-> ~/.ignore
-	*	1545948710	0
-	"	1	0
-
-> ~/.xinitrc
-	*	1545947903	0
-	"	30	0
-
-> ~/mygtkmenu
-	*	1545947794	0
-	"	11	0
-	.	11	0
-	+	57	0
-	+	44	0
-	+	11	0
-
-> ~/Downloads/grub.cfg
-	*	1545945709	0
-	"	404	33
-	.	79	0
-	+	400	0
-	+	79	0
-
-> ~/.vifm/vifmrc
-	*	1545944953	0
-	"	284	2
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.Xresources
-	*	1545934347	0
-	"	158	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.zshrc
-	*	1545934337	0
-	"	18	8
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.ncmpcpp/art.sh
-	*	1545934233	0
-	"	41	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/i3/config
-	*	1545934218	0
-	"	207	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/termite/config
-	*	1545934195	0
-	"	1	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/polybar/config-openbox
-	*	1545934176	0
-	"	1	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/openbox/rc.xml
-	*	1545934166	0
-	"	276	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/openbox/autostart
-	*	1545934151	0
-	"	53	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.config/neofetch/config
-	*	1545934140	0
-	"	347	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.bin/gitsetup
-	*	1545934118	0
-	"	74	0
-
-> /tmp/vifm_FUSE/002_ultimate-dotfiles-master.zip/ultimate-dotfiles-master/.bin/gitpush
-	*	1545934112	0
-	"	73	0

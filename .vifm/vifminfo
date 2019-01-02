@@ -36,120 +36,6 @@ l-2
 r-11,2
 
 # Left window history (oldest to newest):
-d/home
-	den
-1
-d/home/den
-	.yadm
-3
-d/home/den/.yadm
-	..
-0
-d/home/den
-	..
-0
-d/home
-	den
-1
-d/home/den
-	Downloads
-7
-d/home/den/Downloads
-	archlabs-dARK
-1
-d/mnt/Now/Soft
-	Linux
-1
-d/mnt/Now/Soft/Linux
-	ISO
-5
-d/mnt/Now/Soft/Linux/ISO
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512/Image/2018-12-28-00-img
-	..
-0
-d/mnt/512/Image
-	2018-12-28-00-img
-1
-d/mnt/512
-	Image
-1
-d/mnt/512/Image
-	..
-0
-d/mnt/512
-	Image
-1
-d/home/den
-	.vim
-10
-d/home/den/.vim
-	mym.vim
-13
-d/mnt/Now/Soft
-	Linux
-1
-d/mnt/Now/Soft/Linux
-	.gitignore
-21
 d/home/den
 	.themes
 12
@@ -336,282 +222,123 @@ d/home/den
 d/home/den/Downloads
 	..
 0
+d/home/den
+	Downloads
+3
+d/home
+	den
+1
+d/
+	mnt
+10
+d/mnt
+	512
+2
+d/mnt/512
+	Audio
+6
+d/mnt/512/Audio
+	Mixes
+3
+d/mnt/512/Audio/Mixes
+	Paul van Dyk - VONYC Sessions Episode 600 XXL (Recorded Live).mp3
+10
+d/mnt/512/Audio
+	..
+0
+d/mnt/512
+	Audio
+6
+d/mnt/512/Audio
+	VA - Jockey Club The Sunset Sessions #6 [Music For Dreams] lossless-2018
+1
+d/mnt/512/Audio/VA - Jockey Club The Sunset Sessions #6 [Music For Dreams] lossless-2018
+	..
+0
+d/mnt/512/Audio
+	2
+9
+d/mnt/512/Audio/2
+	..
+0
+d/mnt/512/Audio
+	2
+9
+d/mnt/512/Audio/2
+	..
+0
+d/mnt/512/Audio
+	1
+10
+d/mnt/512/Audio/1
+	..
+0
+d/mnt/512/Audio
+	2
+9
+d/mnt/512/Audio/2
+	..
+0
+d/mnt/512/Audio
+	Best
+8
+d/mnt/512/Audio/Best
+	..
+0
+d/mnt/512/Audio
+	VA
+2
+d/mnt/512/Audio/VA
+	..
+0
+d/mnt/512/Audio
+	VA
+2
+d/etc
+	lightdm
+30
+d/etc/lightdm
+	pantheon-greeter.conf
+2
+d/mnt
+	512
+2
+d/mnt/512
+	Audio
+6
+d/mnt/512/Audio
+	VA
+2
+d/mnt/512/Audio/VA
+	..
+0
+d/mnt/512/Audio
+	2
+9
+d/mnt/512/Audio/2
+	VA - A State Of Trance Year Mix 2018 (2018)
+23
+d/mnt/512/Audio/2/VA - A State Of Trance Year Mix 2018 (2018)
+	CD 2
+1
+d/mnt/512/Audio/2/VA - A State Of Trance Year Mix 2018 (2018)/CD 2
+	Various Artists - A State Of Trance Year Mix 2018 CD 2.log
+1
+d/mnt/512/Audio/2/VA - A State Of Trance Year Mix 2018 (2018)
+	CD 1
+2
+d/mnt/512/Audio/2/VA - A State Of Trance Year Mix 2018 (2018)/CD 1
+	..
+0
+d/mnt/Now/Soft
+	Linux
+5
+d/mnt/Now/Soft/Linux
+	7z
+15
 d
 
 # Right window history (oldest to newest):
-D/home/den/.config
-	awesome
-9
-D/home/den/.config/awesome
-	lain
-3
-D/home/den/.config/awesome/lain
-	util
-4
-D/home/den/.config/awesome/lain/util
-	..
-0
-D/home/den/.config/awesome/lain
-	util
-4
-D/home/den/.config/awesome
-	lain
-3
-D/home/den/.config
-	..
-0
-D/home/den
-	awesome-wm-config-awesome-4.x.zip
-12
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	awesome-wm-config-awesome-4.x
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	00patch
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	v3.5.4
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	v3.5.4
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	00patch
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	v3.5.4
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
-	
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	awful-tag.patch
-2
-D/home/den
-	awesome-wm-config-awesome-4.x.zip
-12
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	awesome-wm-config-awesome-4.x
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	00patch
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	v3.5.4
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
-	PKGBUILD
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	autostart
-2
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/autostart
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	wallpaper
-7
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper
-	nature
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper/nature
-	01188_elevation_1920x1080.jpg
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper
-	space
-2
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper/space
-	12635_3d_space_scene_earth.jpg
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper
-	tech
-3
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/wallpaper/tech
-	
-3
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	..
-0
-D/home/den
-	awesome-wm-config-awesome-4.x.zip
-12
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	awesome-wm-config-awesome-4.x
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	autostart
-2
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/autostart
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	00patch
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	v3.5.4
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch/v3.5.4
-	awful-tag.patch
-2
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/00patch
-	v3.5.4
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	autostart
-2
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/autostart
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	themes
-6
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/themes
-	zenburn
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/themes/zenburn
-	background
-2
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x/themes
-	zenburn
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	awesome-wm-config-awesome-4.x
-1
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip/awesome-wm-config-awesome-4.x
-	..
-0
-D/tmp/vifm_FUSE/001_awesome-wm-config-awesome-4.x.zip
-	awesome-wm-config-awesome-4.x
-1
-D/home/den
-	awesome-pro
-1
-D/home/den/awesome-pro
-	..
-0
-D/home/den
-	.themes
-7
-D/home/den/.themes
-	..
-0
-D/home/den
-	.fonts
-5
-D/home/den/.cache/yay
-	dwm-git
-1
-D/home/den/.cache/yay/dwm-git
-	..
-0
-D/home/den/.cache/yay
-	dwm
-2
-D/home/den/.cache/yay/dwm
-	..
-0
-D/home/den/.cache/yay
-	dwm
-2
-D/home/den/.cache/yay/dwm
-	..
-0
-D/home/den/.cache/yay
-	dwm-git
-1
-D/home/den/.cache/yay/dwm-git
-	dwm
-1
-D/home/den/.cache/yay/dwm-git/dwm
-	..
-0
-D/home/den/.cache/yay/dwm-git
-	dwm
-1
-D/home/den/.cache/yay/dwm-git/dwm
-	branches
-1
-D/home/den/.cache/yay/dwm-git/dwm/branches
-	..
-0
-D/home/den/.cache/yay/dwm-git/dwm
-	hooks
-2
-D/home/den/.cache/yay/dwm-git/dwm/hooks
-	..
-0
-D/home/den/.cache/yay/dwm-git/dwm
-	info
-3
-D/home/den/.cache/yay/dwm-git/dwm/info
-	..
-0
-D/home/den/.cache/yay/dwm-git/dwm
-	objects
-4
-D/home/den/.cache/yay/dwm-git/dwm/objects
-	..
-0
-D/home/den/.cache/yay/dwm-git/dwm
-	refs
-5
-D/home/den/.cache/yay/dwm-git/dwm/refs
-	..
-0
-D/home/den/.cache/yay/dwm-git/dwm
-	refs
-5
-D/home/den/.cache/yay/dwm-git
-	.git
-2
-D/home/den/.cache/yay/dwm-git/.git
-	..
-0
-D/home/den/.cache/yay/dwm-git
-	..
-0
-D/home/den/.cache/yay
-	..
-0
-D/home/den/.cache
-	yay
-1
-D/home/den/.cache/yay
-	dwm-git
-1
-D/home/den/.cache/yay/dwm-git
-	dwm
-1
-D/home/den/.cache/yay/dwm-git/dwm
-	branches
-1
-D/home/den/.cache/yay/dwm-git/dwm/branches
-	..
-0
-D/home/den/.cache/yay/dwm-git/dwm
-	branches
-1
-D/home/den/.cache/yay/dwm-git
-	..
-0
-D/home/den/.cache/yay
-	..
-0
-D/home/den/.cache
-	yay
-1
-D/home/den/.cache/yay
-	dwm
-2
 D/home/den/.cache/yay/dwm
 	..
 0
@@ -639,6 +366,279 @@ D/home/den/.config
 D/home/den/.config/zathura
 	..
 0
+D/home/den/.config
+	zathura
+2
+D/home/den/.config/zathura
+	..
+0
+D/home/den/.config
+	doublecmd
+1
+D/home/den/.config/doublecmd
+	..
+0
+D/home/den/.config
+	zathura
+2
+D/home/den/.config/zathura
+	..
+0
+D/home/den/.config
+	zathura
+2
+D/home/den
+	Downloads
+2
+D/home/den/Downloads
+	..
+0
+D/home/den
+	.vifm
+1
+D/home/den/.vifm
+	..
+0
+D/home/den
+	Downloads
+2
+D/home/den/Downloads
+	archlabs-dARK
+1
+D/home/den/Downloads/archlabs-dARK
+	..
+0
+D/home/den/Downloads
+	openbox-3
+2
+D/home/den/Downloads/openbox-3
+	..
+0
+D/home/den/Downloads
+	gruvbox-dark
+11
+D/home/den
+	Downloads
+4
+D/home
+	den
+1
+D/
+	tmp
+0
+D/mnt/Now/2listen
+	VA - A State Of Trance Year Mix 2018 (2018)
+1
+D/mnt/Now/2listen/VA - A State Of Trance Year Mix 2018 (2018)
+	CD 1
+1
+D/mnt/Now/2listen/VA - A State Of Trance Year Mix 2018 (2018)/CD 1
+	..
+0
+D/mnt/Now/2listen/VA - A State Of Trance Year Mix 2018 (2018)
+	CD 2
+2
+D/mnt/Now/2listen/VA - A State Of Trance Year Mix 2018 (2018)/CD 2
+	..
+0
+D/mnt/Now/2listen/VA - A State Of Trance Year Mix 2018 (2018)
+	CD 2
+2
+D/mnt/Now/2listen
+	Mixes
+11
+D/home/den
+	configs-master.zip
+15
+D/tmp/vifm_FUSE/001_configs-master.zip
+	configs-master
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	Compile_Flags
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/Compile_Flags
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	Compile_Flags
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/Compile_Flags
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	Compile_Flags
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/Compile_Flags
+	vim.sh
+2
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	Xcolors
+2
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/Xcolors
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	bash_completion
+3
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/bash_completion
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	zsh
+23
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh
+	compdef
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh/compdef
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh
+	plugins
+2
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh/plugins
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/zsh
+	03-functions.zsh
+15
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	xkb
+22
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/xkb
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	vifm
+16
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/vifm
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip
+	configs-master
+1
+D/home/den
+	configs-master.zip
+15
+D/home
+	den
+1
+D/home/den
+	configs-master.zip
+15
+D/tmp/vifm_FUSE/001_configs-master.zip
+	configs-master
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	feh
+8
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/feh
+	themes
+2
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	ncmpcpp
+21
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/ncmpcpp
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	xkb
+16
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/xkb
+	symbols
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/xkb/symbols
+	se
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/xkb
+	symbols
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	twmn
+8
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/twmn
+	twmn.conf
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	termite
+4
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/termite
+	config
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	gimp
+12
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/gimp
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	canto
+4
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/canto
+	conf.py
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	ls++
+16
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/ls++
+	ls++.conf.v0.348
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	gimp
+12
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/gimp
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	enchant
+7
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/enchant
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	tridactyl
+20
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/tridactyl
+	tridactylrc
+1
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	themes
+17
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master/themes
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip/configs-master
+	..
+0
+D/tmp/vifm_FUSE/001_configs-master.zip
+	configs-master
+1
+D/home/den
+	.zsh_history
+15
+D/mnt/Now/2listen
+	Mixes
+11
+D/mnt/Now
+	2listen
+1
+D/mnt
+	512
+1
+D/mnt/512
+	Audio
+2
+D/mnt/512/Audio
+	Mixes
+2
+D/mnt/512/Audio/Mixes
+	1
+1
+D/home/den
+	.icons
+4
 D
 
 # Command line history (oldest to newest):
@@ -744,7 +744,6 @@ D
 :mkdir awesome
 
 # Search history (oldest to newest):
-/ba
 /ligh
 /molo
 /color
@@ -844,6 +843,7 @@ D
 /ob
 /awe
 /zat
+/light
 
 # Prompt history (oldest to newest):
 pvuplus1

@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 30 December 2018 at 23:55:43.
+" Created by session.vim 2.13.1 on 02 January 2019 at 12:28:17.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=ie
@@ -20,17 +20,17 @@ let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/Downloads
+cd ~/
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 zathurarc
-badd +1 ~/.config/openbox/rc.xml
+badd +1 .xsession-errors
+badd +0 ~/.zshrc
 argglobal
 silent! argdel *
-$argadd zathurarc
-edit ~/.config/openbox/rc.xml
+$argadd .xsession-errors
+edit ~/.zshrc
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -48,12 +48,12 @@ setlocal fdl=10
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 857 - ((17 * winheight(0) + 20) / 41)
+let s:l = 687 - ((40 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-857
-normal! 011|
+687
+normal! 09|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
 "   silent exe 'bwipe ' . s:wipebuf

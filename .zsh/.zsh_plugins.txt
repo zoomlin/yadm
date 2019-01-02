@@ -4,4 +4,5 @@ zdharma/fast-syntax-highlighting
 ytet5uy4/fzf-widgets
 zsh-users/zsh-autosuggestions
 aperezdc/zsh-fzy
-denysdovhan/spaceship-prompt
+geometry-zsh/geometry
+
